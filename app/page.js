@@ -1,95 +1,136 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import ActionButtons from "@/components/ActionButtons";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+    <div className={styles.homepage}>
+      <section className={styles.banner}>
+        <div className={`${styles.img} ${styles.book1}`}>
+          <Image 
+            src="/banner-book-01.png"
+            alt="Book" 
+            width={191}
+            height={286}
+            className="myImage"
+          />
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+        <div className={`${styles.img} ${styles.book2}`}>
+          <Image 
+            src="/banner-book-02.png"
+            alt="Book" 
+            width={191}
+            height={286}
+            className="myImage"
           />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+        </div>
+        <div className={`${styles.img} ${styles.book3}`}>
+          <Image 
+            src="/banner-book-03.png"
+            alt="Book" 
+            width={191}
+            height={286}
+            className="myImage"
           />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
+        </div>
+        <div className={`${styles.img} ${styles.book4}`}>
+          <Image 
+            src="/banner-book-04.png"
+            alt="Book" 
+            width={191}
+            height={286}
+            className="myImage"
           />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </div>
+        <div className={`${styles.img} ${styles.book5}`}>
+          <Image 
+            src="/banner-book-05.png"
+            alt="Book" 
+            width={191}
+            height={286}
+            className="myImage"
+          />
+        </div>
+        <div className={`${styles.img} ${styles.book6}`}>
+          <Image 
+            src="/banner-book-06.png"
+            alt="Book" 
+            width={191}
+            height={286}
+            className="myImage"
+          />
+        </div>
+        <div className={`${styles.img} ${styles.book7}`}>
+          <Image 
+            src="/banner-book-07.png"
+            alt="Book" 
+            width={191}
+            height={286}
+            className="myImage"
+          />
+        </div>
+        <div className={`${styles.img} ${styles.book8}`}>
+          <Image 
+            src="/banner-book-08.png"
+            alt="Book" 
+            width={191}
+            height={286}
+            className="myImage"
+          />
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 col-md-12">
+              <div className="content text-center">
+                <h1>
+                  <span className="primarytxt">Award Winning </span> 
+                  <span className="break_line"></span>
+                  Book Publishing Services? 
+                  <span className="break_line"></span> 
+                  W’ve got you covered
+                </h1>
+                <p>
+                  Publishing a book is a hassle but luckily, not with us. We can help you in publishing book without any trouble.
+                </p>
+                <div className="combo_btn">
+                    <ActionButtons />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.about}>
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-sm-12 col-md-6">
+              <div className={styles.sec_left}>
+                <h2>
+                  Book Publishing isn’t <span className="break_line"></span>
+                  <span className="primarytxt">Big Dream </span>
+                </h2>
+                <p>
+                  At Book Publishing, we believe every story has the power to change the world.  We publish books that inspire, entertain, and leave a lasting impact on readers of all ages. Whether it’s a thrilling debut novel, a groundbreaking non-fiction work, or a children’s story that sparks imagination, we ensure it reaches the widest audience possible—both in print and digitally.
+                </p>
+                <div className="combo_btn">
+                    <ActionButtons />
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-md-6">
+              <div className={styles.sec_right}>
+                <Image 
+                  src="/book-in-hand.png"
+                  alt="Book" 
+                  width={661}
+                  height={562}
+                  className="myImage"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
