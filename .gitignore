@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/dist
 /.pnp
 .pnp.*
 .yarn/*
@@ -9,6 +10,19 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+
+# env files
+.env
+.env.*
+!.env.example
+
+# logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
 
 # testing
 /coverage
