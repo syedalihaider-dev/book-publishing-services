@@ -47,12 +47,12 @@
 
 .banner .book4 {
   bottom: 50px;
-  left: 40%;
+  left: 35%;
 }
 
 .banner .book5 {
   bottom: 50px;
-  right: 30%;
+  right: 35%;
 }
 
 .banner .book6 {
@@ -74,7 +74,130 @@
   justify-content: center;
 }
 
-.about{
+.about {
   background: url("../public/about-banner-bg.png");
   padding-top: 80px;
 }
+
+.services {
+  background: url("../public/services-banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services .content {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  padding: 0 5px;
+}
+
+.services .content .slick-slider .slick-list {
+  padding: 0 !important;
+}
+
+.services .content .box {
+  width: 250px;
+  height: 550px;
+  padding: 50px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: var(--cubic);
+  cursor: pointer;
+}
+
+.services .content .box:hover{
+  width: 512px;
+}
+
+/*.services .content :global(.slick-center) .box {
+  width: 100%;
+}
+
+ .services .content :global(.slick-slide) {
+  width: 250px !important;
+}
+
+.services .content :global(.slick-center){
+  width: 512px !important;
+} */
+
+.services .content .ebook_writing {
+  background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+}
+
+.services .content .book_trailer {
+  background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+}
+
+.services .content .book_audio {
+  background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+}
+
+.services .content .book_cover {
+  background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+}
+
+.services .content .book_marketing {
+  background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+}
+
+.services .content .book_publishing {
+  background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+}
+
+.services .content .ebook_writing {
+  background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+}
+
+.services .content .box .heading {
+  color: var(--light-color);
+  width: 320px;
+  height: 60px;
+  margin: 0;
+  position: absolute;
+  left: -90px;
+  bottom: 180px;
+  transform: rotate(-90deg);
+  opacity: 1;
+  transition: var(--cubic);
+}
+
+.services .content .box:hover .heading{
+  opacity: 0;
+}
+
+/* .services .content :global(.slick-center) .box .heading{
+  opacity: 0;
+} */
+
+.services .content .box .inner_box {
+  opacity: 0;
+  transition: var(--cubic);
+}
+
+.services .content .box:hover .inner_box {
+  opacity: 1;
+  transition: var(--cubic);
+}
+
+.services .content .box .inner_box :is(h3, p, ul li h4, ul li p) {
+  color: var(--light-color);
+}
+
+.services .content .box .inner_box ul{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+
+/* .services .content :global(.slick-center) .box .inner_box {
+  opacity: 1;
+  transition: var(--cubic);
+} */
