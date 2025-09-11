@@ -210,13 +210,13 @@ h1 {
 }
 
 h2 {
-  font-size: 56px;
+  font-size: 50px;
   letter-spacing: -3.1px;
-  font-weight: var(--font-bold);
+  font-weight: var(--font-medium);
 }
 
 h3 {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 h4 {
@@ -240,6 +240,7 @@ p {
 
 .primarytxt {
   color: var(--primary-color);
+  font-weight: 700;
 }
 
 .primarybg {

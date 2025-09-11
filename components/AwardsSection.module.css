@@ -1,0 +1,17 @@
+.awards_section {
+    background: linear-gradient(0deg, #FF9162 -36.93%, #fbfbfb00 77.03%);
+}
+
+.awards_section .sec_content {
+    margin-top: 60px;
+}
+
+.awards_section .sec_content .awards_item {
+    width: 100%;
+    height: 288px;
+    background: linear-gradient(180deg, #ffffff63 0%, #ffffff52 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}

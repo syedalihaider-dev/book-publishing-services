@@ -1,11 +1,11 @@
 // Top of the File: Global imports
 import 'bootstrap/dist/css/bootstrap.min.css';    // Bootstrap CSS
-import "slick-carousel/slick/slick.css";          // Slick Slider CSS
-import "slick-carousel/slick/slick-theme.css";    // Slick Theme CSS
+// import "slick-carousel/slick/slick.css";          // Slick Slider CSS
+// import "slick-carousel/slick/slick-theme.css";    // Slick Theme CSS
 import "./globals.css";                           // Custom CSS
 
 // Next imports
-import Header from "../components/Header";        // Import Header
+import Header from "@/components/Header";        // Import Header
 import { Lexend } from "next/font/google";        // Import Google Font
 
 // Font setup

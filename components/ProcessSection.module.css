@@ -1,0 +1,26 @@
+.process_section{}
+
+.process_section .sec_left{
+    padding-right: 50px;
+}
+
+.process_section .sec_right ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.process_section .sec_right ul li .box .head{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.process_section .sec_right ul li .box .head h6{
+    margin: 0;
+}
