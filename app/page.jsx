@@ -6,6 +6,8 @@ import { PHONE_NUMBER } from "@/config/config";
 import PortfolioSlider from "@/components/PortfolioSlider";
 import AwardsSection from "@/components/AwardsSection";
 import ProcessSection from "@/components/ProcessSection";
+import BestSellingAuthor from "@/components/BestSellingAuthor";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -312,6 +314,8 @@ export default function Home() {
       </section>
       <AwardsSection />
       <ProcessSection />
+      <BestSellingAuthor />
+      <Testimonials />
     </div>
   );
 }
