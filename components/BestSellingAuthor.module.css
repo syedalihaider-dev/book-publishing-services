@@ -1,0 +1,13 @@
+.author_section{
+    padding: 200px 0;
+    background: url(../public/author-banner-bg.png) bottom/cover no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.author_section .sec_left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}

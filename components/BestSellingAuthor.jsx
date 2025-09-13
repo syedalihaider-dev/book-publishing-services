@@ -4,7 +4,10 @@ import ActionButtons from "@/components/ActionButtons";
 
 export default function BestSellingAuthor() {
 return (
-<section className={`{styles.author_section} sec_padding`}>
+<section className={styles.author_section}>
+    <div className={styles.sec_left}>
+        <Image src="/author-left-img.png" alt="Authors Image" width={950} height={653} priority className="myImage" />
+    </div>
     <div className="container">
         <div className="row justify-content-end">
             <div className="col-sm-12 col-md-6">

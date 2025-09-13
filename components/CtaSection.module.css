@@ -1,0 +1,62 @@
+.cta {
+    background: url("../public/cta-banner-bg.png") center/cover no-repeat;
+    padding: 80px 0 0;
+}
+
+
+.cta .sec_left h2 {
+    color: var(--light-color);
+    margin-top: 25px;
+}
+
+.cta .sec_left :global(.combo_btn) {
+    flex-wrap: nowrap;
+}
+
+.cta .sec_left :global(.combo_btn .btn),
+.cta .sec_left :global(.btn:hover span) {
+    width: 250px;
+    background: var(--light-color);
+    color: var(--dark-color) !important;
+}
+
+.cta .sec_left :global(.btn .icon) {
+    background: var(--dark-color);
+    z-index: 2;
+}
+
+.cta .sec_left :global(.btn .icon img) {
+    filter: invert(1) brightness(11);
+}
+
+.cta .sec_left :global(.combo_btn) p {
+    width: auto;
+    color: var(--light-color);
+    font-weight: var(--font-light);
+}
+
+.cta .sec_left .call_btn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.cta .sec_left .call_btn img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--light-color);
+}
+
+.cta .sec_left .call_btn a {
+    color: var(--light-color);
+    font-size: 60px;
+    font-weight: var(--font-medium);
+}

@@ -1,0 +1,29 @@
+.portfolio_section .swiper {
+    position: relative;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.portfolio_section .swiper::before {
+    content: "";
+    position: absolute;
+    top: -70px;
+    left: -10%;
+    width: 120%;
+    height: 100px;
+    background: var(--light-color);
+    border-radius: 100%;
+    z-index: 100;
+}
+
+.portfolio_section .swiper::after {
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    left: -10%;
+    width: 120%;
+    height: 100px;
+    background: var(--light-color);
+    border-radius: 100%;
+    z-index: 1000;
+}
