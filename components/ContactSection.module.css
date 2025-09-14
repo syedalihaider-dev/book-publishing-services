@@ -1,0 +1,97 @@
+.contact_section {
+    background: url(../public/contact-banner-bg.png) center/cover no-repeat;
+}
+
+.contact_section .sec_left img{
+    object-fit: contain;
+}
+
+.contact_section .sec_right {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.contact_section .sec_right .services_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact_section .sec_right .service_btn {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.contact_section .sec_right .service_btn.active {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+}
+
+.contact_section .sec_right .form_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contact_section .sec_right .form_group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_section .sec_right .form_group_full {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_section .sec_right .form_label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact_section .sec_right .form_input,
+.contact_section .sec_right .form_textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  outline: none;
+}
+
+.contact_section .sec_right .submit_wrap {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact_section .sec_right .submit_btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.contact_section .sec_right .submit_icon {
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

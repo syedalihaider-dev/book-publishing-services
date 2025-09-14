@@ -55,7 +55,7 @@ return (
                     </li>
                 </ul>
                 <div className="combo_btn">
-                    <ActionButtons />
+                    <ChatButton />
                 </div>
             </div>
         </div>
