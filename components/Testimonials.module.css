@@ -144,6 +144,10 @@
     background: var(--success-color);
 }
 
+.testimonials_section .down .box4 {
+    background: var(--blue-color);
+}
+
 .testimonials_section .box5 {
     background: var(--danger-color);
     margin-top: 80px;
