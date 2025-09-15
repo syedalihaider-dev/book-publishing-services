@@ -28,7 +28,7 @@ setSelectedServices([...selectedServices, service]);
 return (
 <div className={`${styles.contact_section} sec_padding`}>
     <div className="container">
-        <div className="row">
+        <div className="row align-items-center">
             <div className="col-sm-12 col-md-6">
                 <div className={styles.sec_left}>
                     <h2>
