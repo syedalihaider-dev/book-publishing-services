@@ -29,6 +29,7 @@ return (
 <div className={`${styles.contact_section} sec_padding`}>
     <div className="container">
         <div className="row align-items-center">
+            {/* Left Side */}
             <div className="col-sm-12 col-md-6">
                 <div className={styles.sec_left}>
                     <h2>
@@ -38,8 +39,8 @@ return (
                         Keep in touch, stay with us
                         <span className="break_line"></span> for more exciting news
                     </h3>
-                    <Image src="/contact-left-book.png" alt="Book" width={743} height={394} priority
-                        className={styles.contact_img} /> 
+                    <Image src="/contact-left-book.png" alt="Book" width={640} height={340} priority
+                        className={styles.contact_img} />
                 </div>
             </div>
             <div className="col-sm-12 col-md-6">
@@ -57,48 +58,65 @@ return (
                         ))}
                     </div>
                     <form className={styles.form_wrap}>
-                        <div className={styles.form_group}>
-                            <label className={styles.form_label}>
-                                <Image src="/public/user-icon.png" alt="User Icon" width={13} height={15} />
-                                Full name*
-                            </label>
-                            <input type="text" placeholder="Your full name"/>
+                        <div className="row">
+                            <div className="col-sm-12 col-md-6">
+                                <div className={styles.form_group}>
+                                    <label className={styles.form_label}>
+                                        <Image src="/user-icon.png" alt="User Icon" width={13} height={15} />
+                                        Full name*
+                                    </label>
+                                    <input type="text" placeholder="Your full name" className={styles.form_input} />
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12 col-md-6">
+                                <div className={styles.form_group}>
+                                    <label className={styles.form_label}>
+                                        <Image src="/phone-icon.png" alt="Phone" width={13} height={16} />
+                                        Phone*
+                                    </label>
+                                    <input type="tel" placeholder="Your phone number" className={styles.form_input} />
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12 col-md-6">
+                                <div className={styles.form_group}>
+                                    <label className={styles.form_label}>
+                                        <Image src="/envelop-icon.png" alt="Email" width={16} height={16} />
+                                        Email address*
+                                    </label>
+                                    <input type="email" placeholder="info@example.com" className={styles.form_input} />
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12 col-md-6">
+                                <div className={styles.form_group}>
+                                    <label className={styles.form_label}>
+                                        <Image src="/dollar-icon.png" alt="Budget" width={12} height={14} />
+                                        Select Your Budget
+                                    </label>
+                                    <input type="text" placeholder="$200k" className={styles.form_input} />
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12">
+                                <div className={styles.form_group_full}>
+                                    <label className={styles.form_label}>
+                                        <Image src="/message-icon.png" alt="Message" width={14} height={14} />
+                                        Project Details
+                                    </label>
+                                    <textarea placeholder="Write a message" className={styles.form_textarea}></textarea>
+                                </div>
+                            </div>
+                            <input type="hidden" name="services" value={selectedServices.join(", ")}
+                  />
+                  <div className=" col-sm-12">
+                            <div className={styles.submit_wrap}>
+                                <button type="submit" className={styles.submit_btn}>
+                                    Submit Now
+                                </button>
+                            </div>
                         </div>
-                        <div className={styles.form_group}>
-                            <label className={styles.form_label}>
-                                <Image src="/public/phone-icon.png" alt="Phone" width={13} height={16} />
-                                Phone*
-                            </label>
-                            <input type="tel" placeholder="Your phone number" className={styles.form_input} />
-                        </div>
-                        <div className={styles.form_group}>
-                            <label className={styles.form_label}>
-                                <Image src="/public/envelop-icon.png" alt="Email" width={16} height={16} />
-                                Email address*
-                            </label>
-                            <input type="email" placeholder="info@example.com" className={styles.form_input} />
-                        </div>
-                        <div className={styles.form_group}>
-                            <label className={styles.form_label}>
-                                <Image src="/public/dollar-icon.png" alt="Budget" width={12} height={14} />
-                                Select Your Budget
-                            </label>
-                            <input type="text" placeholder="$200k" className={styles.form_input} />
-                        </div>
-                        <div className={styles.form_group_full}>
-                            <label className={styles.form_label}>
-                                <Image src="/public/message-icon.png" alt="Message" width={14} height={14} />
-                                Project Details
-                            </label>
-                            <textarea rows="3" placeholder="Write a message"
-                                className={styles.form_textarea}></textarea>
-                        </div>
-                        <input type="hidden" name="services" value={selectedServices.join(", ")}
-                />
-                <div className={styles.submit_wrap}>
-                  <button type="submit" className={styles.submit_btn}>
-                        Submit Now
-                  </button>
                 </div>
                 </form>
             </div>
