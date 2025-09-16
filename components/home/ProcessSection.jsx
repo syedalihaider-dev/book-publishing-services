@@ -1,5 +1,5 @@
 import styles from "./ProcessSection.module.css";
-import ActionButtons from "@/components/ActionButtons";
+import ActionButtons from "@/components/ui/ActionButtons";
 import Image from "next/image";
 
 export default function ProcessSection() {

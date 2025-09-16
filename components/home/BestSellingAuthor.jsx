@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./BestSellingAuthor.module.css";
-import ActionButtons from "@/components/ActionButtons";
+import ActionButtons from "@/components/ui/ActionButtons";
 
 export default function BestSellingAuthor() {
 return (

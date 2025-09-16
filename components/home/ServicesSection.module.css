@@ -1,5 +1,5 @@
 .services {
-    background: url("../public/services-banner-bg.png") center/cover no-repeat;
+    background: url("../../public/services-banner-bg.png") center/cover no-repeat;
 }
 
 .services .content {
@@ -44,31 +44,31 @@
 } */
 
 .services .content .ebook_writing {
-    background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+    background: url("../../public/ebook-writing-bg.png") center/cover no-repeat;
 }
 
 .services .content .book_trailer {
-    background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+    background: url("../../public/ebook-writing-bg.png") center/cover no-repeat;
 }
 
 .services .content .book_audio {
-    background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+    background: url("../../public/ebook-writing-bg.png") center/cover no-repeat;
 }
 
 .services .content .book_cover {
-    background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+    background: url("../../public/ebook-writing-bg.png") center/cover no-repeat;
 }
 
 .services .content .book_marketing {
-    background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+    background: url("../../public/ebook-writing-bg.png") center/cover no-repeat;
 }
 
 .services .content .book_publishing {
-    background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+    background: url("../../public/ebook-writing-bg.png") center/cover no-repeat;
 }
 
 .services .content .ebook_writing {
-    background: url("../public/ebook-writing-bg.png") center/cover no-repeat;
+    background: url("../../public/ebook-writing-bg.png") center/cover no-repeat;
 }
 
 .services .content .box .heading {

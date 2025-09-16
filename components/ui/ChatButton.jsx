@@ -1,4 +1,4 @@
-"use client"; // client-side component
+"use client";
 
 import Image from "next/image";
 

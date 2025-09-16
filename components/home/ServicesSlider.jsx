@@ -1,7 +1,7 @@
 "use client";   // Must Be At The Very Top
 import styles from "../app/page.module.css";
-import ActionButtons from "@/components/ActionButtons";
-import ChatButton from "@/components/ChatButton";
+import ActionButtons from "@/components/ui/ActionButtons";
+import ChatButton from "@/components/ui/ChatButton";
 // import Slider from "react-slick";
 
 const ServicesSlider = () => {

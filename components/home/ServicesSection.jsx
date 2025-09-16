@@ -1,5 +1,5 @@
-import ChatButton from "@/components/ChatButton";
-import ActionButtons from "@/components/ActionButtons";
+import ChatButton from "@/components/ui/ChatButton";
+import ActionButtons from "@/components/ui/ActionButtons";
 import styles from "./ServicesSection.module.css";
 
 export default function ServicesSection() {

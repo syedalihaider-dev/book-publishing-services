@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ChatButton from "@/components/ChatButton";
+import ChatButton from "@/components/ui/ChatButton";
 import { PHONE_NUMBER } from "@/config/config";
 import styles from "./CtaSection.module.css";
 

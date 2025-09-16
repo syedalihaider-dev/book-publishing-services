@@ -1,14 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import ActionButtons from "@/components/ActionButtons";
-import ServicesSection from "@/components/ServicesSection";
-import CtaSection from "@/components/CtaSection";
-import PortfolioSection from "@/components/PortfolioSection";
-import AwardsSection from "@/components/AwardsSection";
-import ProcessSection from "@/components/ProcessSection";
-import BestSellingAuthor from "@/components/BestSellingAuthor";
-import Testimonials from "@/components/Testimonials";
-import ContactSection from "@/components/ContactSection";
+import ActionButtons from "@/components/ui/ActionButtons";
+import ServicesSection from "@/components/home/ServicesSection";
+import CtaSection from "@/components/home/CtaSection";
+import PortfolioSection from "@/components/home/PortfolioSection";
+import AwardsSection from "@/components/home/AwardsSection";
+import ProcessSection from "@/components/home/ProcessSection";
+import BestSellingAuthor from "@/components/home/BestSellingAuthor";
+import Testimonials from "@/components/home/Testimonials";
+import ContactSection from "@/components/home/ContactSection";
 
 export default function Home() {
 return (
