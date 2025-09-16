@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 20px 0 0;
+}
+
+.header .head_top .left p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.header .head_top .right ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .head_top .right ul li a{
+    background: var(--light-color);
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: var(--dark-color);
+    font-size: 14px;
+    text-decoration: none;
+}
