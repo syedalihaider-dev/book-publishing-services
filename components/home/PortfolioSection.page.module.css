@@ -1,7 +1,65 @@
+.portfolio_section {
+    background: url("../../public/portfolio-banner-bg.png") top/cover no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio_section .book {
+    position: absolute;
+    z-index: 1;
+}
+
+.portfolio_section .book1 {
+    top: 100px;
+    left: 25%;
+}
+
+.portfolio_section .book2 {
+    top: 250px;
+    left: 150px;
+}
+
+.portfolio_section .book3 {
+    top: 100px;
+    right: 25%;
+}
+
+.portfolio_section .book4 {
+    top: 240px;
+    right: 100px;
+}
+
+.portfolio_section .tabs {
+    margin: 40px auto;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.portfolio_section .tabs li {
+    border-radius: 100px;
+    padding: 10px 20px;
+    background: var(--ice-color);
+    color: var(--deepsea-color);
+    border: 1px solid #00000014;
+    cursor: pointer;
+    transition: var(--cubic);
+}
+
+.portfolio_section .tabs .activeTab {
+    background: var(--primary-color);
+    color: var(--light-color);
+    border: 1px solid var(--primary-color);
+}
+
 .portfolio_section .swiper {
     position: relative;
     width: 100%;
     margin-inline: auto;
+    margin-top: 40px;
 }
 
 .portfolio_section .swiper::before {
