@@ -82,7 +82,20 @@
 
 .about {
   background: url("../public/about-banner-bg.png") center/cover no-repeat;
-  padding-top: 80px;
+}
+
+.about .sec_left {
+  padding: 200px 0;
+}
+
+.about .sec_right .img {
+  width: 661px;
+  height: 562px;
+  position: relative;
+}
+
+.about .sec_right .img img {
+  object-fit: contain;
 }
 
 @media screen and (max-width:1600px) {
@@ -132,6 +145,10 @@
   .banner .book8 {
     bottom: 40px;
     right: 50px;
+  }
+
+  .about .sec_left {
+    padding: 170px 0;
   }
 }
 
@@ -185,6 +202,14 @@
     right: 20px;
   }
 
+  .about .sec_left {
+    padding: 140px 0;
+  }
+
+  .about .sec_right .img {
+    width: 585px;
+    height: 500px;
+  }
 }
 
 @media screen and (max-width:1199px) {
@@ -205,6 +230,15 @@
   .banner .book6 {
     bottom: 140px;
     right: 160px;
+  }
+
+  .about .sec_left {
+    padding: 100px 0;
+  }
+
+  .about .sec_right .img {
+    width: 484px;
+    height: 410px;
   }
 }
 
@@ -227,6 +261,15 @@
     bottom: 120px;
     right: 140px;
   }
+
+  .about .sec_left {
+    padding: 40px 0;
+  }
+
+  .about .sec_right .img {
+    width: 370px;
+    height: 320px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -243,7 +286,7 @@
 
 @media screen and (max-width:575px) {
 
-  .banner{
+  .banner {
     padding: 120px 0 160px;
   }
 
@@ -272,5 +315,10 @@
 
   .banner :is(.book4, .book5, .book6, .book7, .book8) {
     display: none;
-  } 
+  }
+
+  .about .sec_right .img {
+    width: 300px;
+    height: 255px;
+  }
 }

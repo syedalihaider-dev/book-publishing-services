@@ -301,6 +301,14 @@ p {
     --font-size-sm: 14px;
   }
 
+  .sec_padding {
+    padding: 60px 0;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
 }
 
 @media screen and (max-width:1399px) {
@@ -314,6 +322,10 @@ p {
 @media screen and (max-width:1199px) {
   :root {
     --font-size-lg: 50px;
+  }
+
+    h2 {
+    font-size: 45px;
   }
 
   h4 {
@@ -334,6 +346,10 @@ p {
 @media screen and (max-width:991px) {
   :root {
     --font-size-lg: 40px;
+  }
+
+  h2 {
+    font-size: 45px;
   }
 }
 

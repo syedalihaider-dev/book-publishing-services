@@ -43,7 +43,7 @@ return (
   </section>
   <section className={styles.about}>
     <div className="container">
-      <div className="row align-items-center">
+      <div className="row align-items-end">
         <div className="col-md-6">
           <div className={styles.sec_left}>
             <h2>
@@ -60,7 +60,11 @@ return (
           </div>
         </div>
         <div className="col-md-6">
-          <Image src="/book-in-hand.png" alt="Book" width={661} height={562} priority className="myImage" />
+          <div className={styles.sec_right}>
+            <div className={styles.img}>
+              <Image src="/book-in-hand.png" alt="Book" fill priority className="myImage" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
