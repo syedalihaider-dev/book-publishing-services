@@ -117,3 +117,11 @@
   opacity: 1;
   transition: var(--cubic);
 } */
+
+@media screen and (max-width:767px) {
+    .services .content {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:575px) {}
