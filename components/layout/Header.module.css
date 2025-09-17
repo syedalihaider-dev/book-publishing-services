@@ -26,4 +26,39 @@
     color: var(--dark-color);
     font-size: 14px;
     text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.main_header{
+    margin-top: 25px;
+}
+
+.main_header .inner_wrapper{
+    background: var(--light-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.main_header .inner_wrapper .navbar ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+}
+
+.main_header .inner_wrapper .navbar ul li a{
+    color: var(--dark-color);
+    font-weight: var(--font-medium);
+}
+
+
+.main_header .inner_wrapper :global(.combo_btn){
+    margin: 0;
 }
