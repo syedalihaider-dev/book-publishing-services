@@ -239,47 +239,38 @@
     height: 120px;
     z-index: -1;
   }
+}
+
+@media screen and (max-width:575px) {
+
+  .banner{
+    padding: 120px 0 160px;
+  }
+
+  .banner .img {
+    width: 80px;
+    height: 120px;
+  }
 
   .banner .book1 {
-    top: 270px;
+    top: unset;
+    bottom: 10px;
     left: 5px;
   }
 
   .banner .book2 {
     bottom: 10px;
-    left: 5px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .banner .book3 {
-    bottom: 80px;
-    left: 100px;
-  }
-
-  .banner .book4 {
-    bottom: 5px;
-    left: 34%;
-  }
-
-  .banner .book5 {
-    bottom: 5px;
-    right: 34%;
-  }
-
-  .banner .book6 {
-    bottom: 80px;
-    right: 100px;
-  }
-
-  .banner .book7 {
-    top: 270px;
-    right: 5px;
-  }
-
-  .banner .book8 {
     bottom: 10px;
+    left: unset;
     right: 5px;
   }
 
+  .banner :is(.book4, .book5, .book6, .book7, .book8) {
+    display: none;
+  } 
 }
-
-@media screen and (max-width:575px) {}

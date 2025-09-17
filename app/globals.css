@@ -343,4 +343,13 @@ p {
   }
 }
 
-@media screen and (max-width:575px) {}
+@media screen and (max-width:575px) {
+  :root {
+    --font-size-lg: 25px;
+  }
+
+  .combo_btn {
+    margin-top: 15px;
+    gap: 10px;
+  }
+}

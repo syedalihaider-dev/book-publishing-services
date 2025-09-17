@@ -222,4 +222,7 @@
     .testimonials_section .box6 {
         width: 100%;
     }
+    .testimonials_section .box6{
+        left: 0;
+    }
 }
