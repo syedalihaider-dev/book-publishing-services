@@ -1,10 +1,10 @@
 .contact_section {
-    background: url(../../public/contact-banner-bg.png) center/cover no-repeat;
+  background: url(../../public/contact-banner-bg.png) center/cover no-repeat;
 }
 
-.contact_section .sec_left img{
-    object-fit: contain;
-    margin-top: 40px;
+.contact_section .sec_left img {
+  object-fit: contain;
+  margin-top: 40px;
 }
 
 .contact_section .sec_right {
@@ -31,7 +31,7 @@
 .contact_section .sec_right .service_btn.active {
   background: var(--primary-color);
   color: var(--light-color);
-   border: unset;
+  border: unset;
 }
 
 .contact_section .sec_right .form_group,
@@ -58,7 +58,7 @@
   outline: none;
 }
 
-.contact_section .sec_right .form_textarea{
+.contact_section .sec_right .form_textarea {
   height: 80px;
   resize: unset;
 }
@@ -79,3 +79,15 @@
   border-radius: 50px;
   cursor: pointer;
 }
+
+@media screen and (max-width:1600px) {}
+
+@media screen and (max-width:1399px) {}
+
+@media screen and (max-width:1199px) {}
+
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:767px) {}
+
+@media screen and (max-width:575px) {}

@@ -8,10 +8,12 @@ export default function CtaSection() {
 return (
 <section className={styles.cta}>
     <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-end">
             <div className="col-sm-12 col-md-6">
                 <div className={styles.sec_left}>
-                    <Image src="/cta-logo-img.png" alt="book" width={89} height={89} className="myImage" />
+                        <div className={styles.img}>
+                            <Image src="/cta-logo-img.png" alt="book" fill className="myImage" />
+                        </div>
                     <h2>
                         Publish your Book with
                         <span className="break_line"></span>
@@ -31,7 +33,7 @@ return (
             </div>
             <div className="col-sm-12 col-md-6">
                 <div className={styles.sec_right}>
-                    <Image src="/cta-right-img.png" alt="Book" width={663} height={635} className="myImage" />
+                    <Image src="/cta-right-img.png" alt="Book" fill className="myImage" />
                 </div>
             </div>
         </div>

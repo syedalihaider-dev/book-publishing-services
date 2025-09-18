@@ -1,8 +1,21 @@
 .cta {
     background: url("../../public/cta-banner-bg.png") center/cover no-repeat;
-    padding: 80px 0 0;
 }
 
+.cta .sec_left {
+    padding: 140px 0;
+}
+
+.cta .sec_left .img {
+    width: 89px;
+    height: 89px;
+    position: relative;
+    z-index: 1;
+}
+
+.cta .sec_left .img img {
+    object-fit: contain;
+}
 
 .cta .sec_left h2 {
     color: var(--light-color);
@@ -59,4 +72,75 @@
     color: var(--light-color);
     font-size: 60px;
     font-weight: var(--font-medium);
+}
+
+.cta .sec_right {
+    width: 663px;
+    height: 635px;
+    position: relative;
+    z-index: 1;
+}
+
+.cta .sec_right img {
+    object-fit: contain;
+}
+
+@media screen and (max-width:1399px) {
+
+    .cta .sec_left {
+        padding: 80px 0;
+    }
+
+    .cta .sec_left .call_btn a {
+        font-size: 50px;
+    }
+
+    .cta .sec_right {
+        width: 585px;
+        height: 560px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .cta .sec_left {
+        padding: 60px 0;
+    }
+
+    .cta .sec_left .call_btn a {
+        font-size: 40px;
+    }
+
+    .cta .sec_right {
+        width: 480px;
+        height: 460px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .cta .sec_left {
+        padding: 60px 0;
+    }
+
+    .cta .sec_left .call_btn a {
+        font-size: 40px;
+    }
+
+    .cta .sec_right {
+       width: 370px;
+        height: 355px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cta .sec_right {
+        width: 585px;
+        height: 560px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .cta .sec_right {
+        width: 585px;
+        height: 560px;
+    }
 }
