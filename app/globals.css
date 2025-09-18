@@ -324,7 +324,7 @@ p {
     --font-size-lg: 50px;
   }
 
-    h2 {
+  h2 {
     font-size: 45px;
   }
 
@@ -349,7 +349,11 @@ p {
   }
 
   h2 {
-    font-size: 45px;
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 30px;
   }
 }
 
@@ -362,6 +366,14 @@ p {
 @media screen and (max-width:575px) {
   :root {
     --font-size-lg: 25px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
   }
 
   .combo_btn {

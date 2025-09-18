@@ -1,200 +1,151 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 import ChatButton from "@/components/ui/ChatButton";
 import ActionButtons from "@/components/ui/ActionButtons";
 import styles from "./ServicesSection.module.css";
 
 export default function ServicesSection() {
-return (
-<section className={`${styles.services} sec_padding`}>
-    <div className="container">
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkWidth = () => setIsMobile(window.innerWidth <= 767);
+    checkWidth();
+    window.addEventListener("resize", checkWidth);
+    return () => window.removeEventListener("resize", checkWidth);
+  }, []);
+
+  const services = [
+    {
+      title: "eBook Writing",
+      desc: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
+      stats: [
+        { value: "257", label: "Books Published" },
+        { value: "$24M", label: "Royalty Generated" },
+      ],
+      style: styles.ebook_writing,
+    },
+    {
+      title: "Book Trailer",
+      desc: "A great story deserves a great introduction. Our book trailer services give your story the spotlight it deserves, turning browsers into readers through powerful visuals.Selling your self-published book can be a daunting task. It requires patience, effort, and energy. But wait for a second; how about making your audience anticipate the book’s launch? Book trailers can be a perfect way to create hype around your book, making everyone talk about it before it comes out.",
+      stats: [
+        { value: "340+", label: "Trailers Delivered" },
+        { value: "95%", label: "Client Satisfaction" },
+      ],
+      style: styles.book_trailer,
+    },
+    {
+      title: "Book Audio",
+      desc: "We believe every story deserves a chance to be heard. We stay committed to making your compelling tales seamlessly reach the world. Our best audiobook services are designed to turn your stories into melodies that keep your audience hooked till the end.",
+      stats: [
+        { value: "120", label: "Audiobooks Produced" },
+        { value: "15+", label: "Languages Covered" },
+      ],
+      style: styles.book_audio,
+    },
+    {
+      title: "Book Cover Design",
+      desc: "Your book deserves a cover that grabs attention and sparks curiosity. At Book Publishing Services, our designers create covers that speak to your story and resonate with your audience.",
+      stats: [
+        { value: "500+", label: "Covers Designed" },
+        { value: "Top 10", label: "Design Awards Won" },
+      ],
+      style: styles.book_cover,
+    },
+    {
+      title: "Book Marketing",
+      desc: "At Book Publishing Services, we don’t just help you publish—we help you get noticed. Our book marketing services are tailored to elevate your story and connect it with the right audience.",
+      stats: [
+        { value: "10k+", label: "Campaigns Run" },
+        { value: "85%", label: "Sales Growth" },
+      ],
+      style: styles.book_marketing,
+    },
+    {
+      title: "Book Publishing",
+      desc: "Book Publishing Services helps you publish professionally on platforms like Amazon and beyond. We handle every detail—so you can focus on your story.",
+      stats: [
+        { value: "1,000+", label: "Titles Published" },
+        { value: "50+", label: "Publishing Platforms" },
+      ],
+      style: styles.book_publishing,
+    },
+  ];
+
+  const ServiceBox = ({ service }) => (
+    <div className={`${styles.box} ${service.style}`}>
+      <h3 className={styles.heading}>{service.title}</h3>
+      <div className={styles.inner_box}>
+        <h3>{service.title}</h3>
+        <p className="scroll_block my-3">{service.desc}</p>
+        <ul>
+          {service.stats.map((s, i) => (
+            <li key={i}>
+              <h4>{s.value}</h4>
+              <p className="mb-0">{s.label}</p>
+            </li>
+          ))}
+        </ul>
+        <div className="combo_btn">
+          <ChatButton />
+        </div>
+      </div>
+    </div>
+  );
+
+  return (
+    <section className={`${styles.services} sec_padding`}>
+      <div className="container">
         <div className="row align-items-center">
-            <div className="col-sm-12 col-md-6">
-                <div className={styles.sec_left}>
-                    <h2>
-                        Providing you the best <span className="break_line"></span>
-                        <span className="primarytxt">Book Publishing</span>
-                        <span className="break_line"></span> possible services.
-                    </h2>
-                </div>
+          <div className="col-sm-12 col-md-6">
+            <div className={styles.sec_left}>
+              <h2>
+                Providing you the best <span className="break_line"></span>
+                <span className="primarytxt">Book Publishing</span>
+                <span className="break_line"></span> possible services.
+              </h2>
             </div>
-            <div className="col-sm-12 col-md-6">
-                <div className={styles.sec_right}>
-                    <p className="m-0">
-                        At Book Publishing, we believe every story has the power to change the world.  We publish books
-                        that inspire, entertain, and leave a lasting impact on readers of all ages. Whether it’s a
-                        thrilling debut novel, a groundbreaking non-fiction work, or a children’s story that sparks
-                        imagination, we ensure it reaches the widest audience possible—both in print and digitally.
-                    </p>
-                    <div className="combo_btn">
-                        <ActionButtons />
-                    </div>
-                </div>
+          </div>
+          <div className="col-sm-12 col-md-6">
+            <div className={styles.sec_right}>
+              <p className="m-0">
+                As a prominent amazon book publishing service, we deliver what we promise. At Amz Book Publishing Company, Our trained professionals are on their toes to bring you the perfect tales readers can enjoy like never before.
+              </p>
+              <div className="combo_btn">
+                <ActionButtons />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <div className={styles.content}>
-        <div className={`${styles.box} ${styles.ebook_writing}`}>
-            <h3 className={styles.heading}>eBook Writing</h3>
-            <div className={styles.inner_box}>
-                <h3>eBook Writing</h3>
-                <p className="my-3">
-                    At Book Publishing, we believe every story has the power to change the world.  We publish books that
-                    inspire, entertain, and leave a lasting impact on readers of all ages. Whether it’s a thrilling
-                    debut novel,
-                    a groundbreaking non-fiction work, or a children’s story that sparks imagination, we ensure it
-                    reaches the
-                    widest audience possible—both in print and digitally.
-                </p>
-                <ul>
-                    <li>
-                        <h4>257</h4>
-                        <p className="mb-0">Books Published</p>
-                    </li>
-                    <li>
-                        <h4>$24M</h4>
-                        <p className="mb-0">Royalty Generated</p>
-                    </li>
-                </ul>
-                <div className="combo_btn">
-                    <ChatButton />
-                </div>
-            </div>
-        </div>
-        <div className={`${styles.box} ${styles.book_trailer}`}>
-            <h3 className={styles.heading}>Book Trailer</h3>
-            <div className={styles.inner_box}>
-                <h3>Book Trailer</h3>
-                <p className="my-3">
-                    At Book Publishing, we believe every story has the power to change the world.  We publish books that
-                    inspire, entertain, and leave a lasting impact on readers of all ages. Whether it’s a thrilling
-                    debut novel,
-                    a groundbreaking non-fiction work, or a children’s story that sparks imagination, we ensure it
-                    reaches the
-                    widest audience possible—both in print and digitally.
-                </p>
-                <ul>
-                    <li>
-                        <h4>257</h4>
-                        <p className="mb-0">Books Published</p>
-                    </li>
-                    <li>
-                        <h4>$24M</h4>
-                        <p className="mb-0">Royalty Generated</p>
-                    </li>
-                </ul>
-                <div className="combo_btn">
-                    <ChatButton />
-                </div>
-            </div>
-        </div>
-        <div className={`${styles.box} ${styles.book_audio}`}>
-            <h3 className={styles.heading}>Book Audio</h3>
-            <div className={styles.inner_box}>
-                <h3>Book Audio</h3>
-                <p className="my-3">
-                    At Book Publishing, we believe every story has the power to change the world.  We publish books that
-                    inspire, entertain, and leave a lasting impact on readers of all ages. Whether it’s a thrilling
-                    debut novel,
-                    a groundbreaking non-fiction work, or a children’s story that sparks imagination, we ensure it
-                    reaches the
-                    widest audience possible—both in print and digitally.
-                </p>
-                <ul>
-                    <li>
-                        <h4>257</h4>
-                        <p className="mb-0">Books Published</p>
-                    </li>
-                    <li>
-                        <h4>$24M</h4>
-                        <p className="mb-0">Royalty Generated</p>
-                    </li>
-                </ul>
-                <div className="combo_btn">
-                    <ChatButton />
-                </div>
-            </div>
-        </div>
-        <div className={`${styles.box} ${styles.book_cover}`}>
-            <h3 className={styles.heading}>Book Cover Design</h3>
-            <div className={styles.inner_box}>
-                <h3>Book Cover Design</h3>
-                <p className="my-3">
-                    At Book Publishing, we believe every story has the power to change the world.  We publish books that
-                    inspire, entertain, and leave a lasting impact on readers of all ages. Whether it’s a thrilling
-                    debut novel,
-                    a groundbreaking non-fiction work, or a children’s story that sparks imagination, we ensure it
-                    reaches the
-                    widest audience possible—both in print and digitally.
-                </p>
-                <ul>
-                    <li>
-                        <h4>257</h4>
-                        <p className="mb-0">Books Published</p>
-                    </li>
-                    <li>
-                        <h4>$24M</h4>
-                        <p className="mb-0">Royalty Generated</p>
-                    </li>
-                </ul>
-                <div className="combo_btn">
-                    <ChatButton />
-                </div>
-            </div>
-        </div>
-        <div className={`${styles.box} ${styles.book_marketing}`}>
-            <h3 className={styles.heading}>Book Marketing</h3>
-            <div className={styles.inner_box}>
-                <h3>Book Marketing</h3>
-                <p className="my-3">
-                    At Book Publishing, we believe every story has the power to change the world.  We publish books that
-                    inspire, entertain, and leave a lasting impact on readers of all ages. Whether it’s a thrilling
-                    debut novel,
-                    a groundbreaking non-fiction work, or a children’s story that sparks imagination, we ensure it
-                    reaches the
-                    widest audience possible—both in print and digitally.
-                </p>
-                <ul>
-                    <li>
-                        <h4>257</h4>
-                        <p className="mb-0">Books Published</p>
-                    </li>
-                    <li>
-                        <h4>$24M</h4>
-                        <p className="mb-0">Royalty Generated</p>
-                    </li>
-                </ul>
-                <div className="combo_btn">
-                    <ChatButton />
-                </div>
-            </div>
-        </div>
-        <div className={`${styles.box} ${styles.book_publishing}`}>
-            <h3 className={styles.heading}>Book Publishing</h3>
-            <div className={styles.inner_box}>
-                <h3>Book Publishing</h3>
-                <p className="my-3">
-                    At Book Publishing, we believe every story has the power to change the world.  We publish books that
-                    inspire, entertain, and leave a lasting impact on readers of all ages. Whether it’s a thrilling
-                    debut novel,
-                    a groundbreaking non-fiction work, or a children’s story that sparks imagination, we ensure it
-                    reaches the
-                    widest audience possible—both in print and digitally.
-                </p>
-                <ul>
-                    <li>
-                        <h4>257</h4>
-                        <p className="mb-0">Books Published</p>
-                    </li>
-                    <li>
-                        <h4>$24M</h4>
-                        <p className="mb-0">Royalty Generated</p>
-                    </li>
-                </ul>
-                <div className="combo_btn">
-                    <ChatButton />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-);
+      </div>
+
+      {/* Desktop / Mobile */}
+      <div className={styles.content}>
+        {isMobile ? (
+          <Swiper
+            modules={[Pagination]}
+            pagination={{ clickable: true }}
+            spaceBetween={20}
+            slidesPerView={1}
+          >
+            {services.map((service, i) => (
+              <SwiperSlide key={i}>
+                <ServiceBox service={service} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        ) : (
+          services.map((service, i) => (
+            <ServiceBox key={i} service={service} />
+          ))
+        )}
+      </div>
+    </section>
+  );
 }
