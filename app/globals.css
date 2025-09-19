@@ -336,6 +336,10 @@ p {
     font-size: 40px;
   }
 
+  h3 {
+    font-size: 30px;
+  }
+
   h4 {
     font-size: 25px;
   }
@@ -366,7 +370,7 @@ p {
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -387,7 +391,7 @@ p {
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .combo_btn {

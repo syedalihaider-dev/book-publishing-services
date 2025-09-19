@@ -39,8 +39,9 @@ return (
                         Keep in touch, stay with us
                         <span className="break_line"></span> for more exciting news
                     </h3>
-                    <Image src="/contact-left-book.png" alt="Book" width={640} height={340} priority
-                        className={styles.contact_img} />
+                    <div className={styles.img}>
+                        <Image src="/contact-left-book.png" alt="Book" fill className={styles.contact_img} />
+                    </div>
                 </div>
             </div>
             <div className="col-sm-12 col-md-6">
