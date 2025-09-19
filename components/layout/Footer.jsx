@@ -63,7 +63,7 @@ return (
             <div className="col-sm-12 col-md-3">
                 <div className={styles.ft_logo}>
                     <Link href="/">
-                    <Image src="/ft-logo.png" width={300} height={300} alt="Loading Footer Logo" className="myImages" />
+                        <Image src="/ft-logo.png" fill alt="Loading Footer Logo" className="myImages" />
                     </Link>
                 </div>
             </div>
@@ -73,13 +73,13 @@ return (
                     <li>
                         <p>
                             <strong>Email Us:</strong>
-                            <a href={`mailto:${EMAIL_ADDRESS}`}>{EMAIL_ADDRESS}</a>
+                            <a href={`mailto:${EMAIL_ADDRESS}`}>Email Us Now</a>
                         </p>
                     </li>
                     <li>
                         <p>
                             <strong>Phone:</strong>
-                            <a href={`tel:${PHONE_NUMBER}`}>{PHONE_NUMBER}</a>
+                            <a href={`tel:${PHONE_NUMBER}`}>Call Us Now</a>
                         </p>
                     </li>
                 </ul>
@@ -88,18 +88,18 @@ return (
                     <li>
                         <Link href="https://www.facebook.com/amzbookpublishing" target="_blank"
                             rel="noopener noreferrer">
-                        <Image src="/facebook-icon.png" width={48} height={48} alt="" className="" />
+                        <Image src="/facebook-icon.png" fill alt="Facebook Icon" className="myIcon" />
                         </Link>
                     </li>
                     <li>
                         <Link href="https://www.instagram.com/amzbookpublishing/" target="_blank"
                             rel="noopener noreferrer">
-                        <Image src="/instagram-icon.png" width={49} height={48} alt="" className="" />
+                        <Image src="/instagram-icon.png" fill alt="Instagram Icon" className="myIcon" />
                         </Link>
                     </li>
                     <li>
                         <Link href="https://x.com/amz_publishing" target="_blank" rel="noopener noreferrer">
-                        <Image src="/x-icon.png" width={49} height={48} alt="" className="" />
+                        <Image src="/x-icon.png" fill alt="X Icon" className="myIcon" />
                         </Link>
                     </li>
                 </ul>
@@ -139,7 +139,7 @@ return (
                 </div>
                 <div className="col-sm-12 col-md-6">
                     <div className={styles.sec_right}>
-                        <Image src="/payment-method.png" width={213} height={37} alt="Payment Method"
+                        <Image src="/payment-method.png" fill alt="Payment Method"
                             className="myImages" />
                     </div>
                 </div>
