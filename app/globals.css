@@ -318,6 +318,10 @@ p {
     --font-size-sm: 12px;
   }
 
+  h2 {
+    font-size: 48px;
+  }
+
   .sec_padding {
     padding: 40px 0;
   }
@@ -334,6 +338,10 @@ p {
 
   h4 {
     font-size: 25px;
+  }
+
+  h6 {
+    font-size: 20px;
   }
 
   .btn .text {
@@ -354,6 +362,7 @@ p {
 
   h2 {
     font-size: 30px;
+    letter-spacing: -1px;
   }
 
   h3 {
@@ -373,7 +382,8 @@ p {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 25px;
+    letter-spacing: -1px;
   }
 
   h3 {

@@ -137,17 +137,12 @@
         overflow: hidden;
     }
 
-    .portfolio_section .swiper::before,
-    .portfolio_section .swiper::after {
-        height: 40px;
-    }
-
     .portfolio_section .swiper::before {
-        top: 50px;
+        top: -10px;
     }
 
     .portfolio_section .swiper::after {
-        bottom: 50px;
+        bottom: -10px;
     }
 
     .portfolio_section :global(.swiper .swiper-slide) {
@@ -178,11 +173,11 @@
     }
 
     .portfolio_section .swiper::before {
-        top: 15px;
+        top: -35px;
     }
 
     .portfolio_section .swiper::after {
-        bottom: 20px;
+        bottom: -35px;
     }
 }
 
@@ -213,11 +208,11 @@
     }
 
     .portfolio_section .swiper::before {
-        top: 15px;
+        top: -35px;
     }
 
     .portfolio_section .swiper::after {
-        bottom: 20px;
+        bottom: -35px;
     }
 }
 
@@ -266,11 +261,11 @@
     }
 
     .portfolio_section .swiper::before {
-        top: 10px;
+        top: -35px;
     }
 
     .portfolio_section .swiper::after {
-        bottom: 10px;
+        bottom: -35px;
     }
 
     .portfolio_section :global(.swiper .swiper-button-prev:after),
@@ -294,10 +289,10 @@
     }
 
     .portfolio_section .swiper::before {
-        top: -30px;
+        top: -90px;
     }
 
     .portfolio_section .swiper::after {
-        bottom: -30px;
+        bottom: -90px;
     }
 }

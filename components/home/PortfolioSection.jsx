@@ -68,7 +68,7 @@ export default function PortfolioSection() {
 
       {/* Swiper for active genre */}
       <Swiper
-        modules={[Navigation,]}
+        modules={[Navigation, Autoplay]}
         loop={true}
         autoplay={{
           delay: 2500,
