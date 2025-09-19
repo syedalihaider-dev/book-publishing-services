@@ -317,6 +317,10 @@ p {
     --font-size-lg: 55px;
     --font-size-sm: 12px;
   }
+
+  .sec_padding {
+    padding: 40px 0;
+  }
 }
 
 @media screen and (max-width:1199px) {
