@@ -222,8 +222,55 @@
         flex-wrap: wrap;
         gap: 5px;
     }
+
+    .footer .main_ft {
+        margin-top: 40px;
+    }
+
+    /* .footer .main_ft .sec_left p a {
+        display: block;
+    } */
 }
 
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
 
-@media screen and (max-width:575px) {}
+    .footer {
+        padding: 15px 0 0;
+    }
+
+    .footer .ft_link,
+    .footer .ft_info,
+    .footer .follow_us,
+    .footer .ft_map {
+        margin-top: 10px;
+    }
+
+    .footer h4 {
+        margin-top: 25px;
+    }
+
+    .footer .ft_logo a {
+        width: 130px;
+        height: 130px;
+        margin: 25px 0 0;
+    }
+
+    .footer .follow_us {
+        margin-top: 30px;
+    }
+
+    .footer .main_ft :global(.row) {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer .main_ft .sec_right {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .footer .main_ft .sec_left p a {
+        display: block;
+    } 
+}

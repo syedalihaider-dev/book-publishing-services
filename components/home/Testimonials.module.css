@@ -239,4 +239,15 @@
     .testimonials_section .box6 {
         left: 0;
     }
+
+    .testimonials_section :global(.swiper) {
+        padding-bottom: 30px;
+    }
+
+    .testimonials_section .box {
+        width: 90%;
+        height: 190px;
+        background: var(--light-color);
+        margin: 0 auto;
+    }
 }

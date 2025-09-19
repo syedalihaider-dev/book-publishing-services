@@ -402,6 +402,10 @@ p {
     font-size: 20px;
   }
 
+  h5 {
+    font-size: 20px;
+  }
+
   .combo_btn {
     margin-top: 15px;
     gap: 10px;

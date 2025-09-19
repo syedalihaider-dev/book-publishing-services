@@ -274,13 +274,35 @@
 
 @media screen and (max-width:767px) {
   .banner {
-    padding: 120px 0 210px;
+    padding: 120px 0 160px;
   }
 
   .banner .img {
     width: 80px;
     height: 120px;
     z-index: -1;
+  }
+
+  .banner .book1 {
+    top: unset;
+    bottom: 10px;
+    left: 5px;
+  }
+
+  .banner .book2 {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .banner .book3 {
+    bottom: 10px;
+    left: unset;
+    right: 5px;
+  }
+
+  .banner :is(.book4, .book5, .book6, .book7, .book8) {
+    display: none;
   }
 }
 
