@@ -6,7 +6,9 @@ export default function BestSellingAuthor() {
 return (
 <section className={styles.author_section}>
     <div className={styles.sec_left}>
-        <Image src="/author-left-img.png" alt="Authors Image" width={950} height={653} priority className="myImage" />
+        <div className={styles.img}>
+            <Image src="/author-left-img.png" alt="Authors Image" fill className="myImage" />
+        </div>
     </div>
     <div className="container">
         <div className="row justify-content-end">
@@ -14,10 +16,13 @@ return (
                 <div className={styles.sec_right}>
                     <h2>
                         <span className="primarytxt">Best Selling Author</span>
-                        <span className="break_line"></span> that make us Book Publishing Champion                        
+                        <span className="break_line"></span> that make us Book Publishing Champion
                     </h2>
                     <p>
-                        From debut storytellers to celebrated literary icons, our authors are the heart of our work. Explore biographies, latest releases, interviews, and upcoming events. From debut storytellers to celebrated literary icons, our authors are the heart of our work. Explore biographies, latest releases, interviews, and upcoming events.
+                        From debut storytellers to celebrated literary icons, our authors are the heart of our work.
+                        Explore biographies, latest releases, interviews, and upcoming events. From debut storytellers
+                        to celebrated literary icons, our authors are the heart of our work. Explore biographies, latest
+                        releases, interviews, and upcoming events.
                     </p>
                     <div className="combo_btn">
                         <ActionButtons />

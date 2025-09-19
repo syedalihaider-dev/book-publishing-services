@@ -189,6 +189,10 @@
     font-size: 18px;
 }
 
+.testimonials_section .mobileView {
+    display: none;
+}
+
 @media screen and (max-width:1600px) {
     .testimonials_section h2 {
         font-size: 140px;
@@ -213,16 +217,26 @@
     .testimonials_section h2 {
         font-size: 70px;
     }
+
+    .testimonials_section .desktopView {
+        display: none;
+    }
+
+    .testimonials_section .mobileView {
+        display: block;
+    }
 }
 
 @media screen and (max-width:575px) {
     .testimonials_section h2 {
         font-size: 40px;
     }
+
     .testimonials_section .box6 {
         width: 100%;
     }
-    .testimonials_section .box6{
+
+    .testimonials_section .box6 {
         left: 0;
     }
 }
