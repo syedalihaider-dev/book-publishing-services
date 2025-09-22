@@ -25,6 +25,15 @@ export default function PortfolioSection() {
 
   return (
     <section className={`${styles.portfolio_section} sec_padding`}>
+      <Image
+        src="/portfolio-banner-bg.png"
+        alt="portfolio Bg Image"
+        fill
+        priority 
+        fetchPriority="high" 
+        style={{ objectFit: "cover" }}
+        className={styles.bannerBg}
+      />
       {/* Floating Books */}
       <div className={`${styles.book} ${styles.book1}`}>
         <Image src="/book-icon-01.png" width={147} height={121} alt="Book Images" />

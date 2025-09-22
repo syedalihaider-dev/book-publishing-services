@@ -1,7 +1,10 @@
 .portfolio_section {
-    background: url("../../public/portfolio-banner-bg.png") top/cover no-repeat;
     position: relative;
     z-index: 1;
+}
+
+.portfolio_section .bannerBg{
+  z-index: -1;
 }
 
 .portfolio_section .book {

@@ -309,6 +309,10 @@ p {
     font-size: 35px;
   }
 
+  h5 {
+    font-size: 25px;
+  }
+
 }
 
 @media screen and (max-width:1399px) {
@@ -324,6 +328,10 @@ p {
 
   h4 {
     font-size: 25px;
+  }
+
+  h5 {
+    font-size: 20px;
   }
 
   .sec_padding {
@@ -346,6 +354,10 @@ p {
 
   h4 {
     font-size: 25px;
+  }
+
+  h5 {
+    font-size: 18px;
   }
 
   h6 {

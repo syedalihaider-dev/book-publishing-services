@@ -7,6 +7,15 @@ import styles from "./CtaSection.module.css";
 export default function CtaSection() {
 return (
 <section className={styles.cta}>
+    <Image
+        src="/cta-banner-bg.png"
+        alt="CTA Bg Image"
+        fill
+        priority 
+        fetchPriority="high" 
+        style={{ objectFit: "cover" }}
+        className={styles.bannerBg}
+    />
     <div className="container">
         <div className="row align-items-end">
             <div className="col-sm-12 col-md-6">

@@ -1,5 +1,10 @@
 .contact_section {
-  background: url(../../public/contact-banner-bg.png) center/cover no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.contact_section .bannerBg{
+  z-index: -1;
 }
 
 .contact_section .sec_left .img {

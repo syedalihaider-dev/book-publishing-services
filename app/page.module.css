@@ -1,8 +1,13 @@
 .banner {
   padding: 190px 0 440px;
-  background: url(../public/banner.png) center/cover no-repeat;
+  /* background: url(../public/banner.webp) center/cover no-repeat; */
   position: relative;
   z-index: 1;
+}
+
+.banner .bannerBg,
+.about .bannerBg{
+  z-index: -2;
 }
 
 /* .banner :is(.book1, .book2, .book3, .book4, .book5, .book6, .book7, .book8) {} */
@@ -81,7 +86,8 @@
 }
 
 .about {
-  background: url("../public/about-banner-bg.png") center/cover no-repeat;
+  position: relative;
+  z-index: 1;
 }
 
 .about .sec_left {

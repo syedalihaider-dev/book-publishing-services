@@ -27,6 +27,15 @@ setSelectedServices([...selectedServices, service]);
 
 return (
 <div className={`${styles.contact_section} sec_padding`}>
+    <Image
+        src="/contact-banner-bg.png"
+        alt="Contact Bg Image"
+        fill
+        priority 
+        fetchPriority="high" 
+        style={{ objectFit: "cover" }}
+        className={styles.bannerBg}
+    />
     <div className="container">
         <div className="row align-items-center">
             {/* Left Side */}

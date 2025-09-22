@@ -19,6 +19,15 @@ export default function Home() {
 return (
 <div className={styles.homepage}>
   <section className={styles.banner}>
+    <Image
+        src="/banner-bg.png"
+        alt="Banner Bg Image"
+        fill
+        priority 
+        fetchPriority="high" 
+        style={{ objectFit: "cover" }}
+        className={styles.bannerBg}
+      />
     {books.map((src, i) => (
     <div key={i} className={`${styles.img} ${styles[`book${i + 1}`]}`}>
       <Image src={src} alt={`Book ${i + 1}`} fill priority className={styles.banner_book_img} />
@@ -42,6 +51,15 @@ return (
     </div>
   </section>
   <section className={styles.about}>
+    <Image
+        src="/about-banner-bg.png"
+        alt="About Bg Image"
+        fill
+        priority 
+        fetchPriority="high" 
+        style={{ objectFit: "cover" }}
+        className={styles.bannerBg}
+    />
     <div className="container">
       <div className="row align-items-end">
         <div className="col-md-6">

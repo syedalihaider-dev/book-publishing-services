@@ -7,6 +7,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
+import Image from "next/image";
 import ChatButton from "@/components/ui/ChatButton";
 import ActionButtons from "@/components/ui/ActionButtons";
 import styles from "./ServicesSection.module.css";
@@ -21,6 +22,7 @@ export default function ServicesSection() {
     return () => window.removeEventListener("resize", checkWidth);
   }, []);
 
+  // ✅ Har service ke sath alag background image
   const services = [
     {
       title: "eBook Writing",
@@ -29,43 +31,43 @@ export default function ServicesSection() {
         { value: "257", label: "Books Published" },
         { value: "$24M", label: "Royalty Generated" },
       ],
-      style: styles.ebook_writing,
+      bg: "/ebook-writing-bg.png",
     },
     {
       title: "Book Trailer",
-      desc: "A great story deserves a great introduction. Our book trailer services give your story the spotlight it deserves, turning browsers into readers through powerful visuals.Selling your self-published book can be a daunting task. It requires patience, effort, and energy. But wait for a second; how about making your audience anticipate the book’s launch? Book trailers can be a perfect way to create hype around your book, making everyone talk about it before it comes out.",
+      desc: "A great story deserves a great introduction. Our book trailer services give your story the spotlight it deserves, turning browsers into readers through powerful visuals...",
       stats: [
         { value: "340+", label: "Trailers Delivered" },
         { value: "95%", label: "Client Satisfaction" },
       ],
-      style: styles.book_trailer,
+      bg: "/ebook-writing-bg.png",
     },
     {
       title: "Book Audio",
-      desc: "We believe every story deserves a chance to be heard. We stay committed to making your compelling tales seamlessly reach the world. Our best audiobook services are designed to turn your stories into melodies that keep your audience hooked till the end.",
+      desc: "We believe every story deserves a chance to be heard. Our audiobook services are designed to turn your stories into melodies that keep your audience hooked till the end.",
       stats: [
         { value: "120", label: "Audiobooks Produced" },
         { value: "15+", label: "Languages Covered" },
       ],
-      style: styles.book_audio,
+      bg: "/ebook-writing-bg.png",
     },
     {
       title: "Book Cover Design",
-      desc: "Your book deserves a cover that grabs attention and sparks curiosity. At Book Publishing Services, our designers create covers that speak to your story and resonate with your audience.",
+      desc: "Your book deserves a cover that grabs attention and sparks curiosity. Our designers create covers that speak to your story and resonate with your audience.",
       stats: [
         { value: "500+", label: "Covers Designed" },
         { value: "Top 10", label: "Design Awards Won" },
       ],
-      style: styles.book_cover,
+      bg: "/ebook-writing-bg.png",
     },
     {
       title: "Book Marketing",
-      desc: "At Book Publishing Services, we don’t just help you publish—we help you get noticed. Our book marketing services are tailored to elevate your story and connect it with the right audience.",
+      desc: "We don’t just help you publish—we help you get noticed. Our book marketing services are tailored to elevate your story and connect it with the right audience.",
       stats: [
         { value: "10k+", label: "Campaigns Run" },
         { value: "85%", label: "Sales Growth" },
       ],
-      style: styles.book_marketing,
+      bg: "/ebook-writing-bg.png",
     },
     {
       title: "Book Publishing",
@@ -74,33 +76,57 @@ export default function ServicesSection() {
         { value: "1,000+", label: "Titles Published" },
         { value: "50+", label: "Publishing Platforms" },
       ],
-      style: styles.book_publishing,
+      bg: "/ebook-writing-bg.png",
     },
   ];
 
+  // ✅ Service Box Component
   const ServiceBox = ({ service }) => (
-    <div className={`${styles.box} ${service.style}`}>
-      <h3 className={styles.heading}>{service.title}</h3>
-      <div className={styles.inner_box}>
-        <h3>{service.title}</h3>
-        <p className="scroll_block my-3">{service.desc}</p>
-        <ul>
-          {service.stats.map((s, i) => (
-            <li key={i}>
-              <h4>{s.value}</h4>
-              <p className="mb-0">{s.label}</p>
-            </li>
-          ))}
-        </ul>
-        <div className="combo_btn">
-          <ChatButton />
-        </div>
+    <div className={styles.box}>
+      {/* Background Image */}
+      <Image
+        src={service.bg}
+        alt={`${service.title} background`}
+        fill
+        style={{ objectFit: "cover" }}
+        className={styles.bgImage}
+        priority={false}
+        fetchPriority="auto"
+      />
+
+        <h3 className={styles.heading}>{service.title}</h3>
+        <div className={styles.inner_box}>
+          <h3>{service.title}</h3>
+          <p className="scroll_block my-3">{service.desc}</p>
+          <ul>
+            {service.stats.map((s, i) => (
+              <li key={i}>
+                <h4>{s.value}</h4>
+                <p className="mb-0">{s.label}</p>
+              </li>
+            ))}
+          </ul>
+          <div className="combo_btn">
+            <ChatButton />
+          </div>
       </div>
     </div>
   );
 
   return (
     <section className={`${styles.services} sec_padding`}>
+      {/* Banner Background */}
+      <Image
+        src="/services-banner-bg.png"
+        alt="Service Bg Image"
+        fill
+        priority
+        fetchPriority="high"
+        style={{ objectFit: "cover" }}
+        className={styles.bannerBg}
+      />
+
+      {/* Top Section */}
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-6">
@@ -115,7 +141,9 @@ export default function ServicesSection() {
           <div className="col-sm-12 col-md-6">
             <div className={styles.sec_right}>
               <p className="m-0">
-                As a prominent amazon book publishing service, we deliver what we promise. At Amz Book Publishing Company, Our trained professionals are on their toes to bring you the perfect tales readers can enjoy like never before.
+                As a prominent Amazon book publishing service, we deliver what we
+                promise. Our trained professionals are on their toes to bring
+                you the perfect tales readers can enjoy like never before.
               </p>
               <div className="combo_btn">
                 <ActionButtons />
@@ -125,7 +153,7 @@ export default function ServicesSection() {
         </div>
       </div>
 
-      {/* Desktop / Mobile */}
+      {/* Services Content */}
       <div className={styles.content}>
         {isMobile ? (
           <Swiper
@@ -141,9 +169,7 @@ export default function ServicesSection() {
             ))}
           </Swiper>
         ) : (
-          services.map((service, i) => (
-            <ServiceBox key={i} service={service} />
-          ))
+          services.map((service, i) => <ServiceBox key={i} service={service} />)
         )}
       </div>
     </section>
