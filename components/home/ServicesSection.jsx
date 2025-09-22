@@ -161,6 +161,14 @@ export default function ServicesSection() {
             pagination={{ clickable: true }}
             spaceBetween={20}
             slidesPerView={1}
+            breakpoints={{
+                576: { 
+                slidesPerView: 2,
+                },
+                320: {
+                slidesPerView: 1,
+                },
+            }}
           >
             {services.map((service, i) => (
               <SwiperSlide key={i}>

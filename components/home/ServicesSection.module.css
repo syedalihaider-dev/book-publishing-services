@@ -4,8 +4,8 @@
     z-index: 1;
 }
 
-.services .bannerBg{
-  z-index: -2;
+.services .bannerBg {
+    z-index: -2;
 }
 
 .services .content {
@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 
-.services .content .box .bgImage{
+.services .content .box .bgImage {
     z-index: -2;
 }
 
@@ -192,8 +192,14 @@
 }
 
 @media screen and (max-width:575px) {
-    .services .content .box .inner_box ul li p{
+    .services .content .box .inner_box ul li p {
         font-size: 12px;
         line-height: 16px;
+    }
+
+    .services .content .box,
+    .services .content .box:hover {
+        width: 90%;
+        margin: 0 auto;
     }
 }
