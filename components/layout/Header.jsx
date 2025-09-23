@@ -86,7 +86,7 @@ export default function Header() {
             <nav className={`${styles.navbar} ${styles.desktop_menu}`}>
               <ul>
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="#!">About Us</Link></li>
+                <li><Link href="about">About Us</Link></li>
                 <li>
                   <button className={styles.dropdown_toggle}>
                     <span>Services</span>
@@ -120,7 +120,7 @@ export default function Header() {
       <div className={`${styles.mobile_menu} ${menuOpen ? styles.open : ""}`} >
         <ul>
           <li><Link href="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-          <li><Link href="#!" onClick={() => setMenuOpen(false)}>About Us</Link></li>
+          <li><Link href="about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
           <li>
             <button
               className={styles.dropdown_toggle}

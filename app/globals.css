@@ -13,9 +13,11 @@
   --bg-color: #E9E9E9;
   --ice-color: #F9FCFF;
   --deepsea-color: #063F4A;
+  --dark-gray-color: #333333;
+  
 
   /* Greys */
-  --gray-100: #f1f3f5;
+  --gray-100: #F7F7F7;
   --gray-200: #e9ecef;
   --gray-300: #dee2e6;
   --gray-400: #ced4da;
@@ -104,6 +106,7 @@ select {
   align-items: center;
   padding: 5px;
   border-radius: 40px;
+  box-shadow: inset 0 0px 10px 1px #ffffff !important;
   transition: var(--cubic);
   overflow: hidden;
   position: relative;

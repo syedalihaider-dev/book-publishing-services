@@ -1,0 +1,36 @@
+.faq_section {
+    position: relative;
+    z-index: 1;
+}
+
+.faq_section .bannerBg {
+    z-index: -2;
+}
+
+.faq_section .sec_top h2{
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.faq_section .sec_content{
+    margin-top: 25px;
+}
+
+.faq_section .sec_content .box{
+    background: var(--gray-100);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.faq_section .sec_content .box .heading{
+    font-size: 18px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.faq_section .sec_content .box p{
+    font-size: 14px;
+    margin: 0;
+    font-weight: 300;
+    padding:  0px 25px 25px;
+}

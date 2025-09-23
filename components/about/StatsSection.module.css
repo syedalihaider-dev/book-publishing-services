@@ -1,0 +1,17 @@
+.counter_section .box {
+    box-shadow: inset 0 -3px 5px 1px #e5e5e5;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.counter_section .box h3 span{
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.counter_section .box h3 span~span{
+    font-weight: 200;
+    color: var(--dark-color)
+}

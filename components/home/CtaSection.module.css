@@ -1,5 +1,6 @@
 .cta {
-    background: url("../../public/cta-banner-bg.webp") center/cover no-repeat;
+    position: relative;
+    z-index: 1;
 }
 
 .cta .sec_left {
