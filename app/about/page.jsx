@@ -64,7 +64,7 @@ return (
                 <div className="col-sm-12 col-md-6">
                     <div className={styles.sec_right}>
                         <Image 
-                        src="/about-banner-left.png" 
+                        src="/about/banner-left.png" 
                         alt="About Banner Bg Image" 
                         fill 
                         priority 
