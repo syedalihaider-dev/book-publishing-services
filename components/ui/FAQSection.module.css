@@ -24,9 +24,8 @@
     transition: background 0.3s ease, border 0.3s ease;
 }
 
-/* ✅ Open hone par background change */
 .faq_section .sec_content .box.active {
-    background: #e6f2ff; /* ya koi bhi highlight color */
+    background: #e6f2ff;
     border: 1px solid var(--primary-color);
 }
 
@@ -73,3 +72,15 @@
     font-weight: 300;
     padding: 0px 25px 25px;
 }
+
+@media screen and (max-width:1600px) {}
+
+@media screen and (max-width:1399px) {}
+
+@media screen and (max-width:1199px) {}
+
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:767px) {}
+
+@media screen and (max-width:575px) {}

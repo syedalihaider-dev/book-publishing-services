@@ -125,22 +125,192 @@
     line-height: 35px;
 }
 
-.cta_section{
+.cta_section {
     position: relative;
     z-index: 1;
 }
 
-.cta_section .sec_left{
+.cta_section .sec_left {
     width: 595px;
     height: 648px;
     position: relative;
     z-index: 1;
 }
 
-.cta_section .sec_right{
+.cta_section .sec_right {
     padding: 100px 0 200px;
 }
 
-.cta_section .sec_right h2 span{
+.cta_section .sec_right h2 span {
     font-size: 70px;
+}
+
+@media screen and (max-width:1600px) {
+    .banner .sec_left {
+        padding: 230px 0 100px;
+    }
+
+    .banner .sec_right {
+        width: 660px;
+        height: 543px;
+    }
+
+
+
+
+
+    .about_sec2 {
+        padding: 120px 0;
+    }
+
+    .about_sec2 .before_img {
+        width: 400px;
+        height: 647px;
+    }
+
+    .about_sec2 .sec_left .avatar {
+        width: 187px;
+        height: 55px;
+        position: relative;
+        z-index: 1;
+        margin: 25px 0;
+    }
+
+    .about_sec2 .sec_left .trustpilot {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about_sec2 .sec_left .trustpilot .rate {
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 80px;
+        margin: 0;
+    }
+
+    .about_sec2 .sec_left .trustpilot_rate {
+        width: 122px;
+        height: 67px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .about_sec2 .sec_left .scores {
+        margin: 20px 0 0;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:1399px) {
+    .banner .sec_left {
+        padding: 200px 0 60px;
+    }
+
+    .banner .sec_right {
+        width: 550px;
+        height: 450px;
+    }
+
+    .banner .sec_left h1 {
+        font-size: 45px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .banner .sec_left {
+        padding: 200px 0 60px;
+    }
+
+    .banner .sec_right {
+        width: 480px;
+        height: 395px;
+    }
+
+    .banner .sec_left h1 {
+        font-size: 38px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 43px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .banner .sec_left {
+        padding: 130px 0 40px;
+    }
+
+    .banner .sec_right {
+        width: 350px;
+        height: 288px;
+    }
+
+    .banner .sec_left h1 {
+        font-size: 27px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 32px;
+    }
+
+    .banner .sec_left p {
+        margin: 15px 0 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .banner .sec_left {
+        padding: 130px 0 40px;
+    }
+
+    .banner .sec_right {
+        width: 350px;
+        height: 288px;
+    }
+
+    .banner .sec_left h1 {
+        font-size: 40px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 45px;
+    }
+
+    .banner .sec_left p {
+        margin: 15px 0 0;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .banner .sec_left {
+        padding: 130px 0 40px;
+    }
+
+    .banner .sec_right {
+        width: 300px;
+        height: 245px;
+    }
+
+    .banner .sec_left h1 {
+        font-size: 25px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 28px;
+    }
 }

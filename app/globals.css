@@ -61,11 +61,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--primary-color);
+  background: var(--dark-color);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--secondary-color);
+  background: var(--light-color);
 }
 
 img,
