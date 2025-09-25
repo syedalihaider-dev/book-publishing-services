@@ -61,23 +61,33 @@
 }
 
 .faq_section .sec_content .box .answer.open {
-    max-height: 500px; /* enough to show content */
+    max-height: 500px;
+    /* enough to show content */
     opacity: 1;
     margin-top: 10px;
 }
 
 .faq_section .sec_content .box p {
-    font-size: 14px;
     margin: 0;
-    font-weight: 300;
     padding: 0px 25px 25px;
 }
 
-@media screen and (max-width:1600px) {}
+@media screen and (max-width:1399px) {
+    .faq_section .sec_content {
+        margin-top: 0px;
+    }
 
-@media screen and (max-width:1399px) {}
+    .faq_section .sec_content .box .heading {
+        padding: 20px;
+    }
+}
 
-@media screen and (max-width:1199px) {}
+@media screen and (max-width:1199px) {
+    .faq_section .sec_content .box .heading {
+        padding: 20px;
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width:991px) {}
 

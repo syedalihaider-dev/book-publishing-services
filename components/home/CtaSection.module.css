@@ -3,6 +3,10 @@
     z-index: 1;
 }
 
+.cta .bannerBg{
+    z-index: -2;
+}
+
 .cta .sec_left {
     padding: 140px 0;
 }

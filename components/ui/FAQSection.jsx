@@ -10,7 +10,6 @@ export default function FAQSection({ faqs = [] }) {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  // ✅ Split faqs into two columns
   const middle = Math.ceil(faqs.length / 2);
   const faqsLeft = faqs.slice(0, middle);
   const faqsRight = faqs.slice(middle);

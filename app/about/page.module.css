@@ -155,10 +155,6 @@
         height: 543px;
     }
 
-
-
-
-
     .about_sec2 {
         padding: 120px 0;
     }
@@ -168,48 +164,9 @@
         height: 647px;
     }
 
-    .about_sec2 .sec_left .avatar {
-        width: 187px;
-        height: 55px;
-        position: relative;
-        z-index: 1;
-        margin: 25px 0;
+    .cta_section .sec_right {
+        padding: 80px 0 160px;
     }
-
-    .about_sec2 .sec_left .trustpilot {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .about_sec2 .sec_left .trustpilot .rate {
-        font-size: 80px;
-        font-weight: 600;
-        line-height: 80px;
-        margin: 0;
-    }
-
-    .about_sec2 .sec_left .trustpilot_rate {
-        width: 122px;
-        height: 67px;
-        position: relative;
-        z-index: 1;
-    }
-
-    .about_sec2 .sec_left .scores {
-        margin: 20px 0 0;
-        font-size: 20px;
-    }
-
-
-
-
-
-
-
-
-
 }
 
 @media screen and (max-width:1399px) {
@@ -229,6 +186,36 @@
     .banner .sec_left h1 span {
         font-size: 50px;
     }
+
+    .about_sec2 {
+        padding: 70px 0;
+    }
+
+    .about_sec2 .before_img {
+        width: 355px;
+        height: 576px;
+    }
+
+    .about_sec2 .sec_right h2::before {
+        font-size: 130px;
+    }
+
+    .cta_section .sec_left {
+        width: 500px;
+        height: 545px;
+    }
+
+    .cta_section .sec_right {
+        padding: 60px 0 100px;
+    }
+
+    .cta_section .sec_right h2 {
+        font-size: 45px;
+    }
+
+    .cta_section .sec_right h2 span {
+        font-size: 55px;
+    }
 }
 
 @media screen and (max-width:1199px) {
@@ -247,6 +234,54 @@
 
     .banner .sec_left h1 span {
         font-size: 43px;
+    }
+
+    .about_sec2 {
+        padding: 70px 0;
+    }
+
+    .about_sec2 .before_img {
+        width: 280px;
+        height: 457px;
+    }
+
+    .about_sec2 .sec_left .trustpilot {
+        gap: 15px;
+    }
+
+    .about_sec2 .sec_left .trustpilot .rate {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .about_sec2 .sec_left .scores {
+        margin: 15px 0 0;
+        font-size: 16px;
+    }
+
+    .about_sec2 .sec_right h2::before {
+        font-size: 105px;
+        top: -65px;
+        left: -20px;
+    }
+
+    .about_sec2 .sec_right p {
+        margin: 20px 0;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .cta_section .sec_left {
+        width: 450px;
+        height: 490px;
+    }
+
+    .cta_section .sec_right h2 {
+        font-size: 39px;
+    }
+
+    .cta_section .sec_right h2 span {
+        font-size: 45px;
     }
 }
 
@@ -271,6 +306,62 @@
     .banner .sec_left p {
         margin: 15px 0 0;
     }
+
+    .about_sec2 {
+        padding: 70px 0;
+    }
+
+    .about_sec2 .before_img {
+        width: 280px;
+        height: 457px;
+    }
+
+    .about_sec2 .sec_left .avatar {
+        width: 150px;
+        height: 44px;
+        margin: 15px 0;
+    }
+
+    .about_sec2 .sec_left .trustpilot {
+        gap: 15px;
+    }
+
+    .about_sec2 .sec_left .trustpilot .rate {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .about_sec2 .sec_left .trustpilot_rate {
+        width: 110px;
+        height: 61px;
+    }
+
+    .about_sec2 .sec_right h2::before {
+        font-size: 80px;
+        top: -50px;
+        left: -20px;
+    }
+
+    .about_sec2 .sec_right p {
+        font-size: 14px;
+    }
+
+    .cta_section .sec_left {
+        width: 333px;
+        height: 365px;
+    }
+
+    .cta_section .sec_right {
+        padding: 40px 0;
+    }
+
+    .cta_section .sec_right h2 {
+        font-size: 25px;
+    }
+
+    .cta_section .sec_right h2 span {
+        font-size: 38px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -294,6 +385,66 @@
     .banner .sec_left p {
         margin: 15px 0 0;
     }
+
+    .about_sec2 {
+        padding: 40px 0;
+    }
+
+    .about_sec2 .before_img {
+        width: 435px;
+        height: 709px;
+    }
+
+    .about_sec2 .sec_left .avatar {
+        width: 180px;
+        height: 53px;
+        margin: 25px 0;
+    }
+
+    .about_sec2 .sec_left .trustpilot {
+        gap: 25px;
+    }
+
+    .about_sec2 .sec_left .trustpilot .rate {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .about_sec2 .sec_left .trustpilot_rate {
+        width: 122px;
+        height: 67px;
+    }
+
+    .about_sec2 .sec_left .scores {
+        margin: 25px 0 0;
+        font-size: 18px;
+    }
+
+    .about_sec2 .sec_right h2::before {
+        font-size: 80px;
+        top: -50px;
+        left: -10px;
+    }
+
+    .about_sec2 .sec_right {
+        padding-top: 60px;
+    }
+
+    .about_sec2 .sec_right p {
+        font-size: 18px;
+    }
+
+    .cta_section :global(.row) {
+        flex-direction: column-reverse;
+    }
+
+    .cta_section .sec_right h2 {
+        font-size: 25px;
+    }
+
+    .cta_section .sec_right h2 span {
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -312,5 +463,70 @@
 
     .banner .sec_left h1 span {
         font-size: 28px;
+    }
+
+    .about_sec2 {
+        padding: 40px 0;
+    }
+
+    .about_sec2 .before_img {
+        width: 310px;
+        height: 517px;
+    }
+
+    .about_sec2 .sec_left .avatar {
+        width: 180px;
+        height: 53px;
+        margin: 15px 0;
+    }
+
+    .about_sec2 .sec_left .trustpilot {
+        gap: 15px;
+    }
+
+    .about_sec2 .sec_left .trustpilot .rate {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .about_sec2 .sec_left .trustpilot_rate {
+        width: 122px;
+        height: 67px;
+    }
+
+    .about_sec2 .sec_left .scores {
+        margin: 25px 0 0;
+        font-size: 18px;
+    }
+
+    .about_sec2 .sec_right h2::before {
+        font-size: 60px;
+        top: -35px;
+        left: -10px;
+    }
+
+    .about_sec2 .sec_right {
+        padding-top: 50px;
+    }
+
+    .about_sec2 .sec_right p {
+        font-size: 14px;
+    }
+
+    .cta_section .sec_left {
+        width: 290px;
+        height: 316px;
+    }
+
+    .cta_section .sec_right {
+        padding: 10px 0 40px;
+    }
+
+    .cta_section .sec_right h2 {
+        font-size: 23px;
+    }
+
+    .cta_section .sec_right h2 span {
+        font-size: 30px;
     }
 }
