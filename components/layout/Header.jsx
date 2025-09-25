@@ -12,17 +12,17 @@ export default function Header() {
   const [servicesOpen, setServicesOpen] = useState(false);
 
   const services = [
-    { name: "Ebook Writing", link: "/ebook-writing" },
-    { name: "Author Website Creation", link: "/author-website-creation" },
-    { name: "Book Proofreading", link: "/book-proofreading" },
-    { name: "Book Editing", link: "/book-editing" },
-    { name: "Book Publishing", link: "/book-publishing" },
-    { name: "Book Cover Design", link: "/book-cover-design" },
-    { name: "Book Trailer", link: "/book-trailer" },
-    { name: "Book Audio", link: "/book-audio" },
-    { name: "Book Marketing", link: "/book-marketing" },
-    { name: "Audiobook Creation", link: "/audiobook-creation" },
-    { name: "Book Illustration Design", link: "/book-illustration-design" },
+    { name: "Ebook Writing", link: "/services/ebook-writing-services" },
+    { name: "Author Website Creation", link: "/services/author-website-creation" },
+    { name: "Book Proofreading", link: "/services/book-proofreading" },
+    { name: "Book Editing", link: "/services/book-editing" },
+    { name: "Book Publishing", link: "/services/book-publishing" },
+    { name: "Book Cover Design", link: "/services/book-cover-design" },
+    { name: "Book Trailer", link: "/services/book-trailer" },
+    { name: "Book Audio", link: "/services/book-audio" },
+    { name: "Book Marketing", link: "/services/book-marketing" },
+    { name: "Audiobook Creation", link: "/services/audiobook-creation" },
+    { name: "Book Illustration Design", link: "/services/book-illustration-design" },
   ];
 
 
