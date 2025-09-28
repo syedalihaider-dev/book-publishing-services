@@ -15,7 +15,7 @@ return (
                         <Link href="/">Home</Link>
                     </li>
                     <li>
-                        <Link href="/">About Us</Link>
+                        <Link href="/about">About Us</Link>
                     </li>
                     <li>
                         <Link href="/">Services</Link>
@@ -32,31 +32,31 @@ return (
                 <h4>Services</h4>
                 <ul className={styles.ft_link}>
                     <li>
-                        <Link href="/">Ebook Writing</Link>
+                        <Link href="/services/ebook-writing-services">Ebook Writing</Link>
                     </li>
                     <li>
-                        <Link href="/">Author Website Creation</Link>
+                        <Link href="/services/author-website-creation-services">Author Website Creation</Link>
                     </li>
                     <li>
-                        <Link href="/">Book Proofreading</Link>
+                        <Link href="/services/book-proofreading-services">Book Proofreading</Link>
                     </li>
                     <li>
-                        <Link href="/">Book Editing</Link>
+                        <Link href="/services/book-editing-services">Book Editing</Link>
                     </li>
                     <li>
-                        <Link href="/">Book Cover Design</Link>
+                        <Link href="/services/book-cover-design-services">Book Cover Design</Link>
                     </li>
                     <li>
-                        <Link href="/">Book Trailer</Link>
+                        <Link href="/services/book-trailer-services">Book Trailer</Link>
                     </li>
                     <li>
-                        <Link href="/">Book Audio</Link>
+                        <Link href="/services/book-audio-services">Book Audio</Link>
                     </li>
                     <li>
-                        <Link href="/">Audiobook Creation</Link>
+                        <Link href="/services/audiobook-creation-services">Audiobook Creation</Link>
                     </li>
                     <li>
-                        <Link href="/">Book Illustration Design</Link>
+                        <Link href="/services/book-illustration-design-services">Book Illustration Design</Link>
                     </li>
                 </ul>
             </div>

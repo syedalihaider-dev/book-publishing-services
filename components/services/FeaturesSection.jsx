@@ -3,24 +3,24 @@ import Image from "next/image";
 import styles from "./FeaturesSection.module.css";
 
 export default function FeaturesSection({ data }) {
-  const { highlight, title, description, beforeImage, afterImage, boxes } = data;
+  const { highlight, title, description, boxes } = data;
+
+  // Fixed 3 images for box_after
+  const afterImages = [
+    "/services/vector-star.png",
+    "/services/vector-circle.png",
+    "/services/vector-cube.png",
+  ];
 
   return (
     <section className={`${styles.features_section} sec_padding`}>
-      {/* Background images */}
-      {beforeImage && (
-        <div className={styles.features_before}>
-          <Image src={beforeImage} fill priority alt="Features Before" />
-        </div>
-      )}
-      {afterImage && (
-        <div className={styles.features_after}>
-          <Image src={afterImage} fill priority alt="Features After" />
-        </div>
-      )}
-
+      <div className={styles.features_before}>
+        <Image src="/services/feature-before.png" fill priority alt="Features Before" />
+      </div>
+      <div className={styles.features_after}>
+        <Image src="/services/feature-after.png" fill priority alt="Features After" />
+      </div>
       <div className="container">
-        {/* Section Heading */}
         <div className={`${styles.sec_top} text-center`}>
           <div className="row justify-content-center">
             <div className="col-sm-12 col-md-7">
@@ -32,15 +32,18 @@ export default function FeaturesSection({ data }) {
             </div>
           </div>
         </div>
-
-        {/* Boxes */}
         <div className={styles.sec_content}>
           <div className="row">
             {boxes.map((box, i) => (
               <div className="col-sm-12 col-md-4" key={i}>
                 <div className={styles.box}>
                   <div className={styles.box_after}>
-                    <Image src={box.vector} fill priority alt={`${box.title} Vector`} />
+                    <Image 
+                      src={afterImages[i]} 
+                      fill 
+                      priority 
+                      alt={`Box ${i + 1} After`} 
+                    />
                   </div>
                   <div className={styles.icon}>
                     <Image src={box.icon} fill priority alt={`${box.title} Icon`} />
