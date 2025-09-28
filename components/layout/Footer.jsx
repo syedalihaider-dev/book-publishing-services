@@ -110,14 +110,7 @@ return (
                     <li>
                         <Image src="/location-icon-01.png" width={43} height={43} alt="Location Icon" />
                         <p>
-                            <strong>Location 01:</strong>
-                            <span>{LOCATION_ADDRESS}</span>
-                        </p>
-                    </li>
-                    <li>
-                        <Image src="/location-icon-02.png" width={43} height={43} alt="Location Icon" />
-                        <p>
-                            <strong>Location 02:</strong>
+                            <strong>Location:</strong>
                             <span>{LOCATION_ADDRESS}</span>
                         </p>
                     </li>

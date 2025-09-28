@@ -1,7 +1,7 @@
-import { servicesData } from "@/data/servicesData";
-import ServiceBanner from "@/components/services/BannerSection";
-import ProcessSection from "@/components/services/ProcessSection";
-import FeaturesSection from "@/components/services/FeaturesSection";
+import {servicesData} from "@/data/servicesData";
+import {BestSellingAuthor, ContactSection, Testimonials} from "@/components/home";
+import FAQSection from "@/components/ui/FAQSection";
+import { BannerSection, ProcessSection, FeaturesSection, ActionPlanSection } from "@/components/services/";
 
 export default function ServicePage({ params }) {
   const service = servicesData[params.slug];
@@ -10,29 +10,14 @@ export default function ServicePage({ params }) {
 
   return (
     <>
-      <ServiceBanner
-        title={service.banner.title}
-        highlight={service.banner.highlight}
-        description={service.banner.description}
-        rightImage={service.banner.rightImage}
-        imageAlign={service.banner.imageAlign}
-      />
-      <ProcessSection
-        image={service.process.image}
-        highlight={service.process.highlight}
-        title={service.process.title}
-        description={service.process.description}
-        steps={service.process.steps}
-      />
-      
-      <FeaturesSection
-        highlight={service.features.highlight}
-        title={service.features.title}
-        description={service.features.description}
-        beforeImage={service.features.beforeImage}
-        afterImage={service.features.afterImage}
-        boxes={service.features.boxes}
-      />
+      <BannerSection data={service.banner} />
+      <ProcessSection data={service.process} />
+      <FeaturesSection data={service.features} />
+      <ActionPlanSection data={service.actionPlan} />
+      <Testimonials />
+      <BestSellingAuthor />
+      <FAQSection faqs={service.faqs} />
+      <ContactSection />
     </>
   );
 }

@@ -13,21 +13,21 @@ export default function Header() {
 
   const services = [
     { name: "Ebook Writing", link: "/services/ebook-writing-services" },
-    { name: "Author Website Creation", link: "/services/author-website-creation" },
-    { name: "Book Proofreading", link: "/services/book-proofreading" },
-    { name: "Book Editing", link: "/services/book-editing" },
-    { name: "Book Publishing", link: "/services/book-publishing" },
-    { name: "Book Cover Design", link: "/services/book-cover-design" },
-    { name: "Book Trailer", link: "/services/book-trailer" },
-    { name: "Book Audio", link: "/services/book-audio" },
-    { name: "Book Marketing", link: "/services/book-marketing" },
-    { name: "Audiobook Creation", link: "/services/audiobook-creation" },
-    { name: "Book Illustration Design", link: "/services/book-illustration-design" },
+    { name: "Author Website Creation", link: "/services/author-website-creation-services" },
+    { name: "Book Proofreading", link: "/services/book-proofreading-services" },
+    { name: "Book Editing", link: "/services/book-editing-services" },
+    { name: "Book Publishing", link: "/services/book-publishing-services" },
+    { name: "Book Cover Design", link: "/services/book-cover-design-services" },
+    { name: "Book Trailer", link: "/services/book-trailer-services" },
+    { name: "Book Audio", link: "/services/book-audio-services" },
+    { name: "Book Marketing", link: "/services/book-marketing-services" },
+    { name: "Audiobook Creation", link: "/services/audiobook-creation-services" },
+    { name: "Book Illustration Design", link: "/services/book-illustration-design-services" },
   ];
-
 
   return (
     <header className={styles.header}>
+      {/* ==== Top Header ==== */}
       <div className={styles.head_top}>
         <div className="container">
           <div className="row align-items-center">
@@ -41,25 +41,13 @@ export default function Header() {
                 <ul>
                   <li>
                     <a href={`tel:${PHONE_NUMBER}`}>
-                      <Image
-                        src="/top-head-phone-icon.png"
-                        width={24}
-                        height={24}
-                        alt="Phone Icon"
-                        priority
-                      />
+                      <Image src="/top-head-phone-icon.png" width={24} height={24} alt="Phone Icon" priority />
                       {PHONE_NUMBER}
                     </a>
                   </li>
                   <li>
                     <a href={`mailto:${EMAIL_ADDRESS}`}>
-                      <Image
-                        src="/top-head-envelope-icon.png"
-                        width={24}
-                        height={24}
-                        alt="Email Icon"
-                        priority
-                      />
+                      <Image src="/top-head-envelope-icon.png" width={24} height={24} alt="Email Icon" priority />
                       {EMAIL_ADDRESS}
                     </a>
                   </li>
@@ -69,30 +57,37 @@ export default function Header() {
           </div>
         </div>
       </div>
+
+      {/* ==== Main Header ==== */}
       <div className={styles.main_header}>
         <div className="container">
           <div className={styles.inner_wrapper}>
+            {/* Logo */}
             <div className={styles.logo}>
               <Link href="/">
-                <Image
-                  src="/logo.png"
-                  alt="Logo Image"
-                  fill
-                  priority
-                  className={styles.img}
-                />
+                <Image src="/logo.png" alt="Logo Image" fill priority className={styles.img} />
               </Link>
             </div>
+
+            {/* Desktop + Mobile Nav (Unified Dropdown) */}
             <nav className={`${styles.navbar} ${styles.desktop_menu}`}>
               <ul>
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="about">About Us</Link></li>
+                <li><Link href="/about">About Us</Link></li>
                 <li>
-                  <button className={styles.dropdown_toggle}>
+                  <button
+                    className={styles.dropdown_toggle}
+                    onClick={() => setServicesOpen(!servicesOpen)}
+                  >
                     <span>Services</span>
-                    <ChevronDown size={16} />
+                    <ChevronDown
+                      size={16}
+                      className={`${styles.chevron} ${servicesOpen ? styles.rotate : ""}`}
+                    />
                   </button>
-                  <ul className={styles.dropdown}>
+                  <ul
+                    className={`${styles.dropdown} ${servicesOpen ? styles.dropdownOpen : ""}`}
+                  >
                     {services.map((service, index) => (
                       <li key={index}>
                         <Link href={service.link}>{service.name}</Link>
@@ -104,9 +99,13 @@ export default function Header() {
                 <li><Link href="#!">Contact Us</Link></li>
               </ul>
             </nav>
+
+            {/* Chat Button */}
             <div className="combo_btn desktop_menu">
               <ChatButton />
             </div>
+
+            {/* Mobile Toggle */}
             <button
               className={styles.mobile_toggle}
               onClick={() => setMenuOpen(!menuOpen)}
@@ -117,10 +116,12 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className={`${styles.mobile_menu} ${menuOpen ? styles.open : ""}`} >
+
+      {/* Mobile Menu */}
+      <div className={`${styles.mobile_menu} ${menuOpen ? styles.open : ""}`}>
         <ul>
           <li><Link href="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-          <li><Link href="about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
+          <li><Link href="/about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
           <li>
             <button
               className={styles.dropdown_toggle}
@@ -129,22 +130,16 @@ export default function Header() {
               <span>Services</span>
               <ChevronDown
                 size={18}
-                className={`${styles.chevron} ${
-                  servicesOpen ? styles.rotate : ""
-                }`}
+                className={`${styles.chevron} ${servicesOpen ? styles.rotate : ""}`}
               />
             </button>
-            <ul
-              className={`${styles.dropdown} ${
-                servicesOpen ? styles.dropdownOpen : ""
-              }`}
-            >
+            <ul className={`${styles.dropdown} ${servicesOpen ? styles.dropdownOpen : ""}`}>
               {services.map((service, index) => (
-               <li key={index}>
-                <Link href={service.link} onClick={() => setMenuOpen(false)}>
-                  {service.name}
-                </Link>
-              </li>
+                <li key={index}>
+                  <Link href={service.link} onClick={() => setMenuOpen(false)}>
+                    {service.name}
+                  </Link>
+                </li>
               ))}
             </ul>
           </li>

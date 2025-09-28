@@ -29,13 +29,12 @@ export default function FAQSection({ faqs = [] }) {
         <div className={styles.sec_top}>
           <div className="row">
             <div className="col-sm-12 col-md-12">
-              <h2>Frequently Asked Question</h2>
+              <h2>Frequently Asked Questions</h2>
             </div>
           </div>
         </div>
         <div className={styles.sec_content}>
           <div className="row">
-            {/* Left Column */}
             <div className="col-md-6">
               {faqsLeft.map((faq, index) => (
                 <div
@@ -59,11 +58,9 @@ export default function FAQSection({ faqs = [] }) {
                 </div>
               ))}
             </div>
-
-            {/* Right Column */}
             <div className="col-md-6">
               {faqsRight.map((faq, index) => {
-                const actualIndex = index + middle; // ✅ Adjust index
+                const actualIndex = index + middle;
                 return (
                   <div
                     key={actualIndex}

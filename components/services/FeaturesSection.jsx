@@ -2,7 +2,9 @@
 import Image from "next/image";
 import styles from "./FeaturesSection.module.css";
 
-export default function FeaturesSection({ highlight, title, description, beforeImage, afterImage, boxes }) {
+export default function FeaturesSection({ data }) {
+  const { highlight, title, description, beforeImage, afterImage, boxes } = data;
+
   return (
     <section className={`${styles.features_section} sec_padding`}>
       {/* Background images */}
