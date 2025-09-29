@@ -3,7 +3,7 @@ export const servicesData = {
   "ebook-writing-services": {
     banner: {
       title: "eBook Writing Services",
-      highlight: "Bring Your Story to Life with Our",
+      highlight: "Bring Your Story to Life with Our ",
       description: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
       rightImage: "/services/ebook-writing-services/right-img.png",
       imageAlign: "end",
@@ -11,7 +11,7 @@ export const servicesData = {
 
     process: {
       image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Hire Experienced eBook Writers",
+      highlight: "Hire Experienced eBook Writers ",
       title: "Who Understand Your Voice",
       description: "You’ve got a vision. We’ve got the talent to shape it into something extraordinary. With a network of genre-savvy writers and editors, we take your ideas seriously and handle them with care.",
       steps: [{
@@ -33,7 +33,7 @@ export const servicesData = {
     },
 
     features: {
-      highlight: "Turn Your Concept",
+      highlight: "Turn Your Concept ",
       title: "Into a Kindle Bestseller",
       description: "Need to hire an eBook writer you can actually trust? We’ve worked with first-time authors and established voices alike, offering a start-to-finish experience that’s built around your goals and your readers.",
       boxes: [{
@@ -55,7 +55,7 @@ export const servicesData = {
     },
 
     actionPlan: {
-      highlight: "How Our eBook Writing",
+      highlight: "How Our eBook Writing ",
       title: "Process Works",
       description: "Turning your thoughts into a powerful eBook is easier than you think. We follow a proven, collaborative process designed to bring out the best in your story, one step at a time.",
       bgImage: "/services/ebook-writing-services/action-plan-bg.png",
@@ -132,7 +132,7 @@ export const servicesData = {
   "author-website-creation-services": {
     banner: {
       title: "Author Brand",
-      highlight: "Create a Home for Your",
+      highlight: "Create a Home for Your ",
       description: "Your website is your digital storefront. We design custom author websites that make it easy for readers to discover, connect with, and buy from you.",
       rightImage: "/services/author-website-creation-services/right-img.png",
       imageAlign: "end",
@@ -140,7 +140,7 @@ export const servicesData = {
 
     process: {
       image: "/services/author-website-creation-services/process-left-img.png",
-      highlight: "Author Websites",
+      highlight: "Author Websites ",
       title: "That Do More Than Look Good",
       description: "Your site should do more than display your book covers. We build websites that help you grow an email list, sell more books, and establish credibility in your niche.",
       steps: [{
@@ -162,7 +162,7 @@ export const servicesData = {
     },
 
     features: {
-      highlight: "Turn Clicks into Readers with a",
+      highlight: "Turn Clicks into Readers with a ",
       title: "Strategic Author Website",
       description: "Whether you’re just launching or already have books out, your website should be working for you 24/7. We build platforms that grow with your writing career.",
       boxes: [{
@@ -187,7 +187,7 @@ export const servicesData = {
     },
 
     actionPlan: {
-      highlight: "Our Author Website",
+      highlight: "Our Author Website ",
       title: "Creation Process",
       description: "You don’t need tech skills to have a professional author site. We take care of everything from design to launch—and make it easy for you to manage going forward.",
       bgImage: "/services/author-website-creation-services/action-plan-bg.png",
@@ -264,29 +264,29 @@ export const servicesData = {
   "book-proofreading-services": {
     banner: {
       title: "Book Proofreading Services",
-      highlight: "Catch Every Error with Expert",
+      highlight: "Catch Every Error with Expert ",
       description: "Your words matter—so does how they’re presented. Our professional proofreading services help you publish with confidence by eliminating typos, grammar issues, and formatting inconsistencies.",
-      rightImage: "/services/ebook-writing-services/right-img.png",
-      imageAlign: "center",
+      rightImage: "/services/book-proofreading-services/right-img.png",
+      imageAlign: "end",
     },
 
     process: {
-      image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Polish Every Page",
+      image: "/services/book-proofreading-services/process-left-img.png",
+      highlight: "Polish Every Page ",
       title: "Before You Hit Publish",
       description: "Proofreading is the final step in your editing journey—and one of the most important. We ensure your manuscript is clean, professional, and error-free.",
       steps: [{
-          icon: "/services/ebook-writing-services/process-icon-01.png",
+          icon: "/services/book-proofreading-services/process-icon-01.png",
           title: "Final Line of Defense",
           text: "Our proofreaders catch what others miss, ensuring your book is publication-ready.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-02.png",
+          icon: "/services/book-proofreading-services/process-icon-02.png",
           title: "US-Based Standards",
           text: "Our book proofreading services in the US align with American English norms and publishing expectations.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-03.png",
+          icon: "/services/book-proofreading-services/process-icon-03.png",
           title: "Fiction & Nonfiction Expertise",
           text: "Whether you’re publishing a novel, memoir, or business book, our team has the expertise to refine it.",
         },
@@ -294,21 +294,21 @@ export const servicesData = {
     },
 
     features: {
-      highlight: "Proofreading That",
+      highlight: "Proofreading That ",
       title: "Elevates Your Credibility",
       description: "Your book deserves to be taken seriously. With our professional proofreading services, you protect your reputation and deliver a polished product that readers will respect.",
       boxes: [{
-          icon: "/services/ebook-writing-services/features-icon-01.png",
+          icon: "/services/book-proofreading-services/features-icon-01.png",
           title: "Grammar, Spelling & Punctuation",
           text: "We review every sentence with a fine-tooth comb to eliminate distracting errors.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-02.png",
+          icon: "/services/book-proofreading-services/features-icon-02.png",
           title: "Formatting Checks",
           text: "Inconsistent spacing, quotation marks, or line breaks? We fix those too, especially for Kindle and print.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-03.png",
+          icon: "/services/book-proofreading-services/features-icon-03.png",
           title: "Reader-Ready Finish",
           text: "A well-proofread manuscript earns trust and keeps readers immersed in your story.",
         },
@@ -316,10 +316,10 @@ export const servicesData = {
     },
 
     actionPlan: {
-      highlight: "Our Book",
+      highlight: "Our Book ",
       title: "Proofreading Process",
       description: "You’ve written the words. We make sure they land perfectly. Our proofreading process is designed to be fast, accurate, and stress-free.",
-      bgImage: "/services/ebook-writing-services/action-plan-bg.png",
+      bgImage: "/services/book-proofreading-services/action-plan-bg.png",
       steps: [{
           highlight: "Submission ",
           title: "Review",
@@ -392,1032 +392,1010 @@ export const servicesData = {
 
   "book-editing-services": {
     banner: {
-      title: "eBook Writing Services",
-      highlight: "Bring Your Story to Life with Our",
-      description: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
-      rightImage: "/services/ebook-writing-services/right-img.png",
+      title: "Expert Book Editing Services",
+      highlight: "Polish Your Manuscript with Our ",
+      description: "Your story deserves to be told with clarity, consistency, and confidence. Our US-based book editors help you refine your voice, fix flaws, and prepare your manuscript for publishing success.",
+      rightImage: "/services/book-editing-services/right-img.png",
       imageAlign: "end",
     },
 
     process: {
-      image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Hire Experienced eBook Writers",
-      title: "Who Understand Your Voice",
-      description: "You’ve got a vision. We’ve got the talent to shape it into something extraordinary. With a network of genre-savvy writers and editors, we take your ideas seriously and handle them with care.",
+      image: "/services/book-editing-services/process-left-img.png",
+      highlight: "Work with Editors Who ",
+      title: "Respect Your Voice",
+      description: "Editing isn’t about changing your story—it’s about strengthening it. With our experienced editors by your side, your manuscript gets the care, structure, and polish it needs.",
       steps: [{
-          icon: "/services/ebook-writing-services/process-icon-01.png",
-          title: "Diverse Genre Experts",
-          text: "No matter your niche, we pair you with writers who are fluent in the language of your genre.",
+          icon: "/services/book-editing-services/process-icon-01.png",
+          title: "Genre-Specific Editors",
+          text: "We match your book with an editor who understands your genre, audience, and tone.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-02.png",
-          title: "Proven Ghostwriters",
-          text: "Each of our ghostwriters has a track record of published success across different markets.",
+          icon: "/services/book-editing-services/process-icon-02.png",
+          title: "Developmental to Final Edits",
+          text: "From big-picture feedback to line-by-line polishing, we tailor our editing to your manuscript’s needs.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-03.png",
-          title: "Professional Editors",
-          text: "Our editors bring depth and precision, making sure your eBook is not just polished but ready to compete in today’s publishing world.",
+          icon: "/services/book-editing-services/process-icon-03.png",
+          title: "US-Based Team",
+          text: "Our US book editing services are designed to meet American publishing standards and reader expectations.",
         },
       ],
     },
 
     features: {
-      highlight: "Turn Your Concept",
-      title: "Into a Kindle Bestseller",
-      description: "Need to hire an eBook writer you can actually trust? We’ve worked with first-time authors and established voices alike, offering a start-to-finish experience that’s built around your goals and your readers.",
+      highlight: "Your Manuscript, ",
+      title: "Only Better",
+      description: "Looking for professional editing services that go beyond spellcheck? We offer collaborative editing that preserves your intent while enhancing every sentence.",
       boxes: [{
-          icon: "/services/ebook-writing-services/features-icon-01.png",
-          title: "Tailored Storytelling",
-          text: "We don’t just write eBooks. We help shape legacies through meaningful, customized storytelling.",
+          icon: "/services/book-editing-services/features-icon-01.png",
+          title: "Clarity and Flow",
+          text: "We help your story read smoothly from start to finish, improving sentence structure and flow.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-02.png",
-          title: "Why eBooks Matter",
-          text: "With the rise of Kindle and mobile reading, eBooks are more accessible than ever—especially for audiences under 45. We help you capture their attention.",
+          icon: "/services/book-editing-services/features-icon-02.png",
+          title: "Consistency Checks",
+          text: "Our editors look out for timeline slips, character inconsistencies, and tone mismatches so your readers stay engaged.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-03.png",
-          title: "Smart for Business",
-          text: "eBooks are a powerful way to build authority, boost visibility, and connect with a mobile-first audience. We make it easy to integrate your voice into a high-converting digital product.",
+          icon: "/services/book-editing-services/features-icon-03.png",
+          title: "Error-Free Final Draft",
+          text: "With a final round of proofreading, we ensure your manuscript is clean, clear, and press-ready.",
         },
       ],
     },
 
     actionPlan: {
-      highlight: "How Our eBook Writing",
-      title: "Process Works",
-      description: "Turning your thoughts into a powerful eBook is easier than you think. We follow a proven, collaborative process designed to bring out the best in your story, one step at a time.",
-      bgImage: "/services/ebook-writing-services/action-plan-bg.png",
+      highlight: "Our Book Editing ",
+      title: "Process",
+      description: "Great books are edited, not just written. Our editing process ensures your manuscript reaches its full potential while staying true to your unique voice.",
+      bgImage: "/services/book-editing-services/action-plan-bg.png",
       steps: [{
-          highlight: "Share ",
-          title: "Your Vision",
-          text: "Start by filling out our guided questionnaire. This helps us understand your message, audience, and tone preferences.",
+          highlight: "Manuscript ",
+          title: "Assessment",
+          text: "We begin with a full review of your manuscript to understand its strengths and areas of improvement.",
         },
         {
-          highlight: "We ",
-          title: "Listen",
-          text: "Every great book starts with a conversation. We listen to your ideas, backstory, and intentions before moving ahead.",
+          highlight: "Editing Level ",
+          title: "Selection",
+          text: "Depending on your goals, we recommend developmental editing, line editing, copyediting, or a combination.",
         },
         {
-          highlight: "Outline ",
-          title: "Creation",
-          text: "Once aligned, we create a detailed chapter-wise outline that maps out your entire eBook.",
+          highlight: "First Round ",
+          title: "Edits",
+          text: "You receive a marked-up version of your manuscript with detailed comments, edits, and suggestions.",
         },
         {
-          highlight: "Sample Chapter ",
-          title: "Submission",
-          text: "You’ll get the first chapter draft to review. We only proceed after your feedback and approval.",
+          highlight: "Author ",
+          title: "Review",
+          text: "We encourage your feedback and provide guidance for any revisions you’d like to make before finalizing.",
         },
         {
-          highlight: "Full Draft ",
-          title: "Completion",
-          text: "Your completed eBook is delivered chapter by chapter, edited and refined to align with your goals.",
+          highlight: "Final ",
+          title: "Proofreading",
+          text: "We complete a final clean-up to ensure your manuscript is ready for formatting and publication.",
         },
       ],
     },
 
     faqs: [{
-        question: "How long does it take to complete an eBook?",
-        answer: "Every eBook is different. Factors like length, genre, and how much information you already have prepared will influence the timeline. That said, most of our eBook projects are completed within 4 to 6 weeks. We prioritize quality and communication, so you’ll receive chapter drafts regularly and have input at each stage. Our goal is not just speed, but satisfaction."
+        question: "What types of editing do you offer?",
+        answer: "We offer developmental editing, line editing, copyediting, and proofreading. Each serves a different purpose—from improving story structure to fixing grammar and typos. We can help you decide which level(s) your manuscript needs based on a quick review or your publishing goals."
       },
       {
-        question: "Will I have input during the writing process?",
-        answer: "Collaboration is at the heart of everything we do. You’ll be part of the process from start to finish, especially during the outline and first draft stages. We believe your eBook should reflect your voice and values. Our writers are here to shape, not overshadow, your story."
+        question: "Do I get to review the edits before finalizing?",
+        answer: "Editing is a collaborative process. You’ll receive a version with tracked changes and comments, so you can accept or reject edits as you see fit. We work with you to make sure the final draft still sounds like your voice—just clearer, stronger, and more polished."
       },
       {
-        question: "Do you offer editing and proofreading too?",
-        answer: "We offer comprehensive professional editing services and book proofreading services in the US that can be bundled with your writing package. Our goal is to make sure your final product is free of errors, flows well, and matches industry standards—especially important if you’re planning to publish on Amazon or Kindle."
+        question: "How long does editing take?",
+        answer: "It depends on your manuscript length and the level of editing. Most projects take 2 to 4 weeks. We’ll give you a personalized timeline upfront and keep you updated throughout the process."
       },
       {
-        question: "Who owns the rights to the eBook once it’s completed?",
-        answer: "You do. Once the project is completed and payment is settled, all rights are transferred to you. You’re free to publish, distribute, or modify your eBook however you see fit. We do not retain any claims or royalties."
+        question: "Will you help me prepare my book for Amazon or Kindle?",
+        answer: "Our editing prepares your manuscript for Kindle Direct Publishing and Amazon Publishing platforms. We ensure your text meets formatting guidelines and is free of errors that could affect reader reviews or sales."
       },
       {
-        question: "Can you help me publish the eBook on Amazon or Kindle?",
-        answer: "Yes, we offer Kindle Direct Publishing support and complete Amazon self-publishing services to help you upload, format, and launch your book. We guide you through the steps and help ensure that your metadata, categories, and book files meet Amazon’s standards."
+        question: "Do you work with first-time authors?",
+        answer: "Many of our clients are publishing their first book. We offer supportive, clear feedback that makes the editing process easy to understand and empowering rather than intimidating."
       },
       {
-        question: "Do you work with specific genres?",
-        answer: "Yes. We work across fiction and nonfiction genres, including memoir, business, fantasy, self-help, and more. Each project is matched with a writer who has relevant experience in your genre to ensure authenticity and relevance."
+        question: "Can you edit nonfiction, business, or memoirs too?",
+        answer: "Yes, we edit all genres—fiction and nonfiction alike. Whether it’s a memoir, self-help guide, or business book, we have editors experienced in that content area. We focus on voice, tone, structure, and clarity to ensure your message comes through."
       },
       {
-        question: "Is this service good for first-time authors?",
-        answer: "It’s ideal for first-time authors! Many of our clients are publishing their very first book, and we take pride in making the process stress-free and supportive. You don’t need publishing experience. We’ll walk you through each step of the journey."
+        question: "What’s the difference between editing and proofreading?",
+        answer: "Editing involves improving flow, sentence structure, and sometimes story content. Proofreading is the final polish—catching typos, grammar issues, and formatting errors. Often, both are necessary to ensure your manuscript is in top shape for publication."
       },
       {
-        question: "Can I update or revise the eBook later?",
-        answer: "Of course. Since you own all rights, you can edit or revise the book at any time, even after publishing. And if you’d like our help with updates in the future, we’re just a message away."
+        question: "Do you help with formatting too?",
+        answer: "Formatting is a separate service, but we can pair your edited manuscript with our formatting team. We make sure your manuscript transitions smoothly from editing to being print- and eBook-ready."
       },
       {
-        question: "Will my eBook be suitable for marketing?",
-        answer: "Definitely. Our team includes marketing-savvy writers who understand what makes content sell. As a book marketing agency in the US, we align the writing style and structure with market trends. We can also assist with launch strategies and digital promotions if you opt for our book marketing company in the US services."
+        question: "How do I know if my manuscript is ready for editing?",
+        answer: "If you’ve completed your draft and read through it once or twice, you’re likely ready. We also offer a free consultation to evaluate where you’re at. Even if you need more development, we can guide you with the next best steps."
       }, {
-        question: "What makes you different from other writing services?",
-        answer: "We focus on emotional connection, author empowerment, and transparency. Many providers focus on output. We focus on outcomes. As a trusted self publishing company, we don’t just ghostwrite—we help you share your truth with the world through meaningful, impactful storytelling."
+        question: "Why choose your editing services over others?",
+        answer: "We don’t just edit for grammar—we edit for connection. Our editors care deeply about helping authors create impactful, high-quality books. And because we’re a full-service self publishing company, we understand every part of the journey your book is on."
       }
     ]
   },
 
   "book-publishing-services": {
     banner: {
-      title: "eBook Writing Services",
-      highlight: "Bring Your Story to Life with Our",
-      description: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
-      rightImage: "/services/ebook-writing-services/right-img.png",
+      title: "Our Book Publishing Services",
+      highlight: "Take Your Manuscript to Market with ",
+      description: "Book Publishing Services helps you publish professionally on platforms like Amazon and beyond. We handle every detail—so you can focus on your story.",
+      rightImage: "/services/book-publishing-services/right-img.png",
       imageAlign: "end",
     },
 
     process: {
-      image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Hire Experienced eBook Writers",
-      title: "Who Understand Your Voice",
-      description: "You’ve got a vision. We’ve got the talent to shape it into something extraordinary. With a network of genre-savvy writers and editors, we take your ideas seriously and handle them with care.",
+      image: "/services/book-publishing-services/process-left-img.png",
+      highlight: "Work with a Trusted ",
+      title: "Book Publishing Partner",
+      description: "Publishing your book should feel exciting, not overwhelming. With our end-to-end support, you get more than a service—you get a partner who respects your vision.",
       steps: [{
-          icon: "/services/ebook-writing-services/process-icon-01.png",
-          title: "Diverse Genre Experts",
-          text: "No matter your niche, we pair you with writers who are fluent in the language of your genre.",
+          icon: "/services/book-publishing-services/process-icon-01.png",
+          title: "Expert Guidance",
+          text: "From manuscript to marketplace, our team walks you through each step of the publishing journey.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-02.png",
-          title: "Proven Ghostwriters",
-          text: "Each of our ghostwriters has a track record of published success across different markets.",
+          icon: "/services/book-publishing-services/process-icon-02.png",
+          title: "Platform-Ready Publishing",
+          text: "We optimize your book for Amazon, Kindle, and other top self-publishing platforms.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-03.png",
-          title: "Professional Editors",
-          text: "Our editors bring depth and precision, making sure your eBook is not just polished but ready to compete in today’s publishing world.",
+          icon: "/services/book-publishing-services/process-icon-03.png",
+          title: "Support at Every Stage",
+          text: "You’ll never feel lost. Our publishing specialists are available whenever you need clarity or assistance.",
         },
       ],
     },
 
     features: {
-      highlight: "Turn Your Concept",
-      title: "Into a Kindle Bestseller",
-      description: "Need to hire an eBook writer you can actually trust? We’ve worked with first-time authors and established voices alike, offering a start-to-finish experience that’s built around your goals and your readers.",
+      highlight: "From Rough Draft to ",
+      title: "Published Book—We Make It Seamless",
+      description: "Need a reliable self publishing company to guide your journey? We bring technical know-how and creative insight together so your book can shine, no matter the genre or goal.",
       boxes: [{
-          icon: "/services/ebook-writing-services/features-icon-01.png",
-          title: "Tailored Storytelling",
-          text: "We don’t just write eBooks. We help shape legacies through meaningful, customized storytelling.",
+          icon: "/services/book-publishing-services/features-icon-01.png",
+          title: "Professional Polish",
+          text: "Your manuscript goes through US book editing services, formatting, and final proofing—all handled by publishing pros.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-02.png",
-          title: "Why eBooks Matter",
-          text: "With the rise of Kindle and mobile reading, eBooks are more accessible than ever—especially for audiences under 45. We help you capture their attention.",
+          icon: "/services/book-publishing-services/features-icon-02.png",
+          title: "Customized Launch Plans",
+          text: "We help you identify the best time, pricing strategy, and category placement for your launch.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-03.png",
-          title: "Smart for Business",
-          text: "eBooks are a powerful way to build authority, boost visibility, and connect with a mobile-first audience. We make it easy to integrate your voice into a high-converting digital product.",
+          icon: "/services/book-publishing-services/features-icon-03.png",
+          title: "Amazon & Kindle Expertise",
+          text: "With deep experience in Amazon Publishing and Kindle Direct Publishing, we know how to maximize your reach.",
         },
       ],
     },
 
     actionPlan: {
-      highlight: "How Our eBook Writing",
-      title: "Process Works",
-      description: "Turning your thoughts into a powerful eBook is easier than you think. We follow a proven, collaborative process designed to bring out the best in your story, one step at a time.",
-      bgImage: "/services/ebook-writing-services/action-plan-bg.png",
+      highlight: "Our Book Publishing ",
+      title: "Process",
+      description: "Publishing doesn’t have to feel complicated. We’ve developed a simple five-step process that takes your manuscript from final draft to published book, with you involved at every stage.",
+      bgImage: "/services/book-publishing-services/action-plan-bg.png",
       steps: [{
-          highlight: "Share ",
-          title: "Your Vision",
-          text: "Start by filling out our guided questionnaire. This helps us understand your message, audience, and tone preferences.",
+          highlight: "Manuscript ",
+          title: "Evaluation",
+          text: "We start by reviewing your manuscript and offering honest feedback on what it needs to be publishing-ready.",
         },
         {
-          highlight: "We ",
-          title: "Listen",
-          text: "Every great book starts with a conversation. We listen to your ideas, backstory, and intentions before moving ahead.",
+          highlight: "Editing and ",
+          title: "Proofreading",
+          text: "Our professional editing services and book proofreading services in the US ensure your content is polished and free of errors.",
         },
         {
-          highlight: "Outline ",
-          title: "Creation",
-          text: "Once aligned, we create a detailed chapter-wise outline that maps out your entire eBook.",
+          highlight: "Formatting ",
+          title: "and Design",
+          text: "We format your manuscript for digital and print versions, and create a cover design that fits your genre and target audience.",
         },
         {
-          highlight: "Sample Chapter ",
-          title: "Submission",
-          text: "You’ll get the first chapter draft to review. We only proceed after your feedback and approval.",
+          highlight: "Platform ",
+          title: "Upload",
+          text: "We upload your book to Amazon Kindle Publishing Services and other platforms, handling all metadata, categories, and technical details.",
         },
         {
-          highlight: "Full Draft ",
-          title: "Completion",
-          text: "Your completed eBook is delivered chapter by chapter, edited and refined to align with your goals.",
+          highlight: "Post-Publish ",
+          title: "Support",
+          text: "After launch, we offer ongoing support for updates, marketing, and promotional strategy through our book marketing agency in the US.",
         },
       ],
     },
 
     faqs: [{
-        question: "How long does it take to complete an eBook?",
-        answer: "Every eBook is different. Factors like length, genre, and how much information you already have prepared will influence the timeline. That said, most of our eBook projects are completed within 4 to 6 weeks. We prioritize quality and communication, so you’ll receive chapter drafts regularly and have input at each stage. Our goal is not just speed, but satisfaction."
+        question: "What platforms do you publish on?",
+        answer: "We primarily focus on Amazon Publishing and Kindle Direct Publishing, but we can also help publish to other platforms like IngramSpark, Barnes & Noble Press, and Apple Books. Our team selects the best distribution options based on your book’s genre, target audience, and goals. You get complete control with our guidance at every turn."
       },
       {
-        question: "Will I have input during the writing process?",
-        answer: "Collaboration is at the heart of everything we do. You’ll be part of the process from start to finish, especially during the outline and first draft stages. We believe your eBook should reflect your voice and values. Our writers are here to shape, not overshadow, your story."
+        question: "Do I need a finished manuscript to start?",
+        answer: "Not necessarily. While a completed manuscript helps, we also work with authors in the early stages and can connect you with our ghostwriting or editing teams if needed. Whether you’re halfway through or still organizing your ideas, we’re happy to meet you where you are and help you move forward."
       },
       {
-        question: "Do you offer editing and proofreading too?",
-        answer: "We offer comprehensive professional editing services and book proofreading services in the US that can be bundled with your writing package. Our goal is to make sure your final product is free of errors, flows well, and matches industry standards—especially important if you’re planning to publish on Amazon or Kindle."
+        question: "Will I keep the rights to my book?",
+        answer: "Yes, absolutely. You retain 100% of your rights and royalties. We believe in author ownership, and our contracts are built to protect your creative control."
       },
       {
-        question: "Who owns the rights to the eBook once it’s completed?",
-        answer: "You do. Once the project is completed and payment is settled, all rights are transferred to you. You’re free to publish, distribute, or modify your eBook however you see fit. We do not retain any claims or royalties."
+        question: "Can you help with print and eBook publishing?",
+        answer: "We format and publish for both digital (Kindle/ePub) and print (paperback/hardcover) formats. We ensure that your eBook works on all major devices and your print book meets publishing standards for Amazon and other retailers."
       },
       {
-        question: "Can you help me publish the eBook on Amazon or Kindle?",
-        answer: "Yes, we offer Kindle Direct Publishing support and complete Amazon self-publishing services to help you upload, format, and launch your book. We guide you through the steps and help ensure that your metadata, categories, and book files meet Amazon’s standards."
+        question: "How long does publishing take?",
+        answer: "Timelines vary based on manuscript length and service package, but most books are published within 4 to 8 weeks after editing is complete. We keep you in the loop at every stage and move efficiently without compromising on quality."
       },
       {
-        question: "Do you work with specific genres?",
-        answer: "Yes. We work across fiction and nonfiction genres, including memoir, business, fantasy, self-help, and more. Each project is matched with a writer who has relevant experience in your genre to ensure authenticity and relevance."
+        question: "What if I need help promoting my book after it’s published?",
+        answer: "We offer full marketing support through our book marketing agency in the US. From social media strategies to paid ads, we help you create a plan that fits your goals. Our campaigns are personalized to your genre and audience for better results."
       },
       {
-        question: "Is this service good for first-time authors?",
-        answer: "It’s ideal for first-time authors! Many of our clients are publishing their very first book, and we take pride in making the process stress-free and supportive. You don’t need publishing experience. We’ll walk you through each step of the journey."
+        question: "Is your company US-based?",
+        answer: "Yes, we are a self publishing company based in the United States. Our team consists of editors, designers, marketers, and support staff who understand the needs of American authors. This also ensures smoother communication and alignment with US publishing standards."
       },
       {
-        question: "Can I update or revise the eBook later?",
-        answer: "Of course. Since you own all rights, you can edit or revise the book at any time, even after publishing. And if you’d like our help with updates in the future, we’re just a message away."
+        question: "Can you help me revise my book after it’s published?",
+        answer: "We offer post-publishing support for revisions, reformatting, or updating metadata. Your book isn’t frozen in time—you can always evolve it based on feedback or new ideas."
       },
       {
-        question: "Will my eBook be suitable for marketing?",
-        answer: "Definitely. Our team includes marketing-savvy writers who understand what makes content sell. As a book marketing agency in the US, we align the writing style and structure with market trends. We can also assist with launch strategies and digital promotions if you opt for our book marketing company in the US services."
+        question: "Will you format my book for Kindle specifically?",
+        answer: "Definitely. We handle Kindle formatting as part of our Kindle Direct Publishing service to ensure your book looks great on every device. We also test your file for compatibility and appearance across different Kindle models."
       }, {
-        question: "What makes you different from other writing services?",
-        answer: "We focus on emotional connection, author empowerment, and transparency. Many providers focus on output. We focus on outcomes. As a trusted self publishing company, we don’t just ghostwrite—we help you share your truth with the world through meaningful, impactful storytelling."
+        question: "Why should I publish with Book Publishing Services?",
+        answer: "We’re more than just a publishing team. We’re your creative ally. As one of the most trusted names in author services, our blend of technical precision and emotional storytelling gives your book the best chance to succeed in a crowded market."
       }
     ]
   },
 
   "book-cover-design-services": {
     banner: {
-      title: "eBook Writing Services",
-      highlight: "Bring Your Story to Life with Our",
-      description: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
-      rightImage: "/services/ebook-writing-services/right-img.png",
+      title: "Professional Book Cover Design",
+      highlight: "Make a Strong First Impression with ",
+      description: "Your book deserves a cover that grabs attention and sparks curiosity. At Book Publishing Services, our designers create covers that speak to your story and resonate with your audience.",
+      rightImage: "/services/book-cover-design-services/right-img.png",
       imageAlign: "end",
     },
 
     process: {
-      image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Hire Experienced eBook Writers",
-      title: "Who Understand Your Voice",
-      description: "You’ve got a vision. We’ve got the talent to shape it into something extraordinary. With a network of genre-savvy writers and editors, we take your ideas seriously and handle them with care.",
+      image: "/services/book-cover-design-services/process-left-img.png",
+      highlight: "Get a Cover That Matches the ",
+      title: "Power of Your Words",
+      description: "We design custom covers that reflect your genre, style, and message. Whether you’re publishing fiction or nonfiction, print or eBook, your cover will be market-ready and memorable.",
       steps: [{
-          icon: "/services/ebook-writing-services/process-icon-01.png",
-          title: "Diverse Genre Experts",
-          text: "No matter your niche, we pair you with writers who are fluent in the language of your genre.",
+          icon: "/services/book-cover-design-services/process-icon-01.png",
+          title: "Genre-Specific Design",
+          text: "We understand the visual cues readers look for in every genre—and we design accordingly.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-02.png",
-          title: "Proven Ghostwriters",
-          text: "Each of our ghostwriters has a track record of published success across different markets.",
+          icon: "/services/book-cover-design-services/process-icon-02.png",
+          title: "High-Impact Visuals",
+          text: "From typography to color palettes, we create covers that stand out in both digital and physical marketplaces.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-03.png",
-          title: "Professional Editors",
-          text: "Our editors bring depth and precision, making sure your eBook is not just polished but ready to compete in today’s publishing world.",
+          icon: "/services/book-cover-design-services/process-icon-03.png",
+          title: "Print & eBook Compatibility",
+          text: "Your cover will be optimized for both formats, including Kindle, paperback, and hardcover versions.",
         },
       ],
     },
 
     features: {
-      highlight: "Turn Your Concept",
-      title: "Into a Kindle Bestseller",
-      description: "Need to hire an eBook writer you can actually trust? We’ve worked with first-time authors and established voices alike, offering a start-to-finish experience that’s built around your goals and your readers.",
+      highlight: "Your Book Cover Is Your First Sales Tool ",
+      title: "Let’s Make It Work",
+      description: "Looking for a cover that actually sells? Our designers blend creative vision with publishing expertise to make sure your book gets the attention it deserves.",
       boxes: [{
-          icon: "/services/ebook-writing-services/features-icon-01.png",
-          title: "Tailored Storytelling",
-          text: "We don’t just write eBooks. We help shape legacies through meaningful, customized storytelling.",
+          icon: "/services/book-cover-design-services/features-icon-01.png",
+          title: "Concept to Completion",
+          text: "We work with you from the initial vision to final files, keeping your input central at every stage.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-02.png",
-          title: "Why eBooks Matter",
-          text: "With the rise of Kindle and mobile reading, eBooks are more accessible than ever—especially for audiences under 45. We help you capture their attention.",
+          icon: "/services/book-cover-design-services/features-icon-02.png",
+          title: "Market Trends, Not Just Aesthetics",
+          text: "We stay current with what’s working in the industry, ensuring your cover doesn’t just look good—it performs.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-03.png",
-          title: "Smart for Business",
-          text: "eBooks are a powerful way to build authority, boost visibility, and connect with a mobile-first audience. We make it easy to integrate your voice into a high-converting digital product.",
+          icon: "/services/book-cover-design-services/features-icon-03.png",
+          title: "Collaborative Approach",
+          text: "You won’t get stuck with a generic design. Every element is chosen with your vision and reader in mind.",
         },
       ],
     },
 
     actionPlan: {
-      highlight: "How Our eBook Writing",
-      title: "Process Works",
-      description: "Turning your thoughts into a powerful eBook is easier than you think. We follow a proven, collaborative process designed to bring out the best in your story, one step at a time.",
-      bgImage: "/services/ebook-writing-services/action-plan-bg.png",
+      highlight: "Our Book Cover Design ",
+      title: "Process",
+      description: "A great cover is more than just a pretty image. It’s a marketing tool. Here’s how we turn your manuscript into a visual brand that sells.",
+      bgImage: "/services/book-cover-design-services/action-plan-bg.png",
       steps: [{
-          highlight: "Share ",
-          title: "Your Vision",
-          text: "Start by filling out our guided questionnaire. This helps us understand your message, audience, and tone preferences.",
+          highlight: "Discovery ",
+          title: "Session",
+          text: "We begin with a creative consultation to understand your genre, audience, and design preferences.",
         },
         {
-          highlight: "We ",
-          title: "Listen",
-          text: "Every great book starts with a conversation. We listen to your ideas, backstory, and intentions before moving ahead.",
+          highlight: "Mood Boards ",
+          title: "& Concepts",
+          text: "Our team creates mood boards and sample concepts for visual direction, which you review and approve.",
         },
         {
-          highlight: "Outline ",
-          title: "Creation",
-          text: "Once aligned, we create a detailed chapter-wise outline that maps out your entire eBook.",
+          highlight: "Cover ",
+          title: "Drafts",
+          text: "We deliver 2-3 initial cover designs, complete with typography, imagery, and layout options.",
         },
         {
-          highlight: "Sample Chapter ",
-          title: "Submission",
-          text: "You’ll get the first chapter draft to review. We only proceed after your feedback and approval.",
+          highlight: "Revisions ",
+          title: "& Feedback",
+          text: "You provide input, and we revise accordingly. We collaborate until you’re fully satisfied.",
         },
         {
-          highlight: "Full Draft ",
-          title: "Completion",
-          text: "Your completed eBook is delivered chapter by chapter, edited and refined to align with your goals.",
+          highlight: "Final Files ",
+          title: "Delivered",
+          text: "You receive high-resolution files ready for print and eBook formats, including Amazon KDP and IngramSpark specs.",
         },
       ],
     },
 
     faqs: [{
-        question: "How long does it take to complete an eBook?",
-        answer: "Every eBook is different. Factors like length, genre, and how much information you already have prepared will influence the timeline. That said, most of our eBook projects are completed within 4 to 6 weeks. We prioritize quality and communication, so you’ll receive chapter drafts regularly and have input at each stage. Our goal is not just speed, but satisfaction."
+        question: "What formats do you design covers for?",
+        answer: "We design for both print and eBooks. This includes covers for Amazon Kindle, paperback, hardcover, and special editions. All files are delivered in high-resolution formats compatible with major platforms like Kindle Direct Publishing, IngramSpark, and more."
       },
       {
-        question: "Will I have input during the writing process?",
-        answer: "Collaboration is at the heart of everything we do. You’ll be part of the process from start to finish, especially during the outline and first draft stages. We believe your eBook should reflect your voice and values. Our writers are here to shape, not overshadow, your story."
+        question: "Will I have input in the design process?",
+        answer: "Yes, 100%. We start every project with a discovery session to capture your preferences and vision. You’ll also have opportunities to provide feedback during concept development and revision stages."
       },
       {
-        question: "Do you offer editing and proofreading too?",
-        answer: "We offer comprehensive professional editing services and book proofreading services in the US that can be bundled with your writing package. Our goal is to make sure your final product is free of errors, flows well, and matches industry standards—especially important if you’re planning to publish on Amazon or Kindle."
+        question: "How many design concepts will I receive?",
+        answer: "We typically provide 2-3 initial design concepts, so you can explore different visual directions. After that, we work closely with you to refine and finalize the version you love most."
       },
       {
-        question: "Who owns the rights to the eBook once it’s completed?",
-        answer: "You do. Once the project is completed and payment is settled, all rights are transferred to you. You’re free to publish, distribute, or modify your eBook however you see fit. We do not retain any claims or royalties."
+        question: "Do you use stock images or custom illustrations?",
+        answer: "We can do both. Depending on your genre, budget, and goals, we may use licensed high-quality stock images or offer custom illustrations. We always choose visuals that align with your book’s tone and target market."
       },
       {
-        question: "Can you help me publish the eBook on Amazon or Kindle?",
-        answer: "Yes, we offer Kindle Direct Publishing support and complete Amazon self-publishing services to help you upload, format, and launch your book. We guide you through the steps and help ensure that your metadata, categories, and book files meet Amazon’s standards."
+        question: "What if I need a spine and back cover for print?",
+        answer: "No problem. For print books, we create full wrap-around covers, including spine and back cover designs. Just provide your page count, trim size, and ISBN, and we’ll handle the layout to fit printing requirements."
       },
       {
-        question: "Do you work with specific genres?",
-        answer: "Yes. We work across fiction and nonfiction genres, including memoir, business, fantasy, self-help, and more. Each project is matched with a writer who has relevant experience in your genre to ensure authenticity and relevance."
+        question: "Can you redesign my existing book cover?",
+        answer: "Yes. If your current cover isn’t delivering results or feels outdated, we can help you refresh it. Our redesigns focus on aligning better with genre expectations, reader psychology, and current trends."
       },
       {
-        question: "Is this service good for first-time authors?",
-        answer: "It’s ideal for first-time authors! Many of our clients are publishing their very first book, and we take pride in making the process stress-free and supportive. You don’t need publishing experience. We’ll walk you through each step of the journey."
+        question: "Will the cover work for Amazon and Kindle listings?",
+        answer: "All our covers are formatted to Amazon’s specifications and look great in thumbnail view, which is critical for online visibility. We also optimize dimensions and image quality so your book stands out in search results."
       },
       {
-        question: "Can I update or revise the eBook later?",
-        answer: "Of course. Since you own all rights, you can edit or revise the book at any time, even after publishing. And if you’d like our help with updates in the future, we’re just a message away."
+        question: "Do I own the rights to the final design?",
+        answer: "Yes, you do. Once the final payment is made, we transfer all rights to you. That means you’re free to use the design wherever and however you choose."
       },
       {
-        question: "Will my eBook be suitable for marketing?",
-        answer: "Definitely. Our team includes marketing-savvy writers who understand what makes content sell. As a book marketing agency in the US, we align the writing style and structure with market trends. We can also assist with launch strategies and digital promotions if you opt for our book marketing company in the US services."
+        question: "How long does the design process take?",
+        answer: "Most book covers are completed within 2-3 weeks, depending on revisions and complexity. We keep you updated at every step and prioritize both creativity and timelines."
       }, {
-        question: "What makes you different from other writing services?",
-        answer: "We focus on emotional connection, author empowerment, and transparency. Many providers focus on output. We focus on outcomes. As a trusted self publishing company, we don’t just ghostwrite—we help you share your truth with the world through meaningful, impactful storytelling."
+        question: "Do you offer bundled packages with publishing or marketing?",
+        answer: "Many authors choose to bundle cover design with editing, publishing, and promotion services. We customize packages to fit your timeline, goals, and budget—so everything works together seamlessly."
       }
     ]
   },
 
   "book-trailer-services": {
     banner: {
-      title: "eBook Writing Services",
-      highlight: "Bring Your Story to Life with Our",
-      description: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
-      rightImage: "/services/ebook-writing-services/right-img.png",
+      title: "Cinematic Book Trailer",
+      highlight: "Spark Interest with a ",
+      description: "A great story deserves a great introduction. Our book trailer services give your story the spotlight it deserves, turning browsers into readers through powerful visuals.Selling your self-published book can be a daunting task. It requires patience, effort, and energy. But wait for a second; how about making your audience anticipate the book’s launch? Book trailers can be a perfect way to create hype around your book, making everyone talk about it before it comes out.",
+      rightImage: "/services/book-trailer-services/right-img.png",
       imageAlign: "end",
     },
 
     process: {
-      image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Hire Experienced eBook Writers",
-      title: "Who Understand Your Voice",
-      description: "You’ve got a vision. We’ve got the talent to shape it into something extraordinary. With a network of genre-savvy writers and editors, we take your ideas seriously and handle them with care.",
+      image: "/services/book-trailer-services/process-left-img.png",
+      highlight: "Bring Your Book to Life ",
+      title: "with Motion and Emotion",
+      description: "Video is one of the most effective marketing tools today. We create compelling book trailers that generate buzz and help your book stand out in a crowded market.",
       steps: [{
-          icon: "/services/ebook-writing-services/process-icon-01.png",
-          title: "Diverse Genre Experts",
-          text: "No matter your niche, we pair you with writers who are fluent in the language of your genre.",
+          icon: "/services/book-trailer-services/process-icon-01.png",
+          title: "Custom Storyboarding",
+          text: "We craft a visual outline based on your book’s plot, theme, and emotional tone.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-02.png",
-          title: "Proven Ghostwriters",
-          text: "Each of our ghostwriters has a track record of published success across different markets.",
+          icon: "/services/book-trailer-services/process-icon-02.png",
+          title: "Professional Video Editing",
+          text: "Your trailer includes cinematic visuals, voiceovers, and background music for maximum impact.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-03.png",
-          title: "Professional Editors",
-          text: "Our editors bring depth and precision, making sure your eBook is not just polished but ready to compete in today’s publishing world.",
+          icon: "/services/book-trailer-services/process-icon-03.png",
+          title: "Genre-Specific Style",
+          text: "Whether your book is a thriller, romance, or memoir, your trailer will be tailored to attract the right audience.",
         },
       ],
     },
 
     features: {
-      highlight: "Turn Your Concept",
-      title: "Into a Kindle Bestseller",
-      description: "Need to hire an eBook writer you can actually trust? We’ve worked with first-time authors and established voices alike, offering a start-to-finish experience that’s built around your goals and your readers.",
+      highlight: "Video That Turns ",
+      title: "Scrolls Into Clicks",
+      description: "With attention spans shorter than ever, your trailer needs to grab interest in seconds. We design trailers that engage viewers instantly and inspire action.",
       boxes: [{
-          icon: "/services/ebook-writing-services/features-icon-01.png",
-          title: "Tailored Storytelling",
-          text: "We don’t just write eBooks. We help shape legacies through meaningful, customized storytelling.",
+          icon: "/services/book-trailer-services/features-icon-01.png",
+          title: "Social Media Ready",
+          text: "We format your trailer for Instagram, YouTube, Amazon Author Pages, and more.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-02.png",
-          title: "Why eBooks Matter",
-          text: "With the rise of Kindle and mobile reading, eBooks are more accessible than ever—especially for audiences under 45. We help you capture their attention.",
+          icon: "/services/book-trailer-services/features-icon-02.png",
+          title: "Teasers & Full Trailers",
+          text: "Choose from short-form teasers or full-length trailers depending on your marketing plan.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-03.png",
-          title: "Smart for Business",
-          text: "eBooks are a powerful way to build authority, boost visibility, and connect with a mobile-first audience. We make it easy to integrate your voice into a high-converting digital product.",
+          icon: "/services/book-trailer-services/features-icon-03.png",
+          title: "Strategic Marketing Value",
+          text: "Trailers create emotional connection, reinforce your brand, and boost click-through rates on ads.",
         },
       ],
     },
 
     actionPlan: {
-      highlight: "How Our eBook Writing",
-      title: "Process Works",
-      description: "Turning your thoughts into a powerful eBook is easier than you think. We follow a proven, collaborative process designed to bring out the best in your story, one step at a time.",
-      bgImage: "/services/ebook-writing-services/action-plan-bg.png",
+      highlight: "Our Book Trailer Creation ",
+      title: "Process",
+      description: "Creating a video trailer isn’t just about visuals—it’s about storytelling. Here’s how we transform your book into an attention-grabbing cinematic experience.",
+      bgImage: "/services/book-trailer-services/action-plan-bg.png",
       steps: [{
-          highlight: "Share ",
-          title: "Your Vision",
-          text: "Start by filling out our guided questionnaire. This helps us understand your message, audience, and tone preferences.",
+          highlight: "Discovery & ",
+          title: "Concept Meeting",
+          text: "We start with a brief call or form to learn about your story, target audience, and vision for the trailer.",
         },
         {
-          highlight: "We ",
-          title: "Listen",
-          text: "Every great book starts with a conversation. We listen to your ideas, backstory, and intentions before moving ahead.",
+          highlight: "Script & Storyboard ",
+          title: "Development",
+          text: "Our creative team drafts a short script and visual outline that reflects your book’s unique message and tone.",
         },
         {
-          highlight: "Outline ",
-          title: "Creation",
-          text: "Once aligned, we create a detailed chapter-wise outline that maps out your entire eBook.",
+          highlight: "Video ",
+          title: "Production",
+          text: "We produce the trailer using licensed footage, animations, professional voiceovers, and soundtracks.",
         },
         {
-          highlight: "Sample Chapter ",
-          title: "Submission",
-          text: "You’ll get the first chapter draft to review. We only proceed after your feedback and approval.",
+          highlight: "Review & ",
+          title: "Revisions",
+          text: "You get to review the trailer and request changes. We fine-tune everything until it meets your expectations.",
         },
         {
-          highlight: "Full Draft ",
-          title: "Completion",
-          text: "Your completed eBook is delivered chapter by chapter, edited and refined to align with your goals.",
+          highlight: "Delivery & ",
+          title: "File Formats",
+          text: "We deliver your trailer in multiple formats ready for upload to social media, Amazon, your website, and email campaigns.",
         },
       ],
     },
 
     faqs: [{
-        question: "How long does it take to complete an eBook?",
-        answer: "Every eBook is different. Factors like length, genre, and how much information you already have prepared will influence the timeline. That said, most of our eBook projects are completed within 4 to 6 weeks. We prioritize quality and communication, so you’ll receive chapter drafts regularly and have input at each stage. Our goal is not just speed, but satisfaction."
+        question: "What is a book trailer and why do I need one?",
+        answer: "A book trailer is a short video that introduces your book to potential readers through visuals, sound, and storytelling. It helps generate excitement and engagement before or after your book launches. Think of it like a movie trailer for your book—it can drive interest, sales, and shares on social media."
       },
       {
-        question: "Will I have input during the writing process?",
-        answer: "Collaboration is at the heart of everything we do. You’ll be part of the process from start to finish, especially during the outline and first draft stages. We believe your eBook should reflect your voice and values. Our writers are here to shape, not overshadow, your story."
+        question: "How long should a book trailer be?",
+        answer: "Most book trailers are 30 to 90 seconds long. Shorter trailers are perfect for social media, while longer ones work well for websites and author pages. We’ll help you determine the ideal length based on your goals and platforms."
       },
       {
-        question: "Do you offer editing and proofreading too?",
-        answer: "We offer comprehensive professional editing services and book proofreading services in the US that can be bundled with your writing package. Our goal is to make sure your final product is free of errors, flows well, and matches industry standards—especially important if you’re planning to publish on Amazon or Kindle."
+        question: "Can I provide input or ideas for the trailer?",
+        answer: "Your vision is important to us. We involve you during the planning, scripting, and revision phases. You can share visuals, tone preferences, or reference videos that inspire you."
       },
       {
-        question: "Who owns the rights to the eBook once it’s completed?",
-        answer: "You do. Once the project is completed and payment is settled, all rights are transferred to you. You’re free to publish, distribute, or modify your eBook however you see fit. We do not retain any claims or royalties."
+        question: "What kind of footage do you use?",
+        answer: "We use a mix of licensed cinematic footage, animations, images, and text effects. If you have your own footage, we can incorporate that too. Every asset is selected to match your book’s tone and attract your ideal readers."
       },
       {
-        question: "Can you help me publish the eBook on Amazon or Kindle?",
-        answer: "Yes, we offer Kindle Direct Publishing support and complete Amazon self-publishing services to help you upload, format, and launch your book. We guide you through the steps and help ensure that your metadata, categories, and book files meet Amazon’s standards."
+        question: "Will my trailer have voiceover and music?",
+        answer: "Yes, if desired. We offer professional voiceovers and royalty-free background music options to enhance the mood and message. If you prefer a text-only trailer or subtitled version, we can do that too."
       },
       {
-        question: "Do you work with specific genres?",
-        answer: "Yes. We work across fiction and nonfiction genres, including memoir, business, fantasy, self-help, and more. Each project is matched with a writer who has relevant experience in your genre to ensure authenticity and relevance."
+        question: "Can I use the trailer on Amazon and social media?",
+        answer: "Absolutely. We deliver your video in formats compatible with YouTube, Amazon Author Central, Instagram, Facebook, and more. You can also embed it in newsletters, websites, and launch campaigns."
       },
       {
-        question: "Is this service good for first-time authors?",
-        answer: "It’s ideal for first-time authors! Many of our clients are publishing their very first book, and we take pride in making the process stress-free and supportive. You don’t need publishing experience. We’ll walk you through each step of the journey."
+        question: "How long does it take to create a trailer?",
+        answer: "Production typically takes 2 to 3 weeks, depending on length, complexity, and revision cycles. We keep you in the loop throughout and deliver on time."
       },
       {
-        question: "Can I update or revise the eBook later?",
-        answer: "Of course. Since you own all rights, you can edit or revise the book at any time, even after publishing. And if you’d like our help with updates in the future, we’re just a message away."
+        question: "Can you create a trailer if my book isn’t published yet?",
+        answer: "Yes. In fact, pre-launch trailers are a great way to build buzz and grow your audience before your release date. We can create a teaser or full trailer based on your cover, synopsis, and genre."
       },
       {
-        question: "Will my eBook be suitable for marketing?",
-        answer: "Definitely. Our team includes marketing-savvy writers who understand what makes content sell. As a book marketing agency in the US, we align the writing style and structure with market trends. We can also assist with launch strategies and digital promotions if you opt for our book marketing company in the US services."
+        question: "Will you help me market the trailer?",
+        answer: "Yes. As a book marketing company in the US, we offer packages that include social media ads, launch planning, and video promotion. Your trailer becomes part of a larger campaign to drive engagement and sales."
       }, {
-        question: "What makes you different from other writing services?",
-        answer: "We focus on emotional connection, author empowerment, and transparency. Many providers focus on output. We focus on outcomes. As a trusted self publishing company, we don’t just ghostwrite—we help you share your truth with the world through meaningful, impactful storytelling."
+        question: "Why invest in a book trailer?",
+        answer: "Because visuals sell. A trailer adds a professional edge to your book, boosts discoverability, and connects with readers emotionally. In a crowded marketplace, a well-made trailer helps your book rise above the rest."
       }
     ]
   },
 
   "book-audio-services": {
     banner: {
-      title: "eBook Writing Services",
-      highlight: "Bring Your Story to Life with Our",
-      description: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
-      rightImage: "/services/ebook-writing-services/right-img.png",
+      title: "Audio book Services",
+      highlight: "Make The World Hear Your Story with ",
+      description: "We believe every story deserves a chance to be heard. We stay committed to making your compelling tales seamlessly reach the world. Our best audiobook services are designed to turn your stories into melodies that keep your audience hooked till the end.",
+      rightImage: "/services/book-audio-services/right-img.png",
       imageAlign: "end",
     },
 
     process: {
-      image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Hire Experienced eBook Writers",
-      title: "Who Understand Your Voice",
-      description: "You’ve got a vision. We’ve got the talent to shape it into something extraordinary. With a network of genre-savvy writers and editors, we take your ideas seriously and handle them with care.",
+      image: "/services/book-audio-services/process-left-img.png",
+      highlight: "Keep Your Audience Hooked with ",
+      title: "Professional Book Narrators.",
+      description: "Audiobooks have become a primary means of media consumption in recent years. Today, people prefer content that they can consume on the go. Our specialist, audiobook narrators, lend their voices to your words so your audience can feel the true essence of your book.",
       steps: [{
-          icon: "/services/ebook-writing-services/process-icon-01.png",
-          title: "Diverse Genre Experts",
-          text: "No matter your niche, we pair you with writers who are fluent in the language of your genre.",
+          icon: "/services/book-audio-services/process-icon-01.png",
+          title: "Home to Best Book Narrators",
+          text: "We are home to some of the most popular narrators that can bring your compelling stories to life with their unique narration style.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-02.png",
-          title: "Proven Ghostwriters",
-          text: "Each of our ghostwriters has a track record of published success across different markets.",
+          icon: "/services/book-audio-services/process-icon-02.png",
+          title: "Discover a Diverse World of Genres",
+          text: "Our book narrators bring years of experience in different genres and can offer their engaging voices to stories making them a soothing experience.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-03.png",
-          title: "Professional Editors",
-          text: "Our editors bring depth and precision, making sure your eBook is not just polished but ready to compete in today’s publishing world.",
+          icon: "/services/book-audio-services/process-icon-03.png",
+          title: "Voices That Match Your Narrative",
+          text: "It’s all about the narrative when it comes to storytelling. The voices of our book narrators will shape your stories according to the narrative.",
         },
       ],
     },
 
     features: {
-      highlight: "Turn Your Concept",
-      title: "Into a Kindle Bestseller",
-      description: "Need to hire an eBook writer you can actually trust? We’ve worked with first-time authors and established voices alike, offering a start-to-finish experience that’s built around your goals and your readers.",
+      highlight: "Add a New Flavor to Your Books with ",
+      title: "Best Audiobook Narrators",
+      description: "We are home to the best audiobook narrators that can instill life into your thought-provoking tales. Our professional book readers can add all the elements to make your stories a captivating experience for the listeners. We understand what it takes to make a story a popular affair. Our book narrators can use their voices’ magic to turn your books into a symphony. Our audiobook narrators are proficient in the following types of narration:",
       boxes: [{
-          icon: "/services/ebook-writing-services/features-icon-01.png",
-          title: "Tailored Storytelling",
-          text: "We don’t just write eBooks. We help shape legacies through meaningful, customized storytelling.",
+          icon: "/services/book-audio-services/features-icon-01.png",
+          title: "Solo narration",
+          text: "We are home to talented book readers who can bring the best out of your stories through their captivating solo narration skills.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-02.png",
-          title: "Why eBooks Matter",
-          text: "With the rise of Kindle and mobile reading, eBooks are more accessible than ever—especially for audiences under 45. We help you capture their attention.",
+          icon: "/services/book-audio-services/features-icon-02.png",
+          title: "Duet narration",
+          text: "Characters bring life into a story. And our best audiobook narrators make your characters express their emotions by lending them their voices.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-03.png",
-          title: "Smart for Business",
-          text: "eBooks are a powerful way to build authority, boost visibility, and connect with a mobile-first audience. We make it easy to integrate your voice into a high-converting digital product.",
+          icon: "/services/book-audio-services/features-icon-03.png",
+          title: "Multicast",
+          text: "Having more characters makes it into a captivating tale. Our voice artists can help you bring the best out of your characters. ",
         },
       ],
     },
 
     actionPlan: {
-      highlight: "How Our eBook Writing",
-      title: "Process Works",
-      description: "Turning your thoughts into a powerful eBook is easier than you think. We follow a proven, collaborative process designed to bring out the best in your story, one step at a time.",
-      bgImage: "/services/ebook-writing-services/action-plan-bg.png",
+      highlight: "Understanding the Audio Book  ",
+      title: "Narration Process",
+      description: "We are home to the best audiobook narrators who tirelessly work towards making things work for your story. They comprehend the tone of your stories, adding a new flavor to your words. Here’s what the audiobook narration process looks like:",
+      bgImage: "/services/book-audio-services/action-plan-bg.png",
       steps: [{
-          highlight: "Share ",
-          title: "Your Vision",
-          text: "Start by filling out our guided questionnaire. This helps us understand your message, audience, and tone preferences.",
+          highlight: "Fill out Our ",
+          title: "Query Form",
+          text: "It all starts with you filling out our form, helping our audiobook actors understand your audio narration needs.",
         },
         {
-          highlight: "We ",
-          title: "Listen",
-          text: "Every great book starts with a conversation. We listen to your ideas, backstory, and intentions before moving ahead.",
+          highlight: "Connect with ",
+          title: "Our Representative",
+          text: "Our representative will connect with you regarding your audiobook narration requirements.",
         },
         {
-          highlight: "Outline ",
-          title: "Creation",
-          text: "Once aligned, we create a detailed chapter-wise outline that maps out your entire eBook.",
+          highlight: "Extensive ",
+          title: "Research",
+          text: "Our audiobook experts go through extensive research to offer you the first draft adding a new flavor to your story.",
         },
         {
-          highlight: "Sample Chapter ",
-          title: "Submission",
-          text: "You’ll get the first chapter draft to review. We only proceed after your feedback and approval.",
+          highlight: "Approval ",
+          title: "and Revision",
+          text: "We offer countless revisions to ensure your satisfaction with our best audiobook services.",
         },
         {
-          highlight: "Full Draft ",
-          title: "Completion",
-          text: "Your completed eBook is delivered chapter by chapter, edited and refined to align with your goals.",
+          highlight: "Connecting to the ",
+          title: "Targeted Listeners",
+          text: "We follow industry-leading practices to make your audiobook stand out.",
         },
       ],
     },
 
     faqs: [{
-        question: "How long does it take to complete an eBook?",
-        answer: "Every eBook is different. Factors like length, genre, and how much information you already have prepared will influence the timeline. That said, most of our eBook projects are completed within 4 to 6 weeks. We prioritize quality and communication, so you’ll receive chapter drafts regularly and have input at each stage. Our goal is not just speed, but satisfaction."
+        question: "What are Audio Books?",
+        answer: "An audiobook is a book that uses audio as a mode of narration. Audiobooks have gained immense popularity in recent times."
       },
       {
-        question: "Will I have input during the writing process?",
-        answer: "Collaboration is at the heart of everything we do. You’ll be part of the process from start to finish, especially during the outline and first draft stages. We believe your eBook should reflect your voice and values. Our writers are here to shape, not overshadow, your story."
+        question: "How is an audiobook different from a textbook?",
+        answer: "Compared to a textbook, an audiobook allows readers to listen to their favorite stories anywhere, at any time."
       },
       {
-        question: "Do you offer editing and proofreading too?",
-        answer: "We offer comprehensive professional editing services and book proofreading services in the US that can be bundled with your writing package. Our goal is to make sure your final product is free of errors, flows well, and matches industry standards—especially important if you’re planning to publish on Amazon or Kindle."
+        question: "What does an audiobook narrator do?",
+        answer: "An audiobook narrator lends their voice to different books, allowing listeners to connect with the book without reading it."
       },
       {
-        question: "Who owns the rights to the eBook once it’s completed?",
-        answer: "You do. Once the project is completed and payment is settled, all rights are transferred to you. You’re free to publish, distribute, or modify your eBook however you see fit. We do not retain any claims or royalties."
-      },
-      {
-        question: "Can you help me publish the eBook on Amazon or Kindle?",
-        answer: "Yes, we offer Kindle Direct Publishing support and complete Amazon self-publishing services to help you upload, format, and launch your book. We guide you through the steps and help ensure that your metadata, categories, and book files meet Amazon’s standards."
-      },
-      {
-        question: "Do you work with specific genres?",
-        answer: "Yes. We work across fiction and nonfiction genres, including memoir, business, fantasy, self-help, and more. Each project is matched with a writer who has relevant experience in your genre to ensure authenticity and relevance."
-      },
-      {
-        question: "Is this service good for first-time authors?",
-        answer: "It’s ideal for first-time authors! Many of our clients are publishing their very first book, and we take pride in making the process stress-free and supportive. You don’t need publishing experience. We’ll walk you through each step of the journey."
-      },
-      {
-        question: "Can I update or revise the eBook later?",
-        answer: "Of course. Since you own all rights, you can edit or revise the book at any time, even after publishing. And if you’d like our help with updates in the future, we’re just a message away."
-      },
-      {
-        question: "Will my eBook be suitable for marketing?",
-        answer: "Definitely. Our team includes marketing-savvy writers who understand what makes content sell. As a book marketing agency in the US, we align the writing style and structure with market trends. We can also assist with launch strategies and digital promotions if you opt for our book marketing company in the US services."
-      }, {
-        question: "What makes you different from other writing services?",
-        answer: "We focus on emotional connection, author empowerment, and transparency. Many providers focus on output. We focus on outcomes. As a trusted self publishing company, we don’t just ghostwrite—we help you share your truth with the world through meaningful, impactful storytelling."
+        question: "How to connect with the best audiobook narrators?",
+        answer: "Are you looking for the best book narrators? We are here to serve you. We are home to the best book narrators who lend their voices to thousands of books."
       }
     ]
   },
 
   "book-marketing-services": {
     banner: {
-      title: "eBook Writing Services",
-      highlight: "Bring Your Story to Life with Our",
-      description: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
-      rightImage: "/services/ebook-writing-services/right-img.png",
+      title: "Driven Book Marketing Services",
+      highlight: "Promote Your Book with Purpose ",
+      description: "At Book Publishing Services, we don’t just help you publish—we help you get noticed. Our book marketing services are tailored to elevate your story and connect it with the right audience.",
+      rightImage: "/services/book-marketing-services/right-img.png",
       imageAlign: "end",
     },
 
     process: {
-      image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Hire Experienced eBook Writers",
-      title: "Who Understand Your Voice",
-      description: "You’ve got a vision. We’ve got the talent to shape it into something extraordinary. With a network of genre-savvy writers and editors, we take your ideas seriously and handle them with care.",
+      image: "/services/book-marketing-services/process-left-img.png",
+      highlight: "Launch Your ",
+      title: "Book the Right Way",
+      description: "Marketing your book shouldn’t feel like a mystery. With our expert team and targeted strategies, we turn your book launch into a momentum-building success.",
       steps: [{
-          icon: "/services/ebook-writing-services/process-icon-01.png",
-          title: "Diverse Genre Experts",
-          text: "No matter your niche, we pair you with writers who are fluent in the language of your genre.",
+          icon: "/services/book-marketing-services/process-icon-01.png",
+          title: "Custom Campaigns",
+          text: "Every book is unique. That’s why our marketing campaigns are customized to your goals and your readers.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-02.png",
-          title: "Proven Ghostwriters",
-          text: "Each of our ghostwriters has a track record of published success across different markets.",
+          icon: "/services/book-marketing-services/process-icon-02.png",
+          title: "Genre-Specific Promotions",
+          text: "From thrillers to memoirs, we know what works across genres and build your plan accordingly.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-03.png",
-          title: "Professional Editors",
-          text: "Our editors bring depth and precision, making sure your eBook is not just polished but ready to compete in today’s publishing world.",
+          icon: "/services/book-marketing-services/process-icon-03.png",
+          title: "Amazon Visibility",
+          text: "As a book marketing company in the US, we help you increase visibility on Amazon through optimized metadata, ads, and positioning.",
         },
       ],
     },
 
     features: {
-      highlight: "Turn Your Concept",
-      title: "Into a Kindle Bestseller",
-      description: "Need to hire an eBook writer you can actually trust? We’ve worked with first-time authors and established voices alike, offering a start-to-finish experience that’s built around your goals and your readers.",
+      highlight: "Make Your Book Discoverable, ",
+      title: "Shareable, and Memorable",
+      description: "Need support from a trusted book marketing agency in the US? We help authors like you promote your work with smart strategies that drive real engagement.",
       boxes: [{
-          icon: "/services/ebook-writing-services/features-icon-01.png",
-          title: "Tailored Storytelling",
-          text: "We don’t just write eBooks. We help shape legacies through meaningful, customized storytelling.",
+          icon: "/services/book-marketing-services/features-icon-01.png",
+          title: "Reader-Focused Strategy",
+          text: "We help identify your ideal reader and reach them through social media, email, and targeted promotions.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-02.png",
-          title: "Why eBooks Matter",
-          text: "With the rise of Kindle and mobile reading, eBooks are more accessible than ever—especially for audiences under 45. We help you capture their attention.",
+          icon: "/services/book-marketing-services/features-icon-02.png",
+          title: "Author Branding",
+          text: "Build your platform and strengthen your author brand with consistent messaging across all channels.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-03.png",
-          title: "Smart for Business",
-          text: "eBooks are a powerful way to build authority, boost visibility, and connect with a mobile-first audience. We make it easy to integrate your voice into a high-converting digital product.",
+          icon: "/services/book-marketing-services/features-icon-03.png",
+          title: "Post-Launch Momentum",
+          text: "We don’t stop at launch. Our services keep your book relevant with ongoing promotion strategies.",
         },
       ],
     },
 
     actionPlan: {
-      highlight: "How Our eBook Writing",
-      title: "Process Works",
-      description: "Turning your thoughts into a powerful eBook is easier than you think. We follow a proven, collaborative process designed to bring out the best in your story, one step at a time.",
-      bgImage: "/services/ebook-writing-services/action-plan-bg.png",
+      highlight: "Our Book Marketing ",
+      title: "Process",
+      description: "Marketing your book isn’t about shouting louder—it’s about connecting smarter. Here’s how we help authors gain the attention they deserve with a step-by-step promotional plan.",
+      bgImage: "/services/book-marketing-services/action-plan-bg.png",
       steps: [{
-          highlight: "Share ",
-          title: "Your Vision",
-          text: "Start by filling out our guided questionnaire. This helps us understand your message, audience, and tone preferences.",
+          highlight: "Book Analysis ",
+          title: "& Goal Setting",
+          text: "We begin by understanding your book’s content, genre, audience, and marketing goals.",
         },
         {
-          highlight: "We ",
-          title: "Listen",
-          text: "Every great book starts with a conversation. We listen to your ideas, backstory, and intentions before moving ahead.",
+          highlight: "Strategy ",
+          title: "Development",
+          text: "Our team crafts a tailored marketing strategy, including pricing, audience targeting, and outreach recommendations.",
         },
         {
-          highlight: "Outline ",
-          title: "Creation",
-          text: "Once aligned, we create a detailed chapter-wise outline that maps out your entire eBook.",
+          highlight: "Branding & ",
+          title: "Asset Creation",
+          text: "We create or refine your author branding, design marketing assets, and build your online presence if needed.",
         },
         {
-          highlight: "Sample Chapter ",
-          title: "Submission",
-          text: "You’ll get the first chapter draft to review. We only proceed after your feedback and approval.",
+          highlight: "Promotional ",
+          title: "Launch",
+          text: "Campaigns go live across relevant platforms, with social media, Amazon ads, influencer outreach, and more.",
         },
         {
-          highlight: "Full Draft ",
-          title: "Completion",
-          text: "Your completed eBook is delivered chapter by chapter, edited and refined to align with your goals.",
+          highlight: "Reporting & ",
+          title: "Optimization",
+          text: "We monitor your campaign and continuously optimize it to improve performance and engagement.",
         },
       ],
     },
 
     faqs: [{
-        question: "How long does it take to complete an eBook?",
-        answer: "Every eBook is different. Factors like length, genre, and how much information you already have prepared will influence the timeline. That said, most of our eBook projects are completed within 4 to 6 weeks. We prioritize quality and communication, so you’ll receive chapter drafts regularly and have input at each stage. Our goal is not just speed, but satisfaction."
+        question: "What types of books do you market?",
+        answer: "We market all genres—fiction and nonfiction alike. Whether your book is a romance, business guide, self-help, or memoir, we tailor our campaigns to fit your niche. Each genre has a different audience and marketing approach, and our team knows how to adjust strategies accordingly."
       },
       {
-        question: "Will I have input during the writing process?",
-        answer: "Collaboration is at the heart of everything we do. You’ll be part of the process from start to finish, especially during the outline and first draft stages. We believe your eBook should reflect your voice and values. Our writers are here to shape, not overshadow, your story."
+        question: "Do you guarantee sales?",
+        answer: "No ethical marketing agency can guarantee sales. What we do guarantee is smart strategy, consistent visibility, and optimization for success. Book sales depend on several factors like content, competition, and market conditions, but we give your book the best possible shot."
       },
       {
-        question: "Do you offer editing and proofreading too?",
-        answer: "We offer comprehensive professional editing services and book proofreading services in the US that can be bundled with your writing package. Our goal is to make sure your final product is free of errors, flows well, and matches industry standards—especially important if you’re planning to publish on Amazon or Kindle."
+        question: "How long does a typical campaign last?",
+        answer: "Most campaigns run between 4 to 18 weeks, though we can extend based on your goals. We recommend post-launch momentum campaigns for authors who want to continue building visibility over time."
       },
       {
-        question: "Who owns the rights to the eBook once it’s completed?",
-        answer: "You do. Once the project is completed and payment is settled, all rights are transferred to you. You’re free to publish, distribute, or modify your eBook however you see fit. We do not retain any claims or royalties."
+        question: "Can I market a book that’s already published?",
+        answer: "Yes. Whether your book is newly launched or has been out for months (or years), we can help you revive its presence and reconnect with readers. We’ve had great success with relaunches, refreshed campaigns, and seasonal promotions."
       },
       {
-        question: "Can you help me publish the eBook on Amazon or Kindle?",
-        answer: "Yes, we offer Kindle Direct Publishing support and complete Amazon self-publishing services to help you upload, format, and launch your book. We guide you through the steps and help ensure that your metadata, categories, and book files meet Amazon’s standards."
+        question: "What platforms do you use for marketing?",
+        answer: "We use Amazon Ads, Facebook and Instagram, Goodreads promotions, and author newsletters. Depending on your budget and goals, we also explore PR outreach, blog features, and influencer collaborations."
       },
       {
-        question: "Do you work with specific genres?",
-        answer: "Yes. We work across fiction and nonfiction genres, including memoir, business, fantasy, self-help, and more. Each project is matched with a writer who has relevant experience in your genre to ensure authenticity and relevance."
+        question: "Do you handle Amazon ads and metadata optimization?",
+        answer: "As a book marketing company in the US, we specialize in optimizing your book listing for Amazon. This includes keyword research, A/B testing, and ad management to help increase your book’s visibility and conversions."
       },
       {
-        question: "Is this service good for first-time authors?",
-        answer: "It’s ideal for first-time authors! Many of our clients are publishing their very first book, and we take pride in making the process stress-free and supportive. You don’t need publishing experience. We’ll walk you through each step of the journey."
+        question: "Can you build my author platform too?",
+        answer: "If you don’t yet have an author website or social media presence, we can help you build it from the ground up. We also offer content planning and branding support so your voice remains consistent across platforms."
       },
       {
-        question: "Can I update or revise the eBook later?",
-        answer: "Of course. Since you own all rights, you can edit or revise the book at any time, even after publishing. And if you’d like our help with updates in the future, we’re just a message away."
+        question: "Is book marketing part of your publishing packages?",
+        answer: "It can be! Many of our clients choose to bundle marketing with editing, formatting, and publishing. We’ll customize a package based on where you are in your publishing journey."
       },
       {
-        question: "Will my eBook be suitable for marketing?",
-        answer: "Definitely. Our team includes marketing-savvy writers who understand what makes content sell. As a book marketing agency in the US, we align the writing style and structure with market trends. We can also assist with launch strategies and digital promotions if you opt for our book marketing company in the US services."
+        question: "What kind of results can I expect?",
+        answer: "Results vary depending on book genre, pricing, and market competition. However, we focus on real engagement—more readers, more clicks, and more visibility. Our goal is to help your book stand out, build buzz, and grow a loyal audience over time."
       }, {
-        question: "What makes you different from other writing services?",
-        answer: "We focus on emotional connection, author empowerment, and transparency. Many providers focus on output. We focus on outcomes. As a trusted self publishing company, we don’t just ghostwrite—we help you share your truth with the world through meaningful, impactful storytelling."
+        question: "How do I get started with your marketing services?",
+        answer: "Simple. Just reach out and share a few details about your book. We’ll schedule a free consultation and map out your options. No pressure, no jargon—just a conversation about how to get your book in front of the readers who need it most."
       }
     ]
   },
 
   "audiobook-creation-services": {
     banner: {
-      title: "eBook Writing Services",
-      highlight: "Bring Your Story to Life with Our",
-      description: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
-      rightImage: "/services/ebook-writing-services/right-img.png",
+      title: "Powerful Listening Experience",
+      highlight: "Turn Your Book into a ",
+      description: "At Book Publishing Services, we help authors expand their reach with professional audiobook creation. From narration to final mastering, your story comes to life in every word.",
+      rightImage: "/services/audiobook-creation-services/right-img.png",
       imageAlign: "end",
     },
 
     process: {
-      image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Hire Experienced eBook Writers",
-      title: "Who Understand Your Voice",
-      description: "You’ve got a vision. We’ve got the talent to shape it into something extraordinary. With a network of genre-savvy writers and editors, we take your ideas seriously and handle them with care.",
+      image: "/services/audiobook-creation-services/process-left-img.png",
+      highlight: "Bring Your Words to Life with ",
+      title: "Professional Audiobook Services",
+      description: "Audiobooks aren’t just a trend—they’re a booming format that opens new doors. We turn your manuscript into an engaging, high-quality audio production that speaks to listeners everywhere.",
       steps: [{
-          icon: "/services/ebook-writing-services/process-icon-01.png",
-          title: "Diverse Genre Experts",
-          text: "No matter your niche, we pair you with writers who are fluent in the language of your genre.",
+          icon: "/services/audiobook-creation-services/process-icon-01.png",
+          title: "Professional Narrators",
+          text: "Choose from a roster of trained voice actors to match your tone, genre, and audience.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-02.png",
-          title: "Proven Ghostwriters",
-          text: "Each of our ghostwriters has a track record of published success across different markets.",
+          icon: "/services/audiobook-creation-services/process-icon-02.png",
+          title: "Studio-Quality Production",
+          text: "Every audiobook is recorded, edited, and mastered to meet industry standards, including ACX and Audible.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-03.png",
-          title: "Professional Editors",
-          text: "Our editors bring depth and precision, making sure your eBook is not just polished but ready to compete in today’s publishing world.",
+          icon: "/services/audiobook-creation-services/process-icon-03.png",
+          title: "Multi-Genre Expertise",
+          text: "From nonfiction to fantasy, memoirs to thrillers, we craft audio experiences tailored to your story.",
         },
       ],
     },
 
     features: {
-      highlight: "Turn Your Concept",
-      title: "Into a Kindle Bestseller",
-      description: "Need to hire an eBook writer you can actually trust? We’ve worked with first-time authors and established voices alike, offering a start-to-finish experience that’s built around your goals and your readers.",
+      highlight: "Reach More Readers ",
+      title: "Even the Ones Who Don’t Read",
+      description: "Audiobooks make your content accessible to commuters, multitaskers, and the visually impaired. With our expert production, your book won’t just be heard—it will be remembered.",
       boxes: [{
-          icon: "/services/ebook-writing-services/features-icon-01.png",
-          title: "Tailored Storytelling",
-          text: "We don’t just write eBooks. We help shape legacies through meaningful, customized storytelling.",
+          icon: "/services/audiobook-creation-services/features-icon-01.png",
+          title: "Expanded Distribution",
+          text: "We prepare your audiobook for Audible, iTunes, and Amazon.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-02.png",
-          title: "Why eBooks Matter",
-          text: "With the rise of Kindle and mobile reading, eBooks are more accessible than ever—especially for audiences under 45. We help you capture their attention.",
+          icon: "/services/audiobook-creation-services/features-icon-02.png",
+          title: "Engaging Listening Experience",
+          text: "Listeners stay hooked from chapter to chapter with expressive, well-paced narration.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-03.png",
-          title: "Smart for Business",
-          text: "eBooks are a powerful way to build authority, boost visibility, and connect with a mobile-first audience. We make it easy to integrate your voice into a high-converting digital product.",
+          icon: "/services/audiobook-creation-services/features-icon-03.png",
+          title: "Flexible Packages",
+          text: "Whether you need narration only or full production, we create a package that works for you.",
         },
       ],
     },
 
     actionPlan: {
-      highlight: "How Our eBook Writing",
-      title: "Process Works",
-      description: "Turning your thoughts into a powerful eBook is easier than you think. We follow a proven, collaborative process designed to bring out the best in your story, one step at a time.",
-      bgImage: "/services/ebook-writing-services/action-plan-bg.png",
+      highlight: "Our Audiobook Creation ",
+      title: "Process",
+      description: "Creating an audiobook isn’t just about reading aloud—it’s about storytelling through sound. Here’s how we bring your book to life in audio.",
+      bgImage: "/services/audiobook-creation-services/action-plan-bg.png",
       steps: [{
-          highlight: "Share ",
-          title: "Your Vision",
-          text: "Start by filling out our guided questionnaire. This helps us understand your message, audience, and tone preferences.",
+          highlight: "Script Prep & ",
+          title: "Voice Matching",
+          text: "We review your manuscript and recommend narrators that fit your book’s voice, tone, and genre.",
         },
         {
-          highlight: "We ",
-          title: "Listen",
-          text: "Every great book starts with a conversation. We listen to your ideas, backstory, and intentions before moving ahead.",
+          highlight: "Narrator ",
+          title: "Selection",
+          text: "You choose your preferred voice from a shortlist of professional narrators.",
         },
         {
-          highlight: "Outline ",
-          title: "Creation",
-          text: "Once aligned, we create a detailed chapter-wise outline that maps out your entire eBook.",
+          highlight: "Recording ",
+          title: "& Editing",
+          text: "Our team records in professional studios, then edits out errors, breaths, and background noise.",
         },
         {
-          highlight: "Sample Chapter ",
-          title: "Submission",
-          text: "You’ll get the first chapter draft to review. We only proceed after your feedback and approval.",
+          highlight: "Mastering for ",
+          title: "Platforms",
+          text: "We master the audio to meet platform-specific requirements for Amazon, Audible, and iTunes.",
         },
         {
-          highlight: "Full Draft ",
-          title: "Completion",
-          text: "Your completed eBook is delivered chapter by chapter, edited and refined to align with your goals.",
+          highlight: "Final Delivery & ",
+          title: "Upload Assistance",
+          text: "You receive ready-to-publish audio files and optional help with uploading to your chosen platforms.",
         },
       ],
     },
 
     faqs: [{
-        question: "How long does it take to complete an eBook?",
-        answer: "Every eBook is different. Factors like length, genre, and how much information you already have prepared will influence the timeline. That said, most of our eBook projects are completed within 4 to 6 weeks. We prioritize quality and communication, so you’ll receive chapter drafts regularly and have input at each stage. Our goal is not just speed, but satisfaction."
+        question: "What do your audiobook creation services include?",
+        answer: "Our services include voice narration, recording, editing, mastering, and optional upload assistance. We also help you choose the right narrator based on your genre and tone. You receive ready-to-publish files that meet platform requirements like ACX and Audible."
       },
       {
-        question: "Will I have input during the writing process?",
-        answer: "Collaboration is at the heart of everything we do. You’ll be part of the process from start to finish, especially during the outline and first draft stages. We believe your eBook should reflect your voice and values. Our writers are here to shape, not overshadow, your story."
+        question: "How long does audiobook production take?",
+        answer: "Production time varies by book length, but most audiobooks are completed within 2 to 4 weeks. We’ll give you a personalized timeline before starting, so you know what to expect."
       },
       {
-        question: "Do you offer editing and proofreading too?",
-        answer: "We offer comprehensive professional editing services and book proofreading services in the US that can be bundled with your writing package. Our goal is to make sure your final product is free of errors, flows well, and matches industry standards—especially important if you’re planning to publish on Amazon or Kindle."
+        question: "Can I choose my narrator?",
+        answer: "Yes. We provide a selection of voice actors who suit your project. You get to listen to samples and choose the one you feel best represents your work. If you already have someone in mind or want to narrate it yourself, we can work with that too."
       },
       {
-        question: "Who owns the rights to the eBook once it’s completed?",
-        answer: "You do. Once the project is completed and payment is settled, all rights are transferred to you. You’re free to publish, distribute, or modify your eBook however you see fit. We do not retain any claims or royalties."
+        question: "What platforms will my audiobook be available on?",
+        answer: "We create audio that meets standards for Amazon, Audible, and iTunes. You can also distribute through additional platforms if you prefer wider reach. We provide support for upload, metadata setup, and formatting to ensure a smooth process."
       },
       {
-        question: "Can you help me publish the eBook on Amazon or Kindle?",
-        answer: "Yes, we offer Kindle Direct Publishing support and complete Amazon self-publishing services to help you upload, format, and launch your book. We guide you through the steps and help ensure that your metadata, categories, and book files meet Amazon’s standards."
-      },
-      {
-        question: "Do you work with specific genres?",
-        answer: "Yes. We work across fiction and nonfiction genres, including memoir, business, fantasy, self-help, and more. Each project is matched with a writer who has relevant experience in your genre to ensure authenticity and relevance."
+        question: "Do I retain full rights to my audiobook?",
+        answer: "Once production is complete and payment is settled, you own 100% of the rights to your audiobook. This includes distribution, pricing, and use of the final audio files."
       },
       {
         question: "Is this service good for first-time authors?",
-        answer: "It’s ideal for first-time authors! Many of our clients are publishing their very first book, and we take pride in making the process stress-free and supportive. You don’t need publishing experience. We’ll walk you through each step of the journey."
+        answer: "Absolutely. Whether you’re new to self-publishing or expanding into audio for the first time, we make the process approachable and professional. You don’t need technical knowledge—we’ll walk you through each step."
       },
       {
-        question: "Can I update or revise the eBook later?",
-        answer: "Of course. Since you own all rights, you can edit or revise the book at any time, even after publishing. And if you’d like our help with updates in the future, we’re just a message away."
+        question: "Can I bundle audiobook services with other publishing services?",
+        answer: "Many authors choose to combine audiobook creation with our editing, publishing, and book marketing agency in the US services. We’ll create a custom package that fits your goals and budget."
       },
       {
-        question: "Will my eBook be suitable for marketing?",
-        answer: "Definitely. Our team includes marketing-savvy writers who understand what makes content sell. As a book marketing agency in the US, we align the writing style and structure with market trends. We can also assist with launch strategies and digital promotions if you opt for our book marketing company in the US services."
+        question: "What if I want to narrate my own book?",
+        answer: "That’s totally possible. We can guide you through the process or arrange studio recording time, editing, and mastering services to support your narration. We’ll also help ensure your voice meets technical requirements for quality and consistency."
+      },
+      {
+        question: "Will you help with cover art for the audiobook version?",
+        answer: "We can adapt your existing cover to meet audiobook platform specifications, or design a new one that fits square format requirements. We’ll make sure it’s as eye-catching in the audio space as it is in print."
       }, {
-        question: "What makes you different from other writing services?",
-        answer: "We focus on emotional connection, author empowerment, and transparency. Many providers focus on output. We focus on outcomes. As a trusted self publishing company, we don’t just ghostwrite—we help you share your truth with the world through meaningful, impactful storytelling."
+        question: "Why should I invest in audiobook production?",
+        answer: "Audiobooks are one of the fastest-growing segments in publishing. They expand your audience and revenue streams by making your story accessible to listeners. A professionally produced audiobook adds credibility, boosts discoverability, and meets the demands of today’s diverse readers."
       }
     ]
   },
 
   "book-illustration-design-services": {
     banner: {
-      title: "eBook Writing Services",
-      highlight: "Bring Your Story to Life with Our",
-      description: "At Book Publishing Services, our professional eBook writers help turn your ideas into powerful digital reads. Whether you’re writing for impact, income, or influence, let’s create something unforgettable together.",
-      rightImage: "/services/ebook-writing-services/right-img.png",
+      title: "Custom Book Illustrations",
+      highlight: "Bring Your Story to Life with ",
+      description: "Great illustrations don’t just support a story—they complete it. At Book Publishing Services, our illustration team crafts visuals that align with your tone, genre, and imagination.",
+      rightImage: "/services/book-illustration-design-services/right-img.png",
       imageAlign: "end",
     },
 
     process: {
-      image: "/services/ebook-writing-services/process-left-img.png",
-      highlight: "Hire Experienced eBook Writers",
-      title: "Who Understand Your Voice",
-      description: "You’ve got a vision. We’ve got the talent to shape it into something extraordinary. With a network of genre-savvy writers and editors, we take your ideas seriously and handle them with care.",
+      image: "/services/book-illustration-design-services/process-left-img.png",
+      highlight: "Illustrations That Speak ",
+      title: "Louder Than Words",
+      description: "Whether you’re publishing a picture book, graphic novel, or illustrated guide, our artists work with you to create original visuals that capture your story’s essence.",
       steps: [{
-          icon: "/services/ebook-writing-services/process-icon-01.png",
-          title: "Diverse Genre Experts",
-          text: "No matter your niche, we pair you with writers who are fluent in the language of your genre.",
+          icon: "/services/book-illustration-design-services/process-icon-01.png",
+          title: "Tailored Art Style",
+          text: "We match your project with illustrators who understand your genre and audience—from whimsical to realistic.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-02.png",
-          title: "Proven Ghostwriters",
-          text: "Each of our ghostwriters has a track record of published success across different markets.",
+          icon: "/services/book-illustration-design-services/process-icon-02.png",
+          title: "Author Collaboration",
+          text: "You’ll be involved in concept sketches, style approvals, and final artwork.",
         },
         {
-          icon: "/services/ebook-writing-services/process-icon-03.png",
-          title: "Professional Editors",
-          text: "Our editors bring depth and precision, making sure your eBook is not just polished but ready to compete in today’s publishing world.",
+          icon: "/services/book-illustration-design-services/process-icon-03.png",
+          title: "High-Resolution Output",
+          text: "We deliver print- and digital-ready illustrations optimized for books, eBooks, and marketing materials.",
         },
       ],
     },
 
     features: {
-      highlight: "Turn Your Concept",
-      title: "Into a Kindle Bestseller",
-      description: "Need to hire an eBook writer you can actually trust? We’ve worked with first-time authors and established voices alike, offering a start-to-finish experience that’s built around your goals and your readers.",
+      highlight: "Visual Storytelling That ",
+      title: "Inspires Every Page Turn",
+      description: "Images are often what readers remember most. That’s why we craft illustrations that are emotionally engaging, technically sound, and tailored to your publishing goals.",
       boxes: [{
-          icon: "/services/ebook-writing-services/features-icon-01.png",
-          title: "Tailored Storytelling",
-          text: "We don’t just write eBooks. We help shape legacies through meaningful, customized storytelling.",
+          icon: "/services/book-illustration-design-services/features-icon-01.png",
+          title: "Full-Book Illustration Packages",
+          text: "We offer complete illustration services for picture books, chapter books, and more.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-02.png",
-          title: "Why eBooks Matter",
-          text: "With the rise of Kindle and mobile reading, eBooks are more accessible than ever—especially for audiences under 45. We help you capture their attention.",
+          icon: "/services/book-illustration-design-services/features-icon-02.png",
+          title: "Cover and Interior Artwork",
+          text: "Need just a few illustrations or a standout cover? We’ve got you covered with scalable options.",
         },
         {
-          icon: "/services/ebook-writing-services/features-icon-03.png",
-          title: "Smart for Business",
-          text: "eBooks are a powerful way to build authority, boost visibility, and connect with a mobile-first audience. We make it easy to integrate your voice into a high-converting digital product.",
+          icon: "/services/book-illustration-design-services/features-icon-03.png",
+          title: "Diversity of Talent",
+          text: "From fantasy creatures to educational diagrams, our illustrator pool is as diverse as your ideas.",
         },
       ],
     },
 
     actionPlan: {
-      highlight: "How Our eBook Writing",
-      title: "Process Works",
-      description: "Turning your thoughts into a powerful eBook is easier than you think. We follow a proven, collaborative process designed to bring out the best in your story, one step at a time.",
-      bgImage: "/services/ebook-writing-services/action-plan-bg.png",
+      highlight: "Our Book Illustration Design ",
+      title: "Process",
+      description: "We make collaboration easy and enjoyable. From first sketch to final render, here’s how our illustration process helps bring your vision to life.",
+      bgImage: "/services/book-illustration-design-services/action-plan-bg.png",
       steps: [{
-          highlight: "Share ",
-          title: "Your Vision",
-          text: "Start by filling out our guided questionnaire. This helps us understand your message, audience, and tone preferences.",
+          highlight: "Concept ",
+          title: "Discovery",
+          text: "We begin with a creative call or form where you share your story, visual preferences, and references.",
         },
         {
-          highlight: "We ",
-          title: "Listen",
-          text: "Every great book starts with a conversation. We listen to your ideas, backstory, and intentions before moving ahead.",
+          highlight: "Illustrator ",
+          title: "Matching",
+          text: "We assign a professional illustrator based on your genre, tone, and preferred style.",
         },
         {
-          highlight: "Outline ",
-          title: "Creation",
-          text: "Once aligned, we create a detailed chapter-wise outline that maps out your entire eBook.",
+          highlight: "Rough ",
+          title: "Sketches",
+          text: "You review initial sketches or layouts and provide feedback before we move forward.",
         },
         {
-          highlight: "Sample Chapter ",
-          title: "Submission",
-          text: "You’ll get the first chapter draft to review. We only proceed after your feedback and approval.",
+          highlight: "Final ",
+          title: "Illustrations",
+          text: "We color, refine, and finalize the artwork, ensuring every detail aligns with your story and brand.",
         },
         {
-          highlight: "Full Draft ",
-          title: "Completion",
-          text: "Your completed eBook is delivered chapter by chapter, edited and refined to align with your goals.",
+          highlight: "Delivery & ",
+          title: "Format Prep",
+          text: "You receive your illustrations in high-resolution formats ready for print, digital books, and promotional use.",
         },
       ],
     },
 
     faqs: [{
-        question: "How long does it take to complete an eBook?",
-        answer: "Every eBook is different. Factors like length, genre, and how much information you already have prepared will influence the timeline. That said, most of our eBook projects are completed within 4 to 6 weeks. We prioritize quality and communication, so you’ll receive chapter drafts regularly and have input at each stage. Our goal is not just speed, but satisfaction."
+        question: "What types of books do you illustrate?",
+        answer: "Absolutely. During our discovery phase, we collect references and samples to understand your desired style. Whether you want bold cartoons, soft watercolors, or detailed fantasy art, we work to match your vision."
       },
       {
-        question: "Will I have input during the writing process?",
-        answer: "Collaboration is at the heart of everything we do. You’ll be part of the process from start to finish, especially during the outline and first draft stages. We believe your eBook should reflect your voice and values. Our writers are here to shape, not overshadow, your story."
+        question: "Can I choose the illustration style?",
+        answer: "Absolutely. During our discovery phase, we collect references and samples to understand your desired style. Whether you want bold cartoons, soft watercolors, or detailed fantasy art, we work to match your vision."
       },
       {
-        question: "Do you offer editing and proofreading too?",
-        answer: "We offer comprehensive professional editing services and book proofreading services in the US that can be bundled with your writing package. Our goal is to make sure your final product is free of errors, flows well, and matches industry standards—especially important if you’re planning to publish on Amazon or Kindle."
+        question: "Do I get to review the sketches before final illustrations?",
+        answer: "We believe in collaborative creation. You’ll see and approve all concept sketches before we finalize anything. Your feedback shapes the final result at every stage."
       },
       {
-        question: "Who owns the rights to the eBook once it’s completed?",
-        answer: "You do. Once the project is completed and payment is settled, all rights are transferred to you. You’re free to publish, distribute, or modify your eBook however you see fit. We do not retain any claims or royalties."
+        question: "How many illustrations can I get?",
+        answer: "As many as your project requires. We offer full packages for picture books and custom options for partial illustrations (like 5, 10, or 15 images). We can also create spot illustrations, chapter openers, or infographic-style images."
       },
       {
-        question: "Can you help me publish the eBook on Amazon or Kindle?",
-        answer: "Yes, we offer Kindle Direct Publishing support and complete Amazon self-publishing services to help you upload, format, and launch your book. We guide you through the steps and help ensure that your metadata, categories, and book files meet Amazon’s standards."
+        question: "What file formats do I receive?",
+        answer: "You’ll get high-resolution files in JPEG, PNG, and PDF formats, plus source files if requested. We ensure they’re ready for both digital and print publishing platforms."
       },
       {
-        question: "Do you work with specific genres?",
-        answer: "Yes. We work across fiction and nonfiction genres, including memoir, business, fantasy, self-help, and more. Each project is matched with a writer who has relevant experience in your genre to ensure authenticity and relevance."
+        question: "How long does illustration take?",
+        answer: "The timeline depends on complexity and quantity. Most projects take 3 to 6 weeks. We provide an estimated timeline upfront and keep you updated at every stage."
       },
       {
-        question: "Is this service good for first-time authors?",
-        answer: "It’s ideal for first-time authors! Many of our clients are publishing their very first book, and we take pride in making the process stress-free and supportive. You don’t need publishing experience. We’ll walk you through each step of the journey."
+        question: "Do you provide illustrations for book covers too?",
+        answer: "Yes. We design illustrated covers that blend seamlessly with your book’s genre and interior artwork. You can also pair illustrations with our book cover design services for a complete package."
       },
       {
-        question: "Can I update or revise the eBook later?",
-        answer: "Of course. Since you own all rights, you can edit or revise the book at any time, even after publishing. And if you’d like our help with updates in the future, we’re just a message away."
+        question: "What if I already have an illustrator but need formatting help?",
+        answer: "No problem. We can work with existing artwork and help with layout, formatting, and publishing prep. We’ll make sure your illustrations fit perfectly into your book layout."
       },
       {
-        question: "Will my eBook be suitable for marketing?",
-        answer: "Definitely. Our team includes marketing-savvy writers who understand what makes content sell. As a book marketing agency in the US, we align the writing style and structure with market trends. We can also assist with launch strategies and digital promotions if you opt for our book marketing company in the US services."
-      }, {
-        question: "What makes you different from other writing services?",
-        answer: "We focus on emotional connection, author empowerment, and transparency. Many providers focus on output. We focus on outcomes. As a trusted self publishing company, we don’t just ghostwrite—we help you share your truth with the world through meaningful, impactful storytelling."
+        question: "Will I own the rights to the illustrations?",
+        answer: "Once the final payment is completed, all rights to the illustrations are transferred to you. You can use them in your book, marketing, or any future project."
+      },
+      {
+        question: "Why should I hire a professional illustrator instead of using stock art?",
+        answer: "Stock art is often overused and can’t fully capture your story’s unique voice. Custom illustrations create deeper engagement and authenticity. Working with a professional ensures your visuals stand out and are aligned with your brand and audience."
       }
     ]
   },

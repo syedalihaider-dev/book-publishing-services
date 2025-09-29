@@ -1,36 +1,137 @@
 .banner {
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
 
 .banner .bannerBg {
-    z-index: -2;
+    z-index: -2
 }
 
-.banner .sec_left {
-    padding: 300px 0 200px;
-}
+/* .banner .sec_left {
+    padding: 300px 0 140px
+} */
 
 .banner .sec_left h1 {
-    font-size: 62px;
+    font-size: 55px;
     font-weight: 400;
-    line-height: 70px;
-    letter-spacing: -3.1px;
+    line-height: 60px;
+    letter-spacing: -3.1px
 }
 
 .banner .sec_left h1 span {
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 600;
-    line-height: 70px;
-    letter-spacing: -4px;
+    line-height: 65px;
+    letter-spacing: -4px
 }
 
 .banner .sec_right {
-    width: 713px;
-    height: 596px;
     position: relative;
+    z-index: 1;
 }
 
+:global(.ebook-writing-services) .banner .sec_left {
+    padding: 300px 0 140px
+}
+
+:global(.ebook-writing-services) .banner .sec_right {
+    width: 705px;
+    height: 595px;
+}
+
+:global(.author-website-creation-services) .banner .sec_left {
+    padding: 350px 0 180px
+}
+
+:global(.author-website-creation-services) .banner .sec_right {
+    width: 705px;
+    height: 600px;
+}
+
+:global(.book-proofreading-services) .banner .sec_left {
+    padding: 250px 0 150px
+}
+
+:global(.book-proofreading-services) .banner .sec_right {
+    width: 665px;
+    height: 559px;
+}
+
+:global(.book-editing-services) .banner .sec_left {
+    padding: 250px 0 150px
+}
+
+:global(.book-editing-services) .banner .sec_right {
+    width: 805px;
+    height: 531px;
+    transform: translateY(-100px);
+}
+
+:global(.book-publishing-services) .banner .sec_left {
+    padding: 300px 0 150px
+}
+
+:global(.book-publishing-services) .banner .sec_right {
+    width: 728px;
+    height: 558px;
+    transform: translateY(-50px);
+}
+
+:global(.book-cover-design-services) .banner .sec_left {
+    padding: 300px 0 140px
+}
+
+:global(.book-cover-design-services) .banner .sec_right {
+    width: 763px;
+    height: 632px;
+}
+
+:global(.book-trailer-services) .banner .sec_left {
+    padding: 300px 0 140px
+}
+
+:global(.book-trailer-services) .banner .sec_right {
+    width: 705px;
+    height: 595px;
+}
+
+:global(.book-audio-services) .banner .sec_left {
+    padding: 300px 0 140px
+}
+
+:global(.book-audio-services) .banner .sec_right {
+    width: 705px;
+    height: 595px;
+}
+
+:global(.book-marketing-services) .banner .sec_left {
+    padding: 300px 0 140px
+}
+
+:global(.book-marketing-services) .banner .sec_right {
+    width: 705px;
+    height: 595px;
+}
+
+:global(.audiobook-creation-services) .banner .sec_left {
+    padding: 300px 0 140px
+}
+
+:global(.audiobook-creation-services) .banner .sec_right {
+    width: 705px;
+    height: 595px;
+}
+
+:global(.book-illustration-design-services) .banner .sec_left {
+    padding: 300px 0 140px
+}
+
+:global(.book-illustration-design-services) .banner .sec_right {
+    width: 705px;
+    height: 595px;
+}
+
+
 .banner .sec_right img {
-    object-fit: contain;
+    object-fit: contain
 }

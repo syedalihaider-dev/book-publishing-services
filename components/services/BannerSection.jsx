@@ -4,49 +4,36 @@ import styles from "./BannerSection.module.css";
 import CallButton from "@/components/ui/CallButton";
 
 export default function BannerSection({ data }) {
-  const { title, highlight, description, rightImage, imageAlign } = data;
+const { title, highlight, description, rightImage, imageAlign } = data;
 
-  return (
-    <section className={styles.banner}>
-      {/* Background */}
-      <Image
-        src="/services/banner.png"
-        alt="Banner Bg Image"
-        fill
-        priority
-        fetchPriority="high"
-        style={{ objectFit: "cover" }}
-        className={styles.bannerBg}
-      />
-      <div className="container">
-        <div className={`row align-items-${imageAlign}`}>
-          <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_left}>
-              <h1>
-                <span className="primarytxt">{highlight}</span> {title}
-              </h1>
-              <p>{description}</p>
-              <div className="combo_btn">
-                <CallButton />
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_right}>
-              {rightImage && (
-                <Image
-                  src={rightImage}
-                  alt="Banner Right Image"
-                  fill
-                  priority
-                  fetchPriority="high"
-                  className={styles.right_img}
-                />
-              )}
-            </div>
+return (
+<section className={styles.banner}>
+  {/* Background */}
+  <Image src="/services/banner.png" alt="Banner Bg Image" fill priority fetchPriority="high"
+    style={{ objectFit: "cover" }} className={styles.bannerBg} />
+  <div className="container">
+    <div className={`row align-items-${imageAlign}`}>
+      <div className="col-sm-12 col-md-6">
+        <div className={styles.sec_left}>
+          <h1>
+            <span className="primarytxt">{highlight}</span> {title}
+          </h1>
+          <p>{description}</p>
+          <div className="combo_btn">
+            <CallButton />
           </div>
         </div>
       </div>
-    </section>
-  );
+      <div className="col-sm-12 col-md-6">
+        <div className={styles.sec_right}>
+          {rightImage && (
+          <Image src={rightImage} alt="Banner Right Image" fill priority fetchPriority="high"
+            className={styles.right_img} />
+          )}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+);
 }
