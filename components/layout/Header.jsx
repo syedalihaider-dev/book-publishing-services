@@ -27,7 +27,6 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      {/* ==== Top Header ==== */}
       <div className={styles.head_top}>
         <div className="container">
           <div className="row align-items-center">
@@ -57,19 +56,14 @@ export default function Header() {
           </div>
         </div>
       </div>
-
-      {/* ==== Main Header ==== */}
       <div className={styles.main_header}>
         <div className="container">
           <div className={styles.inner_wrapper}>
-            {/* Logo */}
             <div className={styles.logo}>
               <Link href="/">
                 <Image src="/logo.png" alt="Logo Image" fill priority className={styles.img} />
               </Link>
             </div>
-
-            {/* Desktop + Mobile Nav (Unified Dropdown) */}
             <nav className={`${styles.navbar} ${styles.desktop_menu}`}>
               <ul>
                 <li><Link href="/">Home</Link></li>
@@ -96,16 +90,12 @@ export default function Header() {
                   </ul>
                 </li>
                 <li><Link href="#!">Blog</Link></li>
-                <li><Link href="#!">Contact Us</Link></li>
+                <li><Link href="/contact">Contact Us</Link></li>
               </ul>
             </nav>
-
-            {/* Chat Button */}
             <div className="combo_btn desktop_menu">
               <ChatButton />
             </div>
-
-            {/* Mobile Toggle */}
             <button
               className={styles.mobile_toggle}
               onClick={() => setMenuOpen(!menuOpen)}
@@ -116,8 +106,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-
-      {/* Mobile Menu */}
       <div className={`${styles.mobile_menu} ${menuOpen ? styles.open : ""}`}>
         <ul>
           <li><Link href="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
@@ -144,7 +132,7 @@ export default function Header() {
             </ul>
           </li>
           <li><Link href="#!" onClick={() => setMenuOpen(false)}>Blog</Link></li>
-          <li><Link href="#!" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
+          <li><Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
         </ul>
       </div>
     </header>

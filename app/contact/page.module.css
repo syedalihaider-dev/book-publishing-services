@@ -1,0 +1,350 @@
+.banner {
+    position: relative;
+    z-index: 1;
+}
+
+.banner .bannerBg {
+    z-index: -2;
+}
+
+.banner .sec_left {
+    padding: 300px 0 150px;
+}
+
+.banner .sec_left h1 {
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.banner .sec_left h1 span {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.banner .sec_left p {
+    margin: 25px 0 0;
+}
+
+.banner .sec_right {
+    width: 741px;
+    height: 590px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner .sec_right img {
+    object-fit: contain;
+}
+
+.info_section {
+    background: #95b7e3;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.info_section::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 200px 200px 0 0;
+    background: linear-gradient(206deg, #FFF 44.12%, #E2EEFF 66.04%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.info_section .sec_content h2 span {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -4px;
+}
+
+.info_section .sec_content h2 {
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: -3.1px;
+}
+
+.info_section .sec_content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.info_section .sec_content ul li .box {
+    border-radius: 90px;
+    padding: 5px 30px 5px 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.info_section .sec_content ul li:nth-child(1) .box {
+    border: 1.762px solid #FD6;
+    background: #FFF6D6;
+}
+
+.info_section .sec_content ul li:nth-child(2) .box {
+    border: 1.762px solid #67A2FF;
+    background: #D6E6FF;
+}
+
+.info_section .sec_content ul li:nth-child(3) .box {
+    border: 1.762px solid #FF7C81;
+    background: #FFD1D3;
+}
+
+.info_section .sec_content ul li:nth-child(4) .box {
+    border: 1.762px solid #4AFFA8;
+    background: #CBFFE6;
+}
+
+.info_section .sec_content .box img {
+    width: 60px;
+    height: 60px;
+}
+
+.info_section .sec_content ul li .box .content p {
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.info_section .sec_content ul li .box .content p a {
+    display: block;
+    font-weight: 600;
+    color: var(--dark-color);
+    letter-spacing: -0.496px;
+}
+
+@media screen and (max-width:1600px) {
+    .banner .sec_left {
+        padding: 230px 0 80px;
+    }
+
+    .banner .sec_right {
+        width: 600px;
+        height: 477px;
+    }
+
+    .info_section {
+        padding: 80px 0;
+    }
+
+    .info_section::before {
+        border-radius: 100px 100px 0 0;
+    }
+
+    .info_section .sec_content h2 span {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    .info_section .sec_content h2 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width:1399px) {
+    .banner .sec_left {
+        padding: 200px 0 60px;
+    }
+
+    .banner .sec_left h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 55px;
+    }
+
+    .banner .sec_right {
+        width: 550px;
+        height: 438px;
+    }
+
+    .info_section {
+        padding: 60px 0;
+    }
+
+    .info_section::before {
+        border-radius: 60px 60px 0 0;
+    }
+
+    .info_section .sec_content h2 span {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .info_section .sec_content h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .info_section .sec_content ul {
+        gap: 30px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .banner .sec_left {
+        padding: 200px 0 60px;
+    }
+
+    .banner .sec_left h1 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 50px;
+    }
+
+    .banner .sec_right {
+        width: 460px;
+        height: 367px;
+    }
+
+    .info_section {
+        padding: 40px 0;
+    }
+
+    .info_section::before {
+        border-radius: 60px 60px 0 0;
+    }
+
+    .info_section .sec_content h2 span {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .info_section .sec_content h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .info_section .sec_content ul {
+        gap: 15px;
+    }
+
+    .info_section .sec_content ul li .box {
+        padding: 5px 20px 5px 5px;
+    }
+
+    .info_section .sec_content .box .img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .info_section .sec_content ul li .box .content p {
+        font-size: 12px;
+    }
+
+    .info_section .sec_content ul li .box .content p a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .banner .sec_left {
+        padding: 140px 0 40px;
+    }
+
+    .banner .sec_left h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 30px;
+    }
+
+    .banner .sec_left p {
+        margin: 15px 0 0;
+    }
+
+    .banner .sec_right {
+        width: 350px;
+        height: 278px;
+    }
+
+    .info_section .sec_content h2 span {
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: -1px;
+    }
+
+    .info_section .sec_content h2 {
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: -1px;
+    }
+
+    .info_section .sec_content ul {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .info_section .sec_content ul li {
+        width: 48%;
+    }
+
+    .info_section .sec_content .box .img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .info_section .sec_content ul li .box .content p {
+        font-size: 16px;
+    }
+
+    .info_section .sec_content ul li .box .content p a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .banner .sec_right {
+        width: 350px;
+        height: 278px;
+        margin-left: auto;
+    }
+
+    .info_section .sec_content ul li {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .banner .sec_left {
+        padding: 130px 0 40px;
+    }
+
+    .banner .sec_left h1,
+    .banner .sec_left h1 span,
+    .info_section .sec_content h2,
+    .info_section .sec_content h2 span {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .banner .sec_right {
+        width: 296px;
+        height: 235px;
+    }
+
+    .info_section::before {
+        border-radius: 0;
+    }
+}

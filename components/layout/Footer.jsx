@@ -125,8 +125,8 @@ return (
                     <div className={styles.sec_left}>
                         <p>
                             Copyright © 2025 <span>Book Publishing Services</span>.
-                            <Link href="/" target="_blank" rel="noopener noreferrer">Terms & Conditions</Link>
-                            <Link href="/" target="_blank" rel="noopener noreferrer">Privacy Policy</Link>
+                            <Link href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms & Conditions</Link>
+                            <Link href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</Link>
                         </p>
                     </div>
                 </div>
