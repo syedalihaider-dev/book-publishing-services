@@ -87,12 +87,12 @@
 }
 
 :global(.book-trailer-services) .banner .sec_left {
-    padding: 300px 0 140px
+    padding: 300px 0 80px
 }
 
 :global(.book-trailer-services) .banner .sec_right {
-    width: 705px;
-    height: 595px;
+    width: 800px;
+    height: 505px;
 }
 
 :global(.book-audio-services) .banner .sec_left {
@@ -100,8 +100,8 @@
 }
 
 :global(.book-audio-services) .banner .sec_right {
-    width: 705px;
-    height: 595px;
+    width: 745px;
+    height: 609px;
 }
 
 :global(.book-marketing-services) .banner .sec_left {
@@ -109,8 +109,8 @@
 }
 
 :global(.book-marketing-services) .banner .sec_right {
-    width: 705px;
-    height: 595px;
+    width: 732px;
+    height: 630px;
 }
 
 :global(.audiobook-creation-services) .banner .sec_left {
@@ -118,8 +118,8 @@
 }
 
 :global(.audiobook-creation-services) .banner .sec_right {
-    width: 705px;
-    height: 595px;
+    width: 854px;
+    height: 690px;
 }
 
 :global(.book-illustration-design-services) .banner .sec_left {
@@ -127,8 +127,8 @@
 }
 
 :global(.book-illustration-design-services) .banner .sec_right {
-    width: 705px;
-    height: 595px;
+    width: 826px;
+    height: 653px;
 }
 
 

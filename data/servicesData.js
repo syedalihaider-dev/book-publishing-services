@@ -87,6 +87,29 @@ export const servicesData = {
       ],
     },
 
+    services: {
+      image: "/services/ebook-writing-services/services-right-img.png",
+      highlight: "Why Choose Book Publishing Services ",
+      title: "for Your eBook?",
+      description: "We know the publishing world is competitive. That’s why we focus on making your content stand out with storytelling that resonates, editing that shines, and a process that respects your voice.",
+      steps: [{
+          icon: "/services/ebook-writing-services/services-icon-01.png",
+          title: "Elevated Quality",
+          text: "We assign projects to writers who have deep knowledge in your subject, ensuring powerful and persuasive writing.",
+        },
+        {
+          icon: "/services/ebook-writing-services/services-icon-02.png",
+          title: "Genuinely Original Work",
+          text: "Your eBook will be completely unique—crafted from scratch to reflect your story, not someone else’s.",
+        },
+        {
+          icon: "/services/ebook-writing-services/services-icon-03.png",
+          title: "Platform-Aware Writing",
+          text: "Whether you’re publishing through Kindle Direct Publishing or another self-publishing platform, we write with those standards in mind.",
+        },
+      ],
+    },
+
     faqs: [{
         question: "How long does it take to complete an eBook?",
         answer: "Every eBook is different. Factors like length, genre, and how much information you already have prepared will influence the timeline. That said, most of our eBook projects are completed within 4 to 6 weeks. We prioritize quality and communication, so you’ll receive chapter drafts regularly and have input at each stage. Our goal is not just speed, but satisfaction."
@@ -219,6 +242,29 @@ export const servicesData = {
       ],
     },
 
+    services: {
+      image: "/services/author-website-creation-services/services-right-img.png",
+      highlight: "Why Authors Choose Us for ",
+      title: "Website Design",
+      description: "We don’t just design websites—we create online platforms that support your publishing goals. Every feature we include has a purpose.",
+      steps: [{
+          icon: "/services/author-website-creation-services/services-icon-01.png",
+          title: "Author-Centric Focus",
+          text: "We know what authors need (and don’t need) in a website and build accordingly.",
+        },
+        {
+          icon: "/services/author-website-creation-services/services-icon-02.png",
+          title: "Fully Managed or DIY-Friendly",
+          text: "Want us to handle updates? Great. Prefer to update it yourself? We make it easy.",
+        },
+        {
+          icon: "/services/author-website-creation-services/services-icon-03.png",
+          title: "Part of a Complete Publishing Strategy",
+          text: "As a full self-publishing company, we design your site to fit with your editing, publishing, and book marketing company in the US goals.",
+        },
+      ],
+    },
+
     faqs: [{
         question: "What kind of websites do you create for authors?",
         answer: "We build fully custom websites tailored to your books, brand, and goals. Whether you’re a debut author or have a backlist of titles, we create a clean, professional online presence that helps you grow. Your site can include book pages, an author bio, blog, newsletter signup, events calendar, and more."
@@ -299,7 +345,8 @@ export const servicesData = {
       description: "Your book deserves to be taken seriously. With our professional proofreading services, you protect your reputation and deliver a polished product that readers will respect.",
       boxes: [{
           icon: "/services/book-proofreading-services/features-icon-01.png",
-          title: "Grammar, Spelling & Punctuation",
+          // title: "Grammar, Spelling & Punctuation",
+          title: "Text Rules",
           text: "We review every sentence with a fine-tooth comb to eliminate distracting errors.",
         },
         {
@@ -344,6 +391,29 @@ export const servicesData = {
           highlight: "Final ",
           title: "Delivery",
           text: "You receive your clean, polished manuscript with tracked changes and a summary of what was fixed.",
+        },
+      ],
+    },
+
+    services: {
+      image: "/services/book-proofreading-services/services-right-img.png",
+      highlight: "Why Choose Book Publishing Services ",
+      title: "for Proofreading?",
+      description: "We proofread with purpose, care, and industry knowledge. Your readers may never notice the errors we catch—and that’s the point.",
+      steps: [{
+          icon: "/services/book-proofreading-services/services-icon-01.png",
+          title: "Professional Quality Assurance",
+          text: "Every manuscript goes through rigorous checks so you can publish with peace of mind.",
+        },
+        {
+          icon: "/services/book-proofreading-services/services-icon-02.png",
+          title: "Tailored to Authors",
+          text: "Our services are built for self-publishing for authors who want high-quality, error-free content.",
+        },
+        {
+          icon: "/services/book-proofreading-services/services-icon-03.png",
+          title: "Part of a Full-Service Team",
+          text: "As a self publishing company, we can move your book from final draft to publication seamlessly.",
         },
       ],
     },
@@ -477,6 +547,29 @@ export const servicesData = {
       ],
     },
 
+    services: {
+      image: "/services/book-editing-services/services-right-img.png",
+      highlight: "Why Choose Book Publishing Services ",
+      title: "for Editing?",
+      description: "We combine editorial expertise with respect for your creative voice. Whether you’re a debut author or seasoned writer, we offer editing that elevates without overpowering.",
+      steps: [{
+          icon: "/services/book-editing-services/services-icon-01.png",
+          title: "Experienced Editors",
+          text: "Our team has edited across genres and formats, from novels to nonfiction and memoirs.",
+        },
+        {
+          icon: "/services/book-editing-services/services-icon-02.png",
+          title: "Flexible Packages",
+          text: "Need just proofreading or full developmental editing? We build packages around your manuscript’s needs.",
+        },
+        {
+          icon: "/services/book-editing-services/services-icon-03.png",
+          title: "Publishing-Ready Results",
+          text: "Our edits prepare your book for self-publishing for authors or traditional submission with confidence.",
+        },
+      ],
+    },
+
     faqs: [{
         question: "What types of editing do you offer?",
         answer: "We offer developmental editing, line editing, copyediting, and proofreading. Each serves a different purpose—from improving story structure to fixing grammar and typos. We can help you decide which level(s) your manuscript needs based on a quick review or your publishing goals."
@@ -606,6 +699,29 @@ export const servicesData = {
       ],
     },
 
+    services: {
+      image: "/services/book-publishing-services/services-right-img.png",
+      highlight: "Why Authors Choose Our ",
+      title: "Publishing Services",
+      description: "We don’t just publish books—we help authors succeed. With a process built for transparency, quality, and impact, our publishing services are designed to help you thrive.",
+      steps: [{
+          icon: "/services/book-publishing-services/services-icon-01.png",
+          title: "Publishing Made Easy",
+          text: "Our step-by-step guidance means you never have to figure things out alone.",
+        },
+        {
+          icon: "/services/book-publishing-services/services-icon-02.png",
+          title: "Professional-Grade Output",
+          text: "Every detail—from formatting to cover design—meets or exceeds industry standards.",
+        },
+        {
+          icon: "/services/book-publishing-services/services-icon-03.png",
+          title: "Marketing-Ready Launches",
+          text: "Because we’re also a book marketing company in the US, your book is launched with visibility in mind.",
+        },
+      ],
+    },
+
     faqs: [{
         question: "What platforms do you publish on?",
         answer: "We primarily focus on Amazon Publishing and Kindle Direct Publishing, but we can also help publish to other platforms like IngramSpark, Barnes & Noble Press, and Apple Books. Our team selects the best distribution options based on your book’s genre, target audience, and goals. You get complete control with our guidance at every turn."
@@ -691,7 +807,8 @@ export const servicesData = {
         },
         {
           icon: "/services/book-cover-design-services/features-icon-02.png",
-          title: "Market Trends, Not Just Aesthetics",
+          // title: "Market Trends, Not Just Aesthetics",
+          title: "Market Aesthetics",
           text: "We stay current with what’s working in the industry, ensuring your cover doesn’t just look good—it performs.",
         },
         {
@@ -731,6 +848,29 @@ export const servicesData = {
           highlight: "Final Files ",
           title: "Delivered",
           text: "You receive high-resolution files ready for print and eBook formats, including Amazon KDP and IngramSpark specs.",
+        },
+      ],
+    },
+
+    services: {
+      image: "/services/book-cover-design-services/services-right-img.png",
+      highlight: "Why Trust Us with Your ",
+      title: "Book Cover Design?",
+      description: "We design with your story in mind and your audience at heart. Every book cover we craft is rooted in strategy, genre awareness, and your unique voice.",
+      steps: [{
+          icon: "/services/book-cover-design-services/services-icon-01.png",
+          title: "Publishing-Savvy Designers",
+          text: "Our designers understand what works in the book world—and what doesn’t.",
+        },
+        {
+          icon: "/services/book-cover-design-services/services-icon-02.png",
+          title: "Fully Customized",
+          text: "No templates. No shortcuts. Just creative covers designed from scratch.",
+        },
+        {
+          icon: "/services/book-cover-design-services/services-icon-03.png",
+          title: "Optimized for Sales",
+          text: "We create covers that pop in thumbnails, stand out on shelves, and boost click-through rates online.",
         },
       ],
     },
@@ -842,8 +982,10 @@ export const servicesData = {
           text: "We start with a brief call or form to learn about your story, target audience, and vision for the trailer.",
         },
         {
-          highlight: "Script & Storyboard ",
-          title: "Development",
+          // highlight: "Script Storyboarding",
+          // title: "Development",
+          highlight: "Script ",
+          title: "Storyboarding",
           text: "Our creative team drafts a short script and visual outline that reflects your book’s unique message and tone.",
         },
         {
@@ -860,6 +1002,29 @@ export const servicesData = {
           highlight: "Delivery & ",
           title: "File Formats",
           text: "We deliver your trailer in multiple formats ready for upload to social media, Amazon, your website, and email campaigns.",
+        },
+      ],
+    },
+
+    services: {
+      image: "/services/book-trailer-services/services-right-img.png",
+      highlight: "Why Choose Us for ",
+      title: "Book Trailer Creation?",
+      description: "We combine storytelling instincts with marketing expertise to craft trailers that captivate. If your book cover hooks the eye, your trailer should seal the deal.",
+      steps: [{
+          icon: "/services/book-trailer-services/services-icon-01.png",
+          title: "Marketing-Focused Production",
+          text: "We design every trailer with discoverability and audience engagement in mind.",
+        },
+        {
+          icon: "/services/book-trailer-services/services-icon-02.png",
+          title: "Collaborative & Custom",
+          text: "You’re involved throughout the creative process to ensure your vision is honored.",
+        },
+        {
+          icon: "/services/book-trailer-services/services-icon-03.png",
+          title: "Part of a Larger Strategy",
+          text: "As a full book marketing agency in the US, we know how to integrate trailers into broader campaigns for greater impact.",
         },
       ],
     },
@@ -971,8 +1136,10 @@ export const servicesData = {
           text: "It all starts with you filling out our form, helping our audiobook actors understand your audio narration needs.",
         },
         {
-          highlight: "Connect with ",
-          title: "Our Representative",
+          // highlight: "Connect with ",
+          // title: "Our Representative",
+          highlight: "Reach ",
+          title: "Representative",
           text: "Our representative will connect with you regarding your audiobook narration requirements.",
         },
         {
@@ -989,6 +1156,29 @@ export const servicesData = {
           highlight: "Connecting to the ",
           title: "Targeted Listeners",
           text: "We follow industry-leading practices to make your audiobook stand out.",
+        },
+      ],
+    },
+
+    services: {
+      image: "/services/book-audio-services/services-right-img.png",
+      highlight: "What Makes Us the ",
+      title: "Best AudioBook Service",
+      description: "As one of the prominent audio book services, we believe in bringing the best out of your ideas. Our popular audiobook narrators work effortlessly to help you connect with your listeners through engaging storytelling skills.",
+      steps: [{
+          icon: "/services/book-audio-services/services-icon-01.png",
+          title: "100% Original Audio",
+          text: "We can offer a variety of original audio including solo narration, duet narration and multicast narration.",
+        },
+        {
+          icon: "/services/book-audio-services/services-icon-02.png",
+          title: "Professional Team of Narrators",
+          text: "Our audiobook actors bring years of experience and can lend their soothing voices to all kinds of books across all popular genres.",
+        },
+        {
+          icon: "/services/book-audio-services/services-icon-03.png",
+          title: "Countless Revisions",
+          text: "We offer unlimited audiobook revisions so you can get the best version of your story out for the world.",
         },
       ],
     },
@@ -1095,6 +1285,29 @@ export const servicesData = {
           highlight: "Reporting & ",
           title: "Optimization",
           text: "We monitor your campaign and continuously optimize it to improve performance and engagement.",
+        },
+      ],
+    },
+
+    services: {
+      image: "/services/book-marketing-services/services-right-img.png",
+      highlight: "Why Authors Trust Our ",
+      title: "Book Marketing Services",
+      description: "We make marketing approachable, strategic, and impactful. You bring the story. We bring the spotlight.",
+      steps: [{
+          icon: "/services/book-marketing-services/services-icon-01.png",
+          title: "Marketing That Resonates",
+          text: "We don’t use cookie-cutter plans. Everything is tailored to your voice, your goals, and your readers.",
+        },
+        {
+          icon: "/services/book-marketing-services/services-icon-02.png",
+          title: "Transparent Results",
+          text: "You’ll receive performance updates, so you always know what’s working and what we’re improving.",
+        },
+        {
+          icon: "/services/book-marketing-services/services-icon-03.png",
+          title: "Experience Across Platforms",
+          text: "Our team has hands-on experience with Amazon, Goodreads, BookBub, and more—giving your book maximum reach.",
         },
       ],
     },
@@ -1228,6 +1441,29 @@ export const servicesData = {
       ],
     },
 
+    services: {
+      image: "/services/audiobook-creation-services/services-right-img.png",
+      highlight: "Why Authors Choose Us for ",
+      title: "Audiobook Creation",
+      description: "We make audiobook production simple, seamless, and high-quality. Your listeners expect more than words—they expect an experience. We deliver just that.",
+      steps: [{
+          icon: "/services/audiobook-creation-services/services-icon-01.png",
+          title: "Publishing Experience",
+          text: "We understand the technical and storytelling elements of what makes an audiobook succeed.",
+        },
+        {
+          icon: "/services/audiobook-creation-services/services-icon-02.png",
+          title: "End-to-End Support",
+          text: "From voice casting to file delivery, you’re never left guessing.",
+        },
+        {
+          icon: "/services/audiobook-creation-services/services-icon-03.png",
+          title: "Tailored for Self-Publishing Authors",
+          text: "As a trusted self-publishing company, we help you own your content and reach new audiences in new formats.",
+        },
+      ],
+    },
+
     faqs: [{
         question: "What do your audiobook creation services include?",
         answer: "Our services include voice narration, recording, editing, mastering, and optional upload assistance. We also help you choose the right narrator based on your genre and tone. You receive ready-to-publish files that meet platform requirements like ACX and Audible."
@@ -1353,6 +1589,29 @@ export const servicesData = {
           highlight: "Delivery & ",
           title: "Format Prep",
           text: "You receive your illustrations in high-resolution formats ready for print, digital books, and promotional use.",
+        },
+      ],
+    },
+
+    services: {
+      image: "/services/book-illustration-design-services/services-right-img.png",
+      highlight: "Why Choose Book Publishing ",
+      title: "Services for Illustrations?",
+      description: "Illustration is more than drawing—it’s storytelling through imagery. With us, you get custom artwork backed by a team that understands books, audiences, and the power of a well-placed visual.",
+      steps: [{
+          icon: "/services/book-illustration-design-services/services-icon-01.png",
+          title: "Creative Expertise",
+          text: "Our illustrators are professional artists who know how to adapt styles and visual tone for different genres and age groups.",
+        },
+        {
+          icon: "/services/book-illustration-design-services/services-icon-02.png",
+          title: "Total Customization",
+          text: "We don’t use templates. Every line and color is drawn specifically for your story.",
+        },
+        {
+          icon: "/services/book-illustration-design-services/services-icon-03.png",
+          title: "Part of a Complete Publishing Team",
+          text: "As a full self publishing company, we seamlessly integrate illustration with editing, formatting, and marketing.",
         },
       ],
     },

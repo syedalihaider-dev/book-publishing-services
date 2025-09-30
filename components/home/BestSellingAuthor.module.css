@@ -26,6 +26,10 @@
     object-fit: contain;
 }
 
+.author_section .sec_right h2{
+    text-transform: capitalize;
+}
+
 @media screen and (max-width:1800px) {
     .author_section {
         padding: 80px 0;

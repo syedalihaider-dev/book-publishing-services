@@ -35,16 +35,16 @@
 }
 
 .features_section .sec_top h2 {
-    font-size: 62px;
+    font-size: 55px;
     font-weight: 400;
-    line-height: 70px;
+    line-height: 60px;
     letter-spacing: -3.1px;
 }
 
 .features_section .sec_top h2 span {
-    font-size: 80px;
+    font-size: 65px;
     font-weight: 600;
-    line-height: 70px;
+    line-height: 65px;
     letter-spacing: -4px;
 }
 
@@ -76,6 +76,7 @@
 }
 
 .features_section .sec_content .box h6 {
+    font-size: 22px;
     font-weight: 600;
     letter-spacing: -0.96px;
     margin: 25px 0;
