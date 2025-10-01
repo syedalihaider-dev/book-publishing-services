@@ -18,13 +18,13 @@ return (
                         <Link href="/about">About Us</Link>
                     </li>
                     <li>
-                        <Link href="/">Services</Link>
+                        <Link href="/services/ebook-writing-services">Services</Link>
                     </li>
                     <li>
                         <Link href="/">Blog</Link>
                     </li>
                     <li>
-                        <Link href="/">Contact</Link>
+                        <Link href="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>

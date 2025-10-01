@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import Popup from "@/components/layout/Popup";
 
 import { Lexend } from "next/font/google";
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <Popup />
       </body>
     </html>
   );

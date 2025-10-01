@@ -1,0 +1,20 @@
+.thank_you {
+    padding: 300px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.thank_you .bannerBg {
+    z-index: -1;
+}
+
+.thank_you h1 {
+    text-transform: uppercase;
+}
+
+.thank_you .btn {
+    color: var(--dark-light);
+    font-size: 18px;
+    font-weight: 600;
+}

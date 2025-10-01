@@ -27,7 +27,7 @@ return (
         fetchPriority="high" 
         style={{ objectFit: "cover" }}
         className={styles.bannerBg}
-      />
+    />
     {books.map((src, i) => (
     <div key={i} className={`${styles.img} ${styles[`book${i + 1}`]}`}>
       <Image src={src} alt={`Book ${i + 1}`} fill priority className={styles.banner_book_img} />

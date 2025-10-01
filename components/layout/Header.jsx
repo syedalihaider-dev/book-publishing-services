@@ -89,7 +89,7 @@ export default function Header() {
                     ))}
                   </ul>
                 </li>
-                <li><Link href="#!">Blog</Link></li>
+                <li><Link href="/">Blog</Link></li>
                 <li><Link href="/contact">Contact Us</Link></li>
               </ul>
             </nav>
@@ -131,7 +131,7 @@ export default function Header() {
               ))}
             </ul>
           </li>
-          <li><Link href="#!" onClick={() => setMenuOpen(false)}>Blog</Link></li>
+          <li><Link href="/" onClick={() => setMenuOpen(false)}>Blog</Link></li>
           <li><Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
         </ul>
       </div>
