@@ -14,7 +14,6 @@ export default function ServicePage({ params }) {
   if (!service) return <h1>Service Not Found</h1>;
 
   return (
-    // <div className={`${styles.services_page} ${styles[params.slug]}`}>
     <div className={`${styles.services_page} ${params.slug}`}>
       <BannerSection data={service.banner} />
       <ProcessSection data={service.process} />

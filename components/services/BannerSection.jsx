@@ -8,7 +8,6 @@ const { title, highlight, description, rightImage, imageAlign } = data;
 
 return (
 <section className={styles.banner}>
-  {/* Background */}
   <Image src="/services/banner.png" alt="Banner Bg Image" fill priority fetchPriority="high"
     style={{ objectFit: "cover" }} className={styles.bannerBg} />
   <div className="container">

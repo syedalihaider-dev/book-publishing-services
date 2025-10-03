@@ -131,7 +131,439 @@
     height: 653px;
 }
 
-
 .banner .sec_right img {
     object-fit: contain
+}
+
+@media screen and (max-width:1600px) {
+    :global(.ebook-writing-services) .banner .sec_left {
+        padding: 280px 0 120px
+    }
+
+    :global(.ebook-writing-services) .banner .sec_right {
+        width: 680px;
+        height: 574px;
+    }
+
+    :global(.author-website-creation-services) .banner .sec_left {
+        padding: 340px 0 140px
+    }
+
+    :global(.author-website-creation-services) .banner .sec_right {
+        width: 680px;
+        height: 579px;
+    }
+
+    :global(.book-editing-services) .banner .sec_left {
+        padding: 220px 0 60px
+    }
+
+    :global(.book-editing-services) .banner .sec_right {
+        width: 680px;
+        height: 452px;
+        transform: translateY(-50px);
+    }
+
+    :global(.book-publishing-services) .banner .sec_left {
+        padding: 300px 0 100px
+    }
+
+    :global(.book-publishing-services) .banner .sec_right {
+        width: 670px;
+        height: 513px;
+    }
+
+    :global(.book-cover-design-services) .banner .sec_left {
+        padding: 240px 0 100px
+    }
+
+    :global(.book-cover-design-services) .banner .sec_right {
+        width: 680px;
+        height: 565px;
+    }
+
+    :global(.book-trailer-services) .banner .sec_left {
+        padding: 222px 0 80px
+    }
+
+    :global(.book-trailer-services) .banner .sec_right {
+        width: 694px;
+        height: 430px;
+    }
+
+    :global(.book-audio-services) .banner .sec_left {
+        padding: 250px 0 100px
+    }
+
+    :global(.book-audio-services) .banner .sec_right {
+        width: 680px;
+        height: 559px;
+    }
+
+    :global(.book-marketing-services) .banner .sec_left {
+        padding: 250px 0 100px
+    }
+
+    :global(.book-marketing-services) .banner .sec_right {
+        width: 680px;
+        height: 585px;
+    }
+}
+
+@media screen and (max-width:1399px) {
+    :global(.ebook-writing-services) .banner .sec_left {
+        padding: 210px 0 80px
+    }
+
+    .banner .sec_left h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    :global(.ebook-writing-services) .banner .sec_right {
+        width: 580px;
+        height: 490px;
+    }
+
+    .banner .sec_left p {
+        margin: 15px 0;
+    }
+
+    :global(.author-website-creation-services) .banner .sec_left {
+        padding: 270px 0 100px
+    }
+
+    :global(.author-website-creation-services) .banner .sec_right {
+        width: 580px;
+        height: 494px;
+    }
+
+    :global(.book-proofreading-services) .banner .sec_left {
+        padding: 250px 0 80px
+    }
+
+    :global(.book-proofreading-services) .banner .sec_right {
+        width: 580px;
+        height: 497px;
+    }
+
+    :global(.book-editing-services) .banner .sec_left {
+        padding: 170px 0 40px
+    }
+
+    :global(.book-editing-services) .banner .sec_right {
+        width: 580px;
+        height: 380px;
+    }
+
+    :global(.book-publishing-services) .banner .sec_left {
+        padding: 210px 0 60px
+    }
+
+    :global(.book-publishing-services) .banner .sec_right {
+        width: 580px;
+        height: 445px;
+    }
+
+    :global(.book-cover-design-services) .banner .sec_left {
+        padding: 180px 0 80px
+    }
+
+    :global(.book-cover-design-services) .banner .sec_right {
+        width: 580px;
+        height: 480px;
+    }
+
+    :global(.book-trailer-services) .banner .sec_left {
+        padding: 170px 0 60px
+    }
+
+    :global(.book-trailer-services) .banner .sec_right {
+        width: 588px;
+        height: 371px;
+    }
+
+    :global(.book-audio-services) .banner .sec_left {
+        padding: 200px 0 40px
+    }
+
+    :global(.book-audio-services) .banner .sec_right {
+        width: 580px;
+        height: 480px;
+    }
+
+    :global(.book-marketing-services) .banner .sec_left {
+        padding: 220px 0 60px
+    }
+
+    :global(.book-marketing-services) .banner .sec_right {
+        width: 580px;
+        height: 497px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    :global(.ebook-writing-services) .banner .sec_left {
+        padding: 180px 0 40px
+    }
+
+    .banner .sec_left h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    :global(.ebook-writing-services) .banner .sec_right {
+        width: 480px;
+        height: 405px;
+    }
+
+    :global(.author-website-creation-services) .banner .sec_left {
+        padding: 250px 0 65px
+    }
+
+    :global(.author-website-creation-services) .banner .sec_right {
+        width: 470px;
+        height: 400px;
+    }
+
+    :global(.book-proofreading-services) .banner .sec_left {
+        padding: 180px 0 60px
+    }
+
+    :global(.book-proofreading-services) .banner .sec_right {
+        width: 470px;
+        height: 400px;
+    }
+
+    :global(.book-editing-services) .banner .sec_right {
+        width: 470px;
+        height: 310px;
+        transform: translateY(-80px);
+    }
+
+    :global(.book-publishing-services) .banner .sec_left {
+        padding: 170px 0 40px
+    }
+
+    :global(.book-publishing-services) .banner .sec_right {
+        width: 480px;
+        height: 368px;
+    }
+
+    :global(.book-cover-design-services) .banner .sec_left {
+        padding: 180px 0 40px
+    }
+
+    :global(.book-cover-design-services) .banner .sec_right {
+        width: 470px;
+        height: 390px;
+    }
+
+    :global(.book-trailer-services) .banner .sec_left {
+        padding: 180px 0 40px
+    }
+
+    :global(.book-trailer-services) .banner .sec_right {
+        width: 484px;
+        height: 305px;
+    }
+
+    :global(.book-audio-services) .banner .sec_left {
+        padding: 180px 0 40px
+    }
+
+    :global(.book-audio-services) .banner .sec_right {
+        width: 460px;
+        height: 380px;
+    }
+
+    :global(.book-marketing-services) .banner .sec_left {
+        padding: 200px 0 40px
+    }
+
+    :global(.book-marketing-services) .banner .sec_right {
+        width: 480px;
+        height: 415px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .banner .sec_left h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    :global(.ebook-writing-services) .banner .sec_right,
+    :global(.author-website-creation-services) .banner .sec_right,
+    :global(.book-proofreading-services) .banner .sec_right,
+    :global(.book-editing-services) .banner .sec_right,
+    :global(.book-publishing-services) .banner .sec_right,
+    :global(.book-cover-design-services) .banner .sec_right,
+    :global(.book-trailer-services) .banner .sec_right,
+    :global(.book-audio-services) .banner .sec_right,
+    :global(.book-marketing-services) .banner .sec_right {
+        padding: 130px 0 40px
+    }
+
+    :global(.ebook-writing-services) .banner .sec_right {
+        width: 370px;
+        height: 314px;
+    }
+
+    :global(.author-website-creation-services) .banner .sec_right {
+        width: 350px;
+        height: 298px;
+    }
+
+    :global(.book-proofreading-services) .banner .sec_right {
+        width: 350px;
+        height: 300px;
+    }
+
+    :global(.book-editing-services) .banner .sec_right {
+        width: 350px;
+        height: 230px;
+        transform: translateY(-80px);
+    }
+
+    :global(.book-publishing-services) .banner .sec_right {
+        width: 360px;
+        height: 276px;
+        transform: translateY(-50px);
+    }
+
+    :global(.book-cover-design-services) .banner .sec_right {
+        width: 360px;
+        height: 298px;
+    }
+
+    :global(.book-trailer-services) .banner .sec_right {
+        width: 372px;
+        height: 235px;
+    }
+
+    :global(.book-audio-services) .banner .sec_right {
+        width: 360px;
+        height: 295px;
+    }
+
+    :global(.book-marketing-services) .banner .sec_right {
+        width: 360px;
+        height: 309px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .banner .sec_left h1 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: -2px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: -2px;
+    }
+
+    :global(.ebook-writing-services) .banner .sec_right,
+    :global(.author-website-creation-services) .banner .sec_right,
+    :global(.book-proofreading-services) .banner .sec_right,
+    :global(.book-editing-services) .banner .sec_right,
+    :global(.book-publishing-services) .banner .sec_right,
+    :global(.book-cover-design-services) .banner .sec_right,
+    :global(.book-trailer-services) .banner .sec_right,
+    :global(.book-audio-services) .banner .sec_right,
+    :global(.book-marketing-services) .banner .sec_right {
+        margin-left: auto;
+    }
+
+    :global(.book-editing-services) .banner .sec_right {
+        width: 350px;
+        height: 230px;
+        transform: translateY(0px);
+    }
+
+    :global(.book-publishing-services) .banner .sec_right {
+        transform: translateY(0px);
+    }
+
+    :global(.book-trailer-services) .banner .sec_right {
+        width: 372px;
+        height: 235px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .banner .sec_left h1 {
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: -1px;
+    }
+
+    .banner .sec_left h1 span {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: -1px;
+    }
+
+    :global(.ebook-writing-services) .banner .sec_right {
+        width: 296px;
+        height: 250px;
+    }
+
+    :global(.author-website-creation-services) .banner .sec_right {
+        width: 296px;
+        height: 252px;
+    }
+
+    :global(.book-proofreading-services) .banner .sec_right {
+        width: 296px;
+        height: 255px;
+    }
+
+    :global(.book-editing-services) .banner .sec_right {
+        width: 296px;
+        height: 195px;
+    }
+
+    :global(.book-publishing-services) .banner .sec_right {
+        width: 296px;
+        height: 227px;
+    }
+
+    :global(.book-cover-design-services) .banner .sec_right {
+        width: 296px;
+        height: 245px;
+    }
+
+    :global(.book-trailer-services) .banner .sec_right {
+        width: 296px;
+        height: 188px;
+    }
+
+    :global(.book-audio-services) .banner .sec_right {
+        width: 296px;
+        height: 245px;
+    }
+
+    :global(.book-marketing-services) .banner .sec_right {
+        width: 296px;
+        height: 255px;
+    }
 }
