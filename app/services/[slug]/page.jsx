@@ -1,8 +1,8 @@
 import {servicesData} from "@/data/servicesData";
 import styles from "./page.module.css";
-import {BestSellingAuthor, ContactSection, Testimonials} from "@/components/home";
+import {ContactSection, Testimonials} from "@/components/home";
 import FAQSection from "@/components/ui/FAQSection";
-import { BannerSection, ProcessSection, FeaturesSection, ActionPlanSection, ServicesSection, CtaSection } from "@/components/services/";
+import { BannerSection, ProcessSection, FeaturesSection, ActionPlanSection, ServicesSection, CTASection } from "@/components/services/";
 
 export async function generateStaticParams() {
   return Object.keys(servicesData).map((slug) => ({ slug }));
@@ -22,7 +22,7 @@ export default function ServicePage({ params }) {
       <ActionPlanSection data={service.actionPlan} />
       <ServicesSection data={service.services} />
       <Testimonials />
-      <CtaSection />
+      <CTASection />
       <FAQSection faqs={service.faqs} />
       <ContactSection />
     </div>
