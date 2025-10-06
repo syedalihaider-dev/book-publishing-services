@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.head_top}>
+      <div className={styles.head_top} data-aos="fade-down">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-12 col-md-6">
@@ -70,7 +70,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className={styles.main_header}>
+      <div className={styles.main_header} data-aos="fade-down">
         <div className="container">
           <div className={styles.inner_wrapper}>
             <div className={styles.logo}>

@@ -31,6 +31,7 @@ return (
     {books.map((src, i) => (
     <div key={i} className={`${styles.img} ${styles[`book${i + 1}`]}`}>
       <Image 
+      data-aos="fade-up"
       src={src} 
       alt={`Book ${i + 1}`} 
       fill 
@@ -42,17 +43,17 @@ return (
     ))}
 
     <div className="container text-center">
-      <h1>
+      <h1 data-aos="fade-up">
         <span className="primarytxt">Award Winning </span>
         <span className="break_line"></span>
         Book Publishing Services?
       </h1>
-      <p>
+      <p data-aos="fade-up">
         Publishing a book with amazon is a hassle but luckily, not with us.
         <span className="break_line"></span>
         We can help you in publishing book on amazon without any trouble.
       </p>
-      <div className="combo_btn">
+      <div className="combo_btn" data-aos="fade-up">
         <ActionButtons />
       </div>
     </div>
@@ -68,7 +69,7 @@ return (
     <div className="container">
       <div className="row align-items-end">
         <div className="col-md-6">
-          <div className={styles.sec_left}>
+          <div className={styles.sec_left} data-aos="fade-right">
             <h2>
               <span className="primarytxt">Book Publishing</span>
               <span className="break_line"></span> isn’t Big Dream
@@ -83,7 +84,7 @@ return (
           </div>
         </div>
         <div className="col-md-6">
-          <div className={styles.sec_right}>
+          <div className={styles.sec_right} data-aos="fade-left">
             <div className={styles.img}>
               <Image 
               src="/book-in-hand.png" 

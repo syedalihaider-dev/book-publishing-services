@@ -3,7 +3,6 @@ import ChatButton from "@/components/ui/ChatButton";
 import { PHONE_NUMBER } from "@/config/config";
 import styles from "./CtaSection.module.css";
 
-
 export default function CtaSection() {
 return (
 <section className={styles.cta}>
@@ -17,7 +16,7 @@ return (
     <div className="container">
         <div className="row align-items-end">
             <div className="col-sm-12 col-md-6">
-                <div className={styles.sec_left}>
+                <div className={styles.sec_left} data-aos="fade-right">
                         <div className={styles.img}>
                             <Image 
                             src="/cta-logo-img.png" 
@@ -49,7 +48,7 @@ return (
                 </div>
             </div>
             <div className="col-sm-12 col-md-6">
-                <div className={styles.sec_right}>
+                <div className={styles.sec_right} data-aos="fade-left">
                     <Image 
                     src="/cta-right-img.png" 
                     alt="Book" 

@@ -12,7 +12,7 @@ return (
         style={{ objectFit: "cover" }}
         className={styles.bannerBg}
     />
-    <div className={styles.sec_left}>
+    <div className={styles.sec_left} data-aos="fade-right">
         <div className={styles.img}>
             <Image 
             src="/author-left-img.png" 
@@ -25,7 +25,7 @@ return (
     <div className="container">
         <div className="row justify-content-end">
             <div className="col-sm-12 col-md-6">
-                <div className={styles.sec_right}>
+                <div className={styles.sec_right} data-aos="fade-left">
                     <h2>
                         <span className="primarytxt">Best Selling Author</span>
                         <span className="break_line"></span> that make us Book Publishing Champion

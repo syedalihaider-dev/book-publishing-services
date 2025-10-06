@@ -2,14 +2,12 @@
 import Image from "next/image";
 import styles from "./Testimonials.module.css";
 
-// Swiper imports
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
 export default function Testimonials() {
-  // ✅ Sirf text + author wale testimonials (6 box)
   const mobileTestimonials = [
     {
       text: "Turned my dream manuscript into reality",

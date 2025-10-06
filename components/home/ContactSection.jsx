@@ -80,7 +80,7 @@ export default function ContactSection() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_left}>
+            <div className={styles.sec_left} data-aos="fade-right">
               <h2>
                 <span className="primarytxt">Contact Us</span>
               </h2>
@@ -98,9 +98,8 @@ export default function ContactSection() {
               </div>
             </div>
           </div>
-
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_right}>
+            <div className={styles.sec_right} data-aos="fade-left">
               <h3 className={styles.service_heading}>Service</h3>
               <div className={styles.services_wrap}>
                 {servicesList.map((service, index) => (

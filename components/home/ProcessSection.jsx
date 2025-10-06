@@ -26,9 +26,8 @@ export default function ProcessSection() {
     <section className={`${styles.process_section} sec_padding`}>
       <div className="container">
         <div className="row align-items-center">
-          {/* Left Image */}
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_left}>
+            <div className={styles.sec_left} data-aos="fade-right">
               <Image
                 src="/process-left-img.png"
                 alt="Process Book" 
@@ -37,10 +36,8 @@ export default function ProcessSection() {
               />
             </div>
           </div>
-
-          {/* Right Content */}
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_right}>
+            <div className={styles.sec_right} data-aos="fade-left">
               <h2>
                 <span className="primarytxt">Publishing Book</span>
                 <span className="break_line"></span> on is a Simple Process
@@ -51,8 +48,7 @@ export default function ProcessSection() {
                 enable you to publish a book without any hassle. We excel in
                 genres like:
               </p>
-
-              {/* ✅ Steps mapped */}
+              
               <ul>
                 {steps.map((step, i) => (
                   <li key={i}>

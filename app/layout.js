@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Popup from "@/components/layout/Popup";
+import AOSInitializer from "@/components/AOS/AOSInitializer";
 
 import { Lexend } from "next/font/google";
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={lexend.className}>
+        <AOSInitializer />
         <Header />
         {children}
         <Footer />

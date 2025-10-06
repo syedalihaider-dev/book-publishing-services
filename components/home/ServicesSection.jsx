@@ -22,7 +22,6 @@ export default function ServicesSection() {
     return () => window.removeEventListener("resize", checkWidth);
   }, []);
 
-  // ✅ Har service ke sath alag background image
   const services = [
     {
       title: "eBook Writing",
@@ -119,7 +118,7 @@ export default function ServicesSection() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_left}>
+            <div className={styles.sec_left} data-aos="fade-right">
               <h2>
                 Providing you the best <span className="break_line"></span>
                 <span className="primarytxt">Book Publishing</span>
@@ -128,7 +127,7 @@ export default function ServicesSection() {
             </div>
           </div>
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_right}>
+            <div className={styles.sec_right} data-aos="fade-left">
               <p className="m-0">
                 As a prominent Amazon book publishing service, we deliver what we
                 promise. Our trained professionals are on their toes to bring
@@ -141,7 +140,7 @@ export default function ServicesSection() {
           </div>
         </div>
       </div>
-      <div className={styles.content}>
+      <div className={styles.content} data-aos="fade-up">
         {isMobile ? (
           <Swiper
             modules={[Pagination]}
