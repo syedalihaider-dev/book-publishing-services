@@ -30,7 +30,14 @@ return (
     />
     {books.map((src, i) => (
     <div key={i} className={`${styles.img} ${styles[`book${i + 1}`]}`}>
-      <Image src={src} alt={`Book ${i + 1}`} fill priority className={styles.banner_book_img} />
+      <Image 
+      src={src} 
+      alt={`Book ${i + 1}`} 
+      fill 
+      priority 
+      fetchPriority="high" 
+      className={styles.banner_book_img} 
+      />
     </div>
     ))}
 
@@ -55,8 +62,6 @@ return (
         src="/about-banner-bg.png"
         alt="About Bg Image"
         fill
-        priority 
-        fetchPriority="high" 
         style={{ objectFit: "cover" }}
         className={styles.bannerBg}
     />
@@ -80,7 +85,12 @@ return (
         <div className="col-md-6">
           <div className={styles.sec_right}>
             <div className={styles.img}>
-              <Image src="/book-in-hand.png" alt="Book" fill priority className="myImage" />
+              <Image 
+              src="/book-in-hand.png" 
+              alt="Book" 
+              fill 
+              className="myImage" 
+              />
             </div>
           </div>
         </div>

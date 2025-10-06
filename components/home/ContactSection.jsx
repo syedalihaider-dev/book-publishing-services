@@ -74,8 +74,6 @@ export default function ContactSection() {
         src="/contact-banner-bg.png"
         alt="Contact Bg Image"
         fill
-        priority
-        fetchPriority="high"
         style={{ objectFit: "cover" }}
         className={styles.bannerBg}
       />
@@ -124,7 +122,12 @@ export default function ContactSection() {
                   <div className="col-sm-12 col-md-6">
                     <div className={styles.form_group}>
                       <label className={styles.form_label} htmlFor="name">
-                        <Image src="/user-icon.png" alt="User" width={13} height={15} />
+                        <Image 
+                        src="/user-icon.png" 
+                        alt="User" 
+                        width={13} 
+                        height={15} 
+                        />
                         Full name*
                       </label>
                       <input
@@ -142,7 +145,12 @@ export default function ContactSection() {
                   <div className="col-sm-12 col-md-6">
                     <div className={styles.form_group}>
                       <label className={styles.form_label} htmlFor="phone">
-                        <Image src="/phone-icon.png" alt="Phone" width={13} height={16} />
+                        <Image 
+                        src="/phone-icon.png" 
+                        alt="Phone" 
+                        width={13} 
+                        height={16} 
+                        />
                         Phone*
                       </label>
                       <input
@@ -160,7 +168,12 @@ export default function ContactSection() {
                   <div className="col-sm-12 col-md-6">
                     <div className={styles.form_group}>
                       <label className={styles.form_label} htmlFor="email">
-                        <Image src="/envelop-icon.png" alt="Email" width={16} height={16} />
+                        <Image 
+                        src="/envelop-icon.png" 
+                        alt="Email" 
+                        width={16} 
+                        height={16} 
+                        />
                         Email address*
                       </label>
                       <input
@@ -178,7 +191,12 @@ export default function ContactSection() {
                   <div className="col-sm-12 col-md-6">
                     <div className={styles.form_group}>
                       <label className={styles.form_label} htmlFor="budget">
-                        <Image src="/dollar-icon.png" alt="Budget" width={12} height={14} />
+                        <Image 
+                        src="/dollar-icon.png" 
+                        alt="Budget" 
+                        width={12} 
+                        height={14} 
+                        />
                         Select Your Budget
                       </label>
                       <input
@@ -195,7 +213,12 @@ export default function ContactSection() {
                   <div className="col-sm-12">
                     <div className={styles.form_group_full}>
                       <label className={styles.form_label} htmlFor="message">
-                        <Image src="/message-icon.png" alt="Message" width={14} height={14} />
+                        <Image 
+                        src="/message-icon.png" 
+                        alt="Message" 
+                        width={14} 
+                        height={14} 
+                        />
                         Project Details
                       </label>
                       <textarea

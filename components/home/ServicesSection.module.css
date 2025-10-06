@@ -1,5 +1,4 @@
 .services {
-    /* background: url("../../public/services-banner-bg.webp") center/cover no-repeat; */
     position: relative;
     z-index: 1;
 }
@@ -106,11 +105,6 @@
     align-items: center;
     gap: 30px;
 }
-
-/* .services .content :global(.slick-center) .box .inner_box {
-  opacity: 1;
-  transition: var(--cubic);
-} */
 
 @media screen and (max-width:1600px) {
     .services .content .box {

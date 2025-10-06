@@ -63,7 +63,12 @@ return (
             <div className="col-sm-12 col-md-3">
                 <div className={styles.ft_logo}>
                     <Link href="/">
-                        <Image src="/ft-logo.png" fill alt="Loading Footer Logo" className="myImages" />
+                        <Image 
+                        src="/ft-logo.png" 
+                        fill 
+                        alt="Loading Footer Logo" 
+                        className="myImages" 
+                        />
                     </Link>
                 </div>
             </div>
@@ -88,18 +93,31 @@ return (
                     <li>
                         <Link href="https://www.facebook.com/amzbookpublishing" target="_blank"
                             rel="noopener noreferrer">
-                        <Image src="/facebook-icon.png" fill alt="Facebook Icon" className="myIcon" />
+                        <Image 
+                        src="/facebook-icon.png" 
+                        fill 
+                        alt="Facebook Icon" 
+                        className="myIcon" />
                         </Link>
                     </li>
                     <li>
                         <Link href="https://www.instagram.com/amzbookpublishing/" target="_blank"
                             rel="noopener noreferrer">
-                        <Image src="/instagram-icon.png" fill alt="Instagram Icon" className="myIcon" />
+                        <Image 
+                        src="/instagram-icon.png" 
+                        fill 
+                        alt="Instagram Icon" 
+                        className="myIcon" />
                         </Link>
                     </li>
                     <li>
                         <Link href="https://x.com/amz_publishing" target="_blank" rel="noopener noreferrer">
-                        <Image src="/x-icon.png" fill alt="X Icon" className="myIcon" />
+                        <Image 
+                        src="/x-icon.png" 
+                        fill 
+                        alt="X Icon" 
+                        className="myIcon" 
+                        />
                         </Link>
                     </li>
                 </ul>
@@ -108,7 +126,12 @@ return (
                 <h4>Locations</h4>
                 <ul className={styles.ft_map}>
                     <li>
-                        <Image src="/location-icon-01.png" width={43} height={43} alt="Location Icon" />
+                        <Image 
+                        src="/location-icon-01.png" 
+                        width={43} 
+                        height={43} 
+                        alt="Location Icon" 
+                        />
                         <p>
                             <strong>Location:</strong>
                             <span>{LOCATION_ADDRESS}</span>
@@ -132,8 +155,11 @@ return (
                 </div>
                 <div className="col-sm-12 col-md-6">
                     <div className={styles.sec_right}>
-                        <Image src="/payment-method.png" fill alt="Payment Method"
-                            className="myImages" />
+                        <Image 
+                        src="/payment-method.png" 
+                        fill 
+                        alt="Payment Method" 
+                        className="myImages" />
                     </div>
                 </div>
             </div>

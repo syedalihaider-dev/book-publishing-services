@@ -9,14 +9,17 @@ return (
         src="/author-banner-bg.png"
         alt="Author Bg Image"
         fill
-        priority 
-        fetchPriority="high" 
         style={{ objectFit: "cover" }}
         className={styles.bannerBg}
     />
     <div className={styles.sec_left}>
         <div className={styles.img}>
-            <Image src="/author-left-img.png" alt="Authors Image" fill className="myImage" />
+            <Image 
+            src="/author-left-img.png" 
+            alt="Authors Image" 
+            fill 
+            className="myImage" 
+            />
         </div>
     </div>
     <div className="container">

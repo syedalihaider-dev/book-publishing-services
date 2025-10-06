@@ -15,10 +15,18 @@ export default function FeaturesSection({ data }) {
   return (
     <section className={`${styles.features_section} sec_padding`}>
       <div className={styles.features_before}>
-        <Image src="/services/feature-before.png" fill priority alt="Features Before" />
+        <Image 
+        src="/services/feature-before.png" 
+        fill 
+        alt="Features Before" 
+        />
       </div>
       <div className={styles.features_after}>
-        <Image src="/services/feature-after.png" fill priority alt="Features After" />
+        <Image 
+        src="/services/feature-after.png" 
+        fill 
+        alt="Features After" 
+        />
       </div>
       <div className="container">
         <div className={`${styles.sec_top} text-center`}>
@@ -41,12 +49,15 @@ export default function FeaturesSection({ data }) {
                     <Image 
                       src={afterImages[i]} 
                       fill 
-                      priority 
                       alt={`Box ${i + 1} After`} 
                     />
                   </div>
                   <div className={styles.icon}>
-                    <Image src={box.icon} fill priority alt={`${box.title} Icon`} />
+                    <Image 
+                    src={box.icon} 
+                    fill 
+                    alt={`${box.title} Icon`} 
+                    />
                   </div>
                   <h6>{box.title}</h6>
                   <p className="scroll_block">{box.text}</p>

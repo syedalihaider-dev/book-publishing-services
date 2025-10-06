@@ -12,8 +12,6 @@ return (
         src="/contact/banner.png" 
         alt="Banner Background Image" 
         fill 
-        priority 
-        fetchPriority="high" 
         style={{ objectFit: "cover" }} 
         className={styles.bannerBg} 
         />
@@ -39,8 +37,6 @@ return (
                         src="/contact/banner-left.png" 
                         alt="Contact Banner Left Image" 
                         fill 
-                        priority 
-                        fetchPriority="high" 
                         className={styles.img} 
                         />
                     </div>

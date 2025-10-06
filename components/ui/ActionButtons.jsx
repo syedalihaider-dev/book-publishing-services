@@ -10,7 +10,13 @@ export default function ActionButtons() {
           <span>Call Now</span>
         </div>
         <div className="icon">
-          <Image src="/call-icon.png" alt="Call Icon" width={23} height={23} className="myImage" />
+          <Image 
+          src="/call-icon.png" 
+          alt="Call Icon" 
+          width={23} 
+          height={23} 
+          className="myImage" 
+          />
         </div>
       </a>
       <a href="#" className="btn btn_2 chat">
@@ -19,7 +25,13 @@ export default function ActionButtons() {
           <span>Live Chat</span>
         </div>
         <div className="icon">
-          <Image src="/chat-icon.png" alt="Chat Icon" width={23} height={23} className="myImage" />
+          <Image 
+          src="/chat-icon.png" 
+          alt="Chat Icon" 
+          width={23} 
+          height={23} 
+          className="myImage" 
+          />
         </div>
       </a>
     </>

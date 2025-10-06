@@ -40,7 +40,6 @@ export default function ActionPlanSection({ data }) {
           <Image
             src={data.bgImage}
             fill
-            priority
             alt="Process Background Image"
             style={{ objectFit: "cover" }}
             className={styles.contentBg}

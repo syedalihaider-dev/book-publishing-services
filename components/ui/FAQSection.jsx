@@ -20,8 +20,6 @@ export default function FAQSection({ faqs = [] }) {
         src="/faqs-bg.png"
         alt="FAQs Bg Image"
         fill
-        priority
-        fetchPriority="high"
         style={{ objectFit: "cover" }}
         className={styles.bannerBg}
       />

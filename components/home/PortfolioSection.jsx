@@ -29,26 +29,41 @@ export default function PortfolioSection() {
         src="/portfolio-banner-bg.png"
         alt="portfolio Bg Image"
         fill
-        priority 
-        fetchPriority="high" 
         style={{ objectFit: "cover" }}
         className={styles.bannerBg}
       />
-      {/* Floating Books */}
       <div className={`${styles.book} ${styles.book1}`}>
-        <Image src="/book-icon-01.png" width={147} height={121} alt="Book Images" />
+        <Image 
+        src="/book-icon-01.png" 
+        width={147} 
+        height={121} 
+        alt="Book Images" 
+        />
       </div>
       <div className={`${styles.book} ${styles.book2}`}>
-        <Image src="/book-icon-02.png" width={141} height={123} alt="Book Images" />
+        <Image 
+        src="/book-icon-02.png" 
+        width={141} 
+        height={123} 
+        alt="Book Images" 
+        />
       </div>
       <div className={`${styles.book} ${styles.book3}`}>
-        <Image src="/book-icon-03.png" width={161} height={124} alt="Book Images" />
+        <Image 
+        src="/book-icon-03.png" 
+        width={161} 
+        height={124} 
+        alt="Book Images" 
+        />
       </div>
       <div className={`${styles.book} ${styles.book4}`}>
-        <Image src="/book-icon-04.png" width={123} height={114} alt="Book Images" />
+        <Image 
+        src="/book-icon-04.png" 
+        width={123} 
+        height={114} 
+        alt="Book Images" 
+        />
       </div>
-
-      {/* Heading + Tabs */}
       <div className="container">
         <div className={`${styles.sec_top} text-center`}>
           <h2>
@@ -74,8 +89,6 @@ export default function PortfolioSection() {
           </ul>
         </div>
       </div>
-
-      {/* Swiper for active genre */}
       <Swiper
         modules={[Navigation, Autoplay]}
         loop={true}
@@ -97,7 +110,11 @@ export default function PortfolioSection() {
         {genres[activeGenre].books.map((book, i) => (
           <SwiperSlide key={i}>
             <div className={styles.bookCard}>
-              <Image src={book} alt="Portfolio Book" fill />
+              <Image 
+              src={book} 
+              alt="Portfolio Book" 
+              fill 
+              />
             </div>
           </SwiperSlide>
         ))}

@@ -84,8 +84,6 @@ export default function Popup() {
               src="/popup/popup-banner-bg.png"
               alt="Banner Bg Image"
               fill
-              priority
-              fetchPriority="high"
               style={{ objectFit: "cover" }}
               className={styles.PopupBg}
             />
@@ -189,8 +187,6 @@ export default function Popup() {
                   src="/popup/popup-right-img.png"
                   alt="Banner Bg Image"
                   fill
-                  priority
-                  fetchPriority="high"
                   style={{ objectFit: "contain" }}
                   className={styles.PopupBg}
                 />

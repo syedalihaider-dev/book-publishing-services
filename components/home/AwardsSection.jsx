@@ -58,7 +58,12 @@ return (
       {awards.map((award, i) => (
       <SwiperSlide key={i}>
         <div className={styles.awards_item}>
-          <Image src={award.src} alt={award.alt} width={award.w} height={award.h} />
+          <Image 
+          src={award.src} 
+          alt={award.alt} 
+          width={award.w} 
+          height={award.h} 
+          />
         </div>
       </SwiperSlide>
       ))}

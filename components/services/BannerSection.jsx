@@ -8,8 +8,13 @@ const { title, highlight, description, rightImage, imageAlign } = data;
 
 return (
 <section className={styles.banner}>
-  <Image src="/services/banner.png" alt="Banner Bg Image" fill priority fetchPriority="high"
-    style={{ objectFit: "cover" }} className={styles.bannerBg} />
+  <Image 
+  src="/services/banner.png" 
+  alt="Banner Bg Image" 
+  fill 
+  style={{ objectFit: "cover" }} 
+  className={styles.bannerBg} 
+  />
   <div className="container">
     <div className={`row align-items-${imageAlign}`}>
       <div className="col-sm-12 col-md-6">
@@ -26,8 +31,12 @@ return (
       <div className="col-sm-12 col-md-6">
         <div className={styles.sec_right}>
           {rightImage && (
-          <Image src={rightImage} alt="Banner Right Image" fill priority fetchPriority="high"
-            className={styles.right_img} />
+          <Image 
+          src={rightImage} 
+          alt="Banner Right Image" 
+          fill 
+          className={styles.right_img} 
+          />
           )}
         </div>
       </div>

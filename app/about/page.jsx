@@ -39,8 +39,6 @@ return (
         src="/about/banner.png" 
         alt="Banner Bg Image" 
         fill 
-        priority 
-        fetchPriority="high" 
         style={{ objectFit: "cover" }} 
         className={styles.bannerBg} 
         />
@@ -67,8 +65,6 @@ return (
                         src="/about/banner-left.png" 
                         alt="About Banner Bg Image" 
                         fill 
-                        priority 
-                        fetchPriority="high" 
                         className={styles.img} 
                         />
                     </div>
@@ -82,8 +78,6 @@ return (
             src="/about/sec2-before.png" 
             alt="About Before Image" 
             fill 
-            priority 
-            fetchPriority="high"  
             />
         </div>
         <div className="container">
@@ -93,11 +87,9 @@ return (
                         <h6>About Us</h6>
                         <div className={styles.avatar}>
                             <Image 
-                                src="/about/avatar.png" 
-                                alt="About Avatar Image" 
-                                fill 
-                                priority 
-                                fetchPriority="high"
+                            src="/about/avatar.png" 
+                            alt="About Avatar Image" 
+                            fill 
                             />
                         </div>
                         <div className={styles.trustpilot}>
@@ -107,8 +99,6 @@ return (
                                 src="/about/trustpilot-rate.png" 
                                 alt="Rating Trustpilot Image" 
                                 fill 
-                                priority 
-                                fetchPriority="high"  
                                 />
                             </div>
                         </div>
@@ -137,8 +127,6 @@ return (
         src="/about/cta-bg.png" 
         alt="Banner Bg Image" 
         fill 
-        priority 
-        fetchPriority="high" 
         style={{ objectFit: "cover" }} 
         className={styles.bannerBg} 
         />
@@ -150,8 +138,6 @@ return (
                         src="/about/cta-left-bg.png" 
                         alt="Girl With Book Image" 
                         fill 
-                        priority 
-                        fetchPriority="high"  
                         style={{ objectFit: "cover" }} 
                         />
                     </div>

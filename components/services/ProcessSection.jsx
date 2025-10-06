@@ -10,29 +10,34 @@ export default function ProcessSection({ data }) {
     <section className={`${styles.process_section} sec_padding`}>
       <div className="container">
         <div className="row align-items-center">
-          {/* Left Image */}
           <div className="col-sm-12 col-md-6">
             <div className={styles.sec_left}>
-              <Image src={image} alt="Process Illustration" fill className="myImages" />
+              <Image 
+              src={image} 
+              alt="Process Illustration" 
+              fill 
+              className="myImages" 
+              />
             </div>
           </div>
-
-          {/* Right Content */}
           <div className="col-sm-12 col-md-6">
             <div className={styles.sec_right}>
               <h2>
                 <span className="primarytxt">{highlight}</span> {title}
               </h2>
               <p className="mb-0">{description}</p>
-
-              {/* Steps */}
               <ul>
                 {steps.map((step, i) => (
                   <li key={i}>
                     <div className={styles.box}>
                       <div className={styles.head}>
                         <div className={styles.img}>
-                          <Image src={step.icon} alt={step.title} fill className="myImages" />
+                          <Image 
+                          src={step.icon} 
+                          alt={step.title} 
+                          fill 
+                          className="myImages" 
+                          />
                         </div>
                         <h6>{step.title}</h6>
                       </div>
@@ -41,8 +46,6 @@ export default function ProcessSection({ data }) {
                   </li>
                 ))}
               </ul>
-
-              {/* Buttons */}
               <div className="combo_btn">
                 <ActionButtons />
               </div>

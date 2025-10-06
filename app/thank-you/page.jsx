@@ -9,8 +9,6 @@ return (
         src="/banner-bg.png"
         alt="Banner Bg Image"
         fill
-        priority 
-        fetchPriority="high" 
         style={{ objectFit: "cover" }}
         className={styles.bannerBg}
     />

@@ -24,7 +24,12 @@ export default function ServicesSection({ data }) {
                     <div className={styles.box}>
                       <div className={styles.head}>
                         <div className={styles.img}>
-                          <Image src={step.icon} alt={step.title} fill className="myImages" />
+                          <Image 
+                          src={step.icon} 
+                          alt={step.title} 
+                          fill 
+                          className="myImages" 
+                          />
                         </div>
                         <h6>{step.title}</h6>
                       </div>
@@ -40,7 +45,12 @@ export default function ServicesSection({ data }) {
           </div>
           <div className="col-sm-12 col-md-6">
             <div className={styles.sec_right}>
-              <Image src={image} alt="Services Illustration" fill className="myImages" />
+              <Image 
+              src={image} 
+              alt="Services Illustration" 
+              fill 
+              className="myImages" 
+              />
             </div>
           </div>
         </div>

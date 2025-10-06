@@ -79,21 +79,15 @@ export default function ServicesSection() {
       bg: "/ebook-writing-bg.png",
     },
   ];
-
-  // ✅ Service Box Component
   const ServiceBox = ({ service }) => (
     <div className={styles.box}>
-      {/* Background Image */}
       <Image
         src={service.bg}
         alt={`${service.title} background`}
         fill
         style={{ objectFit: "cover" }}
         className={styles.bgImage}
-        priority={false}
-        fetchPriority="auto"
       />
-
         <h3 className={styles.heading}>{service.title}</h3>
         <div className={styles.inner_box}>
           <h3>{service.title}</h3>
@@ -115,18 +109,13 @@ export default function ServicesSection() {
 
   return (
     <section className={`${styles.services} sec_padding`}>
-      {/* Banner Background */}
       <Image
         src="/services-banner-bg.png"
         alt="Service Bg Image"
         fill
-        priority
-        fetchPriority="high"
         style={{ objectFit: "cover" }}
         className={styles.bannerBg}
       />
-
-      {/* Top Section */}
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-6">
@@ -152,8 +141,6 @@ export default function ServicesSection() {
           </div>
         </div>
       </div>
-
-      {/* Services Content */}
       <div className={styles.content}>
         {isMobile ? (
           <Swiper

@@ -6,17 +6,20 @@ export default function CTASection() {
 return (
 <section className={styles.author_section}>
     <Image
-        src="/author-banner-bg.png"
-        alt="Author Bg Image"
-        fill
-        priority 
-        fetchPriority="high" 
-        style={{ objectFit: "cover" }}
-        className={styles.bannerBg}
+    src="/author-banner-bg.png"
+    alt="Author Bg Image"
+    fill
+    style={{ objectFit: "cover" }}
+    className={styles.bannerBg}
     />
     <div className={styles.sec_left}>
         <div className={styles.img}>
-            <Image src="/author-left-img.png" alt="Authors Image" fill className="myImage" />
+            <Image 
+            src="/author-left-img.png" 
+            alt="Authors Image" 
+            fill 
+            className="myImage" 
+            />
         </div>
     </div>
     <div className="container">
