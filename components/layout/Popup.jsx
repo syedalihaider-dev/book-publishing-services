@@ -21,10 +21,25 @@ export default function Popup() {
     e.preventDefault();
 
     try {
+      const ipRes = await fetch("https://api.ipify.org?format=json");
+      const ipData = await ipRes.json();
+
+      const locationRes = await fetch(`https://ipapi.co/${ipData.ip}/json/`);
+      const locationData = await locationRes.json();
+
+      const payload = {
+        ...formData,
+        formType: "Popup Form",
+        pageUrl: window.location.href,
+        userIp: ipData.ip,
+        userCity: locationData.city || "Unknown City",
+        userCountry: locationData.country_name || "Unknown Country",
+      };
+
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(payload),
       });
 
       if (res.ok) {

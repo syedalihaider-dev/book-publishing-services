@@ -25,11 +25,11 @@ export default function ContactSection() {
   });
 
   const toggleService = (service) => {
-    if (selectedServices.includes(service)) {
-      setSelectedServices(selectedServices.filter((s) => s !== service));
-    } else {
-      setSelectedServices([...selectedServices, service]);
-    }
+    setSelectedServices((prev) =>
+      prev.includes(service)
+        ? prev.filter((s) => s !== service)
+        : [...prev, service]
+    );
   };
 
   const handleChange = (e) => {
@@ -39,18 +39,32 @@ export default function ContactSection() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const payload = { ...formData, services: selectedServices };
+    try {
+      const ipRes = await fetch("https://api.ipify.org?format=json");
+      const ipData = await ipRes.json();
 
-    const res = await fetch("/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
+      const payload = {
+        ...formData,
+        services: selectedServices,
+        formType: "Footer Form",
+        pageUrl: window.location.href,
+        userIp: ipData.ip,
+      };
 
-    if (res.ok) {
-      window.location.href = "/thank-you";
-    } else {
-      alert("Failed to send message. Try again later.");
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (res.ok) {
+        window.location.href = "/thank-you";
+      } else {
+        alert("Failed to send message. Try again later.");
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      alert("Something went wrong. Please try again later.");
     }
   };
 
@@ -86,6 +100,7 @@ export default function ContactSection() {
               </div>
             </div>
           </div>
+
           <div className="col-sm-12 col-md-6">
             <div className={styles.sec_right}>
               <h3 className={styles.service_heading}>Service</h3>
@@ -202,7 +217,6 @@ export default function ContactSection() {
                   </div>
                 </div>
               </form>
-
             </div>
           </div>
         </div>
