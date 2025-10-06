@@ -8,32 +8,64 @@
     text-transform: uppercase;
 }
 
-.terms_content{
+.terms_content {
     padding: 80px 0;
 }
 
-.terms_content .wrapper{
+.terms_content .wrapper {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.terms_content .wrapper .inner_wrapper h3{
+.terms_content .wrapper .inner_wrapper h3 {
     text-transform: capitalize;
     color: var(--primary-color);
 }
 
-.terms_content .wrapper .inner_wrapper p{
+.terms_content .wrapper .inner_wrapper p {
     margin: 0;
 }
 
-.terms_content .wrapper .inner_wrapper ul{
+.terms_content .wrapper .inner_wrapper ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding-left: 20px;
 }
 
-.terms_content .wrapper .inner_wrapper ul li{
+.terms_content .wrapper .inner_wrapper ul li {
     list-style-type: disc;
 }
+
+@media screen and (max-width:1600px) {}
+
+@media screen and (max-width:1399px) {
+    .term_banner {
+        padding: 200px 0 60px;
+    }
+
+    .terms_content {
+        padding: 60px 0;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .term_banner {
+        padding: 180px 0 40px;
+    }
+
+    .terms_content {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .term_banner {
+        padding: 130px 0 40px;
+    }
+}
+
+@media screen and (max-width:767px) {}
+
+@media screen and (max-width:575px) {}

@@ -7,10 +7,6 @@
     z-index: -2
 }
 
-/* .banner .sec_left {
-    padding: 300px 0 140px
-} */
-
 .banner .sec_left h1 {
     font-size: 55px;
     font-weight: 400;
@@ -208,6 +204,24 @@
         width: 680px;
         height: 585px;
     }
+
+    :global(.audiobook-creation-services) .banner .sec_left {
+        padding: 250px 0 100px
+    }
+
+    :global(.audiobook-creation-services) .banner .sec_right {
+        width: 680px;
+        height: 545px;
+    }
+
+    :global(.book-illustration-design-services) .banner .sec_left {
+        padding: 250px 0 100px
+    }
+
+    :global(.book-illustration-design-services) .banner .sec_right {
+        width: 680px;
+        height: 540px;
+    }
 }
 
 @media screen and (max-width:1399px) {
@@ -305,6 +319,24 @@
         width: 580px;
         height: 497px;
     }
+
+    :global(.audiobook-creation-services) .banner .sec_left {
+        padding: 200px 0 60px
+    }
+
+    :global(.audiobook-creation-services) .banner .sec_right {
+        width: 580px;
+        height: 469px;
+    }
+
+    :global(.book-illustration-design-services) .banner .sec_left {
+        padding: 200px 0 60px
+    }
+
+    :global(.book-illustration-design-services) .banner .sec_right {
+        width: 580px;
+        height: 460px;
+    }
 }
 
 @media screen and (max-width:1199px) {
@@ -395,6 +427,24 @@
         width: 480px;
         height: 415px;
     }
+
+    :global(.audiobook-creation-services) .banner .sec_left {
+        padding: 180px 0 40px
+    }
+
+    :global(.audiobook-creation-services) .banner .sec_right {
+        width: 470px;
+        height: 380px;
+    }
+
+    :global(.book-illustration-design-services) .banner .sec_left {
+        padding: 180px 0 40px
+    }
+
+    :global(.book-illustration-design-services) .banner .sec_right {
+        width: 470px;
+        height: 370px;
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -408,15 +458,17 @@
         line-height: 40px;
     }
 
-    :global(.ebook-writing-services) .banner .sec_right,
-    :global(.author-website-creation-services) .banner .sec_right,
-    :global(.book-proofreading-services) .banner .sec_right,
-    :global(.book-editing-services) .banner .sec_right,
-    :global(.book-publishing-services) .banner .sec_right,
-    :global(.book-cover-design-services) .banner .sec_right,
-    :global(.book-trailer-services) .banner .sec_right,
-    :global(.book-audio-services) .banner .sec_right,
-    :global(.book-marketing-services) .banner .sec_right {
+    :global(.ebook-writing-services) .banner .sec_left,
+    :global(.author-website-creation-services) .banner .sec_left,
+    :global(.book-proofreading-services) .banner .sec_left,
+    :global(.book-editing-services) .banner .sec_left,
+    :global(.book-publishing-services) .banner .sec_left,
+    :global(.book-cover-design-services) .banner .sec_left,
+    :global(.book-trailer-services) .banner .sec_left,
+    :global(.book-audio-services) .banner .sec_left,
+    :global(.book-marketing-services) .banner .sec_left,
+    :global(.audiobook-creation-services) .banner .sec_left,
+    :global(.book-illustration-design-services) .banner .sec_left {
         padding: 130px 0 40px
     }
 
@@ -466,6 +518,16 @@
         width: 360px;
         height: 309px;
     }
+
+    :global(.audiobook-creation-services) .banner .sec_right {
+        width: 360px;
+        height: 291px;
+    }
+
+    :global(.book-illustration-design-services) .banner .sec_right {
+        width: 360px;
+        height: 290px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -489,7 +551,9 @@
     :global(.book-cover-design-services) .banner .sec_right,
     :global(.book-trailer-services) .banner .sec_right,
     :global(.book-audio-services) .banner .sec_right,
-    :global(.book-marketing-services) .banner .sec_right {
+    :global(.book-marketing-services) .banner .sec_right,
+    :global(.audiobook-creation-services) .banner .sec_right,
+    :global(.book-illustration-design-services) .banner .sec_right {
         margin-left: auto;
     }
 
@@ -565,5 +629,15 @@
     :global(.book-marketing-services) .banner .sec_right {
         width: 296px;
         height: 255px;
+    }
+
+    :global(.audiobook-creation-services) .banner .sec_right {
+        width: 296px;
+        height: 240px;
+    }
+
+    :global(.book-illustration-design-services) .banner .sec_right {
+        width: 296px;
+        height: 240px;
     }
 }

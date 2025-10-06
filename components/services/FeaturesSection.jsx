@@ -23,7 +23,7 @@ export default function FeaturesSection({ data }) {
       <div className="container">
         <div className={`${styles.sec_top} text-center`}>
           <div className="row justify-content-center">
-            <div className="col-sm-12 col-md-7">
+            <div className="col-sm-12 col-md-10 col-lg-7">
               <h2>
                 <span className="primarytxt">{highlight}</span>{" "}
                 <span className="break_line"></span> {title}
@@ -49,7 +49,7 @@ export default function FeaturesSection({ data }) {
                     <Image src={box.icon} fill priority alt={`${box.title} Icon`} />
                   </div>
                   <h6>{box.title}</h6>
-                  <p className={styles.scroll_block}>{box.text}</p>
+                  <p className="scroll_block">{box.text}</p>
                   <a href="javascript:;" className="popup_btn">
                     Get Started
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
