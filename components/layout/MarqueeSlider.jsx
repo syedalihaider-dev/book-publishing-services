@@ -8,7 +8,7 @@ export default function MarqueeSlider() {
     <div className={styles.marquee_wrapper} aria-label="Site disclaimer marquee">
       <div className={styles.marquee}>
         <div className={styles.marquee__group}>
-          <span>
+          <p>
             Disclaimer: 1. Book Publishing Services is an independent publishing
             entity and is not affiliated with, endorsed by, or connected to
             Amazon®. Any similarity in name is purely for marketing and
@@ -24,10 +24,8 @@ export default function MarqueeSlider() {
             we have no official connection or partnership with the platform. The
             use of such terms is solely intended for branding and promotional
             clarity.
-          </span>
-
-          {/* Duplicate for infinite loop */}
-          <span>
+          </p>
+          <p>
             Disclaimer: 1. Book Publishing Services is an independent publishing
             entity and is not affiliated with, endorsed by, or connected to
             Amazon®. Any similarity in name is purely for marketing and
@@ -43,7 +41,7 @@ export default function MarqueeSlider() {
             we have no official connection or partnership with the platform. The
             use of such terms is solely intended for branding and promotional
             clarity.
-          </span>
+          </p>
         </div>
       </div>
     </div>
