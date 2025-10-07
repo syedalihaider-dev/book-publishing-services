@@ -31,19 +31,19 @@
     flex-wrap: nowrap;
 }
 
-.cta .sec_left :global(.combo_btn .btn),
-.cta .sec_left :global(.btn:hover span) {
+.cta .sec_left :global(.combo_btn .mybtn),
+.cta .sec_left :global(.mybtn:hover span) {
     width: 250px;
     background: var(--light-color);
     color: var(--dark-color) !important;
 }
 
-.cta .sec_left :global(.btn .icon) {
+.cta .sec_left :global(.mybtn .icon) {
     background: var(--dark-color);
     z-index: 2;
 }
 
-.cta .sec_left :global(.btn .icon img) {
+.cta .sec_left :global(.mybtn .icon img) {
     filter: invert(1) brightness(11);
 }
 
@@ -141,8 +141,8 @@
         margin-top: 15px;
     }
 
-    .cta .sec_left :global(.combo_btn .btn),
-    .cta .sec_left :global(.btn:hover span) {
+    .cta .sec_left :global(.combo_btn .mybtn),
+    .cta .sec_left :global(.mybtn:hover span) {
         width: auto;
     }
 

@@ -4,7 +4,7 @@ import { PHONE_NUMBER } from "@/config/config";
 export default function ActionButtons() {
   return (
     <>
-      <a href={`tel:${PHONE_NUMBER}`} className="btn btn_1">
+      <a href={`tel:${PHONE_NUMBER}`} className="mybtn btn_1">
         <div className="text">
           <span>Call Now</span>
           <span>Call Now</span>
@@ -19,7 +19,7 @@ export default function ActionButtons() {
           />
         </div>
       </a>
-      <a href="#" className="btn btn_2 chat">
+      <a href="#!" className="mybtn btn_2 chat">
         <div className="text">
           <span>Live Chat</span>
           <span>Live Chat</span>

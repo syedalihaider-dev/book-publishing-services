@@ -107,24 +107,24 @@
     font-weight: 300;
 }
 
-.popup .popup_left form :global(.btn) {
+.popup .popup_left form :global(.mybtn) {
     margin-top: 25px;
     background: var(--light-color);
 }
 
-.popup .popup_left form :global(.btn .text) {
+.popup .popup_left form :global(.mybtn .text) {
     width: 120px;
 }
 
-.popup .popup_left form :global(.btn .text span) {
+.popup .popup_left form :global(.mybtn .text span) {
     color: var(--dark-color);
 }
 
-.popup .popup_left form :global(.btn .icon) {
+.popup .popup_left form :global(.mybtn .icon) {
     background: var(--dark-color);
 }
 
-.popup .popup_left form :global(.btn .icon img) {
+.popup .popup_left form :global(.mybtn .icon img) {
     filter: invert(1) brightness(111);
 }
 
@@ -156,7 +156,7 @@
     }
 
     .popup .popup_left form .form_group,
-    .popup .popup_left form :global(.btn) {
+    .popup .popup_left form :global(.mybtn) {
         margin-top: 20px;
     }
 
@@ -198,7 +198,7 @@
     }
 
     .popup .popup_left form .form_group,
-    .popup .popup_left form :global(.btn) {
+    .popup .popup_left form :global(.mybtn) {
         margin-top: 15px;
     }
 
@@ -257,7 +257,7 @@
         height: 465px;
     }
 
-    .popup .popup_left form :global(.btn .text) {
+    .popup .popup_left form :global(.mybtn .text) {
         width: 90px;
     }
 }

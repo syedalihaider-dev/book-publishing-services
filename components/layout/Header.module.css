@@ -64,6 +64,7 @@
 .navbar ul {
     display: flex;
     gap: 50px;
+    margin: 0;
 }
 
 .desktop_menu ul li {

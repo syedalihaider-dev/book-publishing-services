@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function SingleChatButton() {
   return (
-    <a href="#!" className="btn btn_2 chat">
+    <a href="#!" className="mybtn btn_2 chat">
       <div className="text">
         <span>Live Chat</span>
         <span>Live Chat</span>

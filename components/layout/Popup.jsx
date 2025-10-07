@@ -162,7 +162,7 @@ export default function Popup() {
                   </div>
 
                   <div className="col-sm-12 col-md-12">
-                    <button type="submit" className="btn btn_2">
+                    <button type="submit" className="mybtn btn_2">
                       <div className="text">
                         <span>Submit Now</span>
                         <span>Submit Now</span>
