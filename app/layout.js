@@ -1,9 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-import Popup from "@/components/layout/Popup";
 import { Lexend } from "next/font/google";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./globals.css";
+import {Header, Footer, MarqueeSlider, Popup} from "@/components/layout";
 import ChatWidget from "@/components/ChatWidget";
 // import AOSInitializer from "@/components/AOS/AOSInitializer";
 
@@ -46,6 +44,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <MarqueeSlider />
         <Popup />
         <ChatWidget />
         {/* <AOSInitializer /> */}

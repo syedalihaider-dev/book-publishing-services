@@ -1,6 +1,9 @@
 // data/servicesData.js
 export const servicesData = {
   "ebook-writing-services": {
+    seoTitle: "Professional eBook Writing Services | Hire ebook Writers | Book Publishing Services",
+    seoDescription:
+      "When you choose AMZ eBook writing services, you’re getting more than writers for hire; you're getting a vetted team of ghostwriting professionals ready to help you.",
     banner: {
       title: "eBook Writing Services",
       highlight: "Bring Your Story to Life with Our ",
