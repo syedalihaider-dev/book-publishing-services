@@ -4,6 +4,22 @@ import {CallButton, ActionButtons, FAQSection} from "@/components/ui";
 import StatsSection from "@/components/about/StatsSection";
 import {BestSellingAuthor, ContactSection} from "@/components/home";
 
+export const metadata = {
+  title: "About Us | Professional Book Publishing Services",
+  description:
+    "Discover who we are and what we do. We provide professional book publishing services to help authors with editing, design, printing, and distribution.",
+  openGraph: {
+    title: "About Us | Professional Book Publishing Services",
+    description:
+      "Discover who we are and what we do. We provide professional book publishing services to help authors with editing, design, printing, and distribution.",
+    url: "https://bookpublishingservices.io/about",
+    siteName: "Book Publishing Services",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://bookpublishingservices.io/about",
+  },
+};
 
 export default function About() {
     const faqs = [

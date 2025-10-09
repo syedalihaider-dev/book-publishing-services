@@ -1,5 +1,23 @@
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: "Terms and Conditions | Book Publishing Services",
+  description:
+    "Review the Terms and Conditions for using Book Publishing Services. Learn about our policies, user responsibilities, and service guidelines for a smooth publishing experience.",
+  openGraph: {
+    title: "Terms and Conditions | Book Publishing Services",
+    description:
+      "Review the Terms and Conditions for using Book Publishing Services. Learn about our policies, user responsibilities, and service guidelines for a smooth publishing experience.",
+    url: "https://bookpublishingservices.io/terms-and-conditions",
+    siteName: "Book Publishing Services",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://bookpublishingservices.io/terms-and-conditions",
+  },
+};
+
+
 export default function TermsAndConditions() {
 return (
 <div className={styles.terms}>

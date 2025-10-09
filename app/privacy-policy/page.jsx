@@ -1,5 +1,22 @@
 import styles from "../terms-and-conditions/page.module.css";
 
+export const metadata = {
+  title: "Privacy Policy | Book Publishing Services",
+  description:
+    "Read the Privacy Policy of Book Publishing Services to learn how we collect, use, and protect your personal information while delivering professional book publishing solutions.",
+  openGraph: {
+    title: "Privacy Policy | Book Publishing Services",
+    description:
+      "Read the Privacy Policy of Book Publishing Services to learn how we collect, use, and protect your personal information while delivering professional book publishing solutions.",
+    url: "https://bookpublishingservices.io/privacy-policy",
+    siteName: "Book Publishing Services",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://bookpublishingservices.io/privacy-policy",
+  },
+};
+
 export default function PrivacyPolicy() {
 return (
 <div className={styles.privacy}>

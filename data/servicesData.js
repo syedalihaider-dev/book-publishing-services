@@ -1,9 +1,9 @@
 // data/servicesData.js
 export const servicesData = {
   "ebook-writing-services": {
-    seoTitle: "Professional eBook Writing Services | Hire ebook Writers | Book Publishing Services",
+    seoTitle: "Ebook Writing Services | Professional Writers",
     seoDescription:
-      "When you choose AMZ eBook writing services, you’re getting more than writers for hire; you're getting a vetted team of ghostwriting professionals ready to help you.",
+      "Get expertly written ebooks tailored to your audience. Our ebook writing services help authors create engaging, polished, and ready-to-publish content.",
     banner: {
       title: "eBook Writing Services",
       highlight: "Bring Your Story to Life with Our ",
@@ -156,6 +156,9 @@ export const servicesData = {
   },
 
   "author-website-creation-services": {
+    seoTitle: "Author Website Design | Build Your Online Presence",
+    seoDescription:
+      "We create professional author websites to showcase your books, connect with readers, and build your online brand.",
     banner: {
       title: "Author Brand",
       highlight: "Create a Home for Your ",
@@ -311,6 +314,9 @@ export const servicesData = {
   },
 
   "book-proofreading-services": {
+    seoTitle: "Book Proofreading Services | Error-Free Publishing",
+    seoDescription:
+      "Ensure your manuscript is polished and error-free. Our book proofreading services guarantee accuracy and professionalism before publishing.",
     banner: {
       title: "Book Proofreading Services",
       highlight: "Catch Every Error with Expert ",
@@ -464,6 +470,9 @@ export const servicesData = {
   },
 
   "book-editing-services": {
+    seoTitle: "Book Editing Services | Improve Your Manuscript",
+    seoDescription:
+      "Refine your writing with our book editing services. From grammar to flow, we make your manuscript clear, professional, and ready for readers.",
     banner: {
       title: "Expert Book Editing Services",
       highlight: "Polish Your Manuscript with Our ",
@@ -616,6 +625,9 @@ export const servicesData = {
   },
 
   "book-publishing-services": {
+    seoTitle: "Book Publishing Services | Publish Your Book Easily",
+    seoDescription:
+      "End-to-end book publishing services from editing to distribution. We help authors publish books professionally and affordably.",
     banner: {
       title: "Our Book Publishing Services",
       highlight: "Take Your Manuscript to Market with ",
@@ -768,6 +780,9 @@ export const servicesData = {
   },
 
   "book-cover-design-services": {
+    seoTitle: "Book Cover Design | Creative & Custom Designs",
+    seoDescription:
+      "Stand out with a stunning cover. Our book cover design services create eye-catching, professional covers that attract readers.",
     banner: {
       title: "Professional Book Cover Design",
       highlight: "Make a Strong First Impression with ",
@@ -921,6 +936,9 @@ export const servicesData = {
   },
 
   "book-trailer-services": {
+    seoTitle: "Book Trailer Services | Promote Your Book Creatively",
+    seoDescription:
+      "Bring your story to life with a cinematic book trailer. Our creative trailers engage readers and boost book promotion.",
     banner: {
       title: "Cinematic Book Trailer",
       highlight: "Spark Interest with a ",
@@ -1075,6 +1093,9 @@ export const servicesData = {
   },
 
   "book-audio-services": {
+    seoTitle: "Book Audio Services | Turn Books into Audio Format",
+    seoDescription:
+      "Convert your book into audio format. Our book audio services make your work accessible to a wider audience.",
     banner: {
       title: "Audio book Services",
       highlight: "Make The World Hear Your Story with ",
@@ -1206,6 +1227,9 @@ export const servicesData = {
   },
 
   "book-marketing-services": {
+    seoTitle: "Book Marketing Services | Reach More Readers",
+    seoDescription:
+      "Promote your book with proven marketing strategies. We help authors gain visibility, build readership, and increase sales.",
     banner: {
       title: "Driven Book Marketing Services",
       highlight: "Promote Your Book with Purpose ",
@@ -1358,6 +1382,9 @@ export const servicesData = {
   },
 
   "audiobook-creation-services": {
+    seoTitle: "Audiobook Creation Services | Professional Narration",
+    seoDescription:
+      "Turn your book into an audiobook with professional narration and sound quality. Reach a growing audience of audiobook listeners.",
     banner: {
       title: "Powerful Listening Experience",
       highlight: "Turn Your Book into a ",
@@ -1510,6 +1537,9 @@ export const servicesData = {
   },
 
   "book-illustration-design-services": {
+    seoTitle: "Book Illustration Services | Custom Artwork for Authors",
+    seoDescription:
+      "Bring your story to life with creative book illustrations. Our artists design custom illustrations for children’s books, novels, and more.",
     banner: {
       title: "Custom Book Illustrations",
       highlight: "Bring Your Story to Life with ",

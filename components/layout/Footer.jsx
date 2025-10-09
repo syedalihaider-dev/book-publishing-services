@@ -18,7 +18,7 @@ return (
                         <Link href="/about">About Us</Link>
                     </li>
                     <li>
-                        <Link href="/services/ebook-writing-services">Services</Link>
+                        <Link href="/">Services</Link>
                     </li>
                     <li>
                         <Link href="/">Blog</Link>

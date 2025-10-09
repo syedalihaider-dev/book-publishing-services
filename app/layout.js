@@ -11,11 +11,11 @@ const lexend = Lexend({
 });
 
 export const metadata = {
-  title: "Book Publishing Services",
-  description: "We offer the best book publishing services at an affordable price. Get in touch with us today and publish your book on one of the reputable platform.",
+  title: "Top Book Publishing Company in USA | Affordable Services",
+  description: "A leading book publishing company in USA offering affordable solutions for authors. From editing to distribution, we make publishing simple and professional.",
   openGraph: {
-    title: "Best Award Winning Book Publishing Services Near You",
-    description: "We offer the best book publishing services...",
+    title: "Top Book Publishing Company in USA | Affordable Services",
+    description: "A leading book publishing company in USA offering affordable solutions for authors. From editing to distribution, we make publishing simple and professional.",
     url: "https://yourdomain.com",
     siteName: "Ask Local Real Estate",
     type: "website",
@@ -30,12 +30,11 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Award Winning Book Publishing Services Near You",
-    description: "We offer the best book publishing services...",
+    title: "Top Book Publishing Company in USA | Affordable Services",
+    description: "A leading book publishing company in USA offering affordable solutions for authors. From editing to distribution, we make publishing simple and professional.",
     images: ["/public/ft-logo.png"],
   },
 };
-
 
 export default function RootLayout({ children }) {
   return (

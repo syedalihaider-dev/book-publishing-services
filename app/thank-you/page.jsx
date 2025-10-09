@@ -2,6 +2,24 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: "Thank You | Book Publishing Services",
+  description:
+    "Thank you for contacting Book Publishing Services. Our team will reach out shortly to discuss your publishing goals and guide you through the next steps.",
+  openGraph: {
+    title: "Thank You | Book Publishing Services",
+    description:
+      "Thank you for contacting Book Publishing Services. Our team will reach out shortly to discuss your publishing goals and guide you through the next steps.",
+    url: "https://bookpublishingservices.io/thank-you",
+    siteName: "Book Publishing Services",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://bookpublishingservices.io/thank-you",
+  },
+};
+
+
 export default function ThankYou() {
 return (
 <div className={styles.thank_you}>

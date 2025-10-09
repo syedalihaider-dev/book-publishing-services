@@ -4,6 +4,23 @@ import {CallButton} from "@/components/ui";
 import {ContactSection} from "@/components/home";
 import { PHONE_NUMBER, EMAIL_ADDRESS } from "@/config/config";
 
+export const metadata = {
+  title: "Contact Us | Get in Touch with Our Publishing Team",
+  description:
+    "Have questions about publishing your book? Contact Book Publishing Services today. Our team helps with editing, formatting, printing, and complete publishing support.",
+  openGraph: {
+    title: "Contact Us | Get in Touch with Our Publishing Team",
+    description:
+      "Have questions about publishing your book? Contact Book Publishing Services today. Our team helps with editing, formatting, printing, and complete publishing support.",
+    url: "https://bookpublishingservices.io/contact",
+    siteName: "Book Publishing Services",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://bookpublishingservices.io/contact",
+  },
+};
+
 export default function Contact() {
 return (
 <div className={styles.contactpage}>
