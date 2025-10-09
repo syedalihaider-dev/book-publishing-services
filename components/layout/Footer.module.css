@@ -18,12 +18,19 @@
 .footer .ft_link li a,
 .footer .ft_info p strong,
 .footer .ft_info p a {
-    display: block;
+    display: inline-block;
     font-weight: 600;
     font-size: 14px;
     color: var(--dark-color);
     opacity: .7;
     text-decoration: unset;
+    transition: var(--cubic);
+}
+
+.footer .ft_link li a:hover,
+.footer .ft_info p a:hover{
+    color: var(--primary-color);
+    transform: translateX(-15px);
 }
 
 .footer .ft_logo a {
