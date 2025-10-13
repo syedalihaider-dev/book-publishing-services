@@ -32,7 +32,7 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-sm-12 col-md-6">
               <div className={styles.left}>
-                <p>🌟 One-Stop All Book Solutions For Authors & Writerss</p>
+                <p>🌟 One-Stop All Book Solutions For Authors & Writers</p>
               </div>
             </div>
             <div className="col-sm-12 col-md-6">
