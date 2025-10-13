@@ -27,12 +27,12 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.head_top} data-aos="fade-down">
+      <div className={styles.head_top}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-12 col-md-6">
               <div className={styles.left}>
-                <p>🌟 One-Stop All Book Solutions For Authors & Writers</p>
+                <p>🌟 One-Stop All Book Solutions For Authors & Writerss</p>
               </div>
             </div>
             <div className="col-sm-12 col-md-6">
@@ -70,7 +70,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className={styles.main_header} data-aos="fade-down">
+      <div className={styles.main_header}>
         <div className="container">
           <div className={styles.inner_wrapper}>
             <div className={styles.logo}>

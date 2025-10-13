@@ -65,7 +65,7 @@ export default function PortfolioSection() {
         />
       </div>
       <div className="container">
-        <div className={`${styles.sec_top} text-center`} data-aos="fade-up">
+        <div className={`${styles.sec_top} text-center`}>
           <h2>
             We Publish these
             <span className="break_line"></span>
@@ -104,8 +104,7 @@ export default function PortfolioSection() {
           1024: { slidesPerView: 4 }, 
           1400: { slidesPerView: 5 }, 
         }}
-        className={styles.swiper} data-aos="fade-up"
-      >
+        className={styles.swiper}>
         {genres[activeGenre].books.map((book, i) => (
           <SwiperSlide key={i}>
             <div className={styles.bookCard}>

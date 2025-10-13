@@ -118,7 +118,7 @@ export default function ServicesSection() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_left} data-aos="fade-right">
+            <div className={styles.sec_left}>
               <h2>
                 Providing you the best <span className="break_line"></span>
                 <span className="primarytxt">Book Publishing</span>
@@ -127,7 +127,7 @@ export default function ServicesSection() {
             </div>
           </div>
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_right} data-aos="fade-left">
+            <div className={styles.sec_right}>
               <p className="m-0">
                 As a prominent Amazon book publishing service, we deliver what we
                 promise. Our trained professionals are on their toes to bring
@@ -140,7 +140,7 @@ export default function ServicesSection() {
           </div>
         </div>
       </div>
-      <div className={styles.content} data-aos="fade-up">
+      <div className={styles.content}>
         {isMobile ? (
           <Swiper
             modules={[Pagination]}

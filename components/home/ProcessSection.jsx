@@ -27,7 +27,7 @@ export default function ProcessSection() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_left} data-aos="fade-right">
+            <div className={styles.sec_left}>
               <Image
                 src="/process-left-img.png"
                 alt="Process Book" 
@@ -37,7 +37,7 @@ export default function ProcessSection() {
             </div>
           </div>
           <div className="col-sm-12 col-md-6">
-            <div className={styles.sec_right} data-aos="fade-left">
+            <div className={styles.sec_right}>
               <h2>
                 <span className="primarytxt">Publishing Book</span>
                 <span className="break_line"></span> on is a Simple Process

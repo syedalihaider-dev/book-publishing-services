@@ -24,7 +24,7 @@ return (
   <div className="container">
     <div className="row align-items-center">
       <div className="col-sm-12 col-md-6">
-        <div className={styles.sec_left} data-aos="fade-right">
+        <div className={styles.sec_left}>
           <h2 className={styles.heading}>
             <span className="primarytxt">Award-Winning Books.</span>
             <span className="break_line"></span> Industry-Leading Results
@@ -32,7 +32,7 @@ return (
         </div>
       </div>
       <div className="col-sm-12 col-md-6">
-        <div className={styles.sec_right} data-aos="fade-left">
+        <div className={styles.sec_right}>
           <p>
             At Book Publishing, we believe every story has the power to change the world.
             We publish books that inspire, entertain, and leave a lasting impact.
@@ -44,7 +44,7 @@ return (
       </div>
     </div>
   </div>
-  <div className={styles.sec_content} data-aos="fade-up">
+  <div className={styles.sec_content}>
     <Swiper modules={[Navigation, Autoplay, Pagination]} autoplay={{ delay: 2500, disableOnInteraction: false }} loop
       spaceBetween={20} breakpoints={{
             320: { slidesPerView: 1 },

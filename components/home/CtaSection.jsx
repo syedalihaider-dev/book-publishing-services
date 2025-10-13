@@ -16,7 +16,7 @@ return (
     <div className="container">
         <div className="row align-items-end">
             <div className="col-sm-12 col-md-6">
-                <div className={styles.sec_left} data-aos="fade-right">
+                <div className={styles.sec_left}>
                         <div className={styles.img}>
                             <Image 
                             src="/cta-logo-img.png" 
@@ -48,7 +48,7 @@ return (
                 </div>
             </div>
             <div className="col-sm-12 col-md-6">
-                <div className={styles.sec_right} data-aos="fade-left">
+                <div className={styles.sec_right}>
                     <Image 
                     src="/cta-right-img.png" 
                     alt="Book" 
