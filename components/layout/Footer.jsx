@@ -91,7 +91,7 @@ return (
                 <h4 className={styles.follow_us}>Follow Us</h4>
                 <ul className={styles.social_links}>
                     <li>
-                        <Link href="https://www.facebook.com/amzbookpublishing" target="_blank"
+                        <Link href="#!" target="_blank"
                             rel="noopener noreferrer">
                         <Image 
                         src="/facebook-icon.png" 
@@ -101,7 +101,7 @@ return (
                         </Link>
                     </li>
                     <li>
-                        <Link href="https://www.instagram.com/amzbookpublishing/" target="_blank"
+                        <Link href="#!" target="_blank"
                             rel="noopener noreferrer">
                         <Image 
                         src="/instagram-icon.png" 
@@ -111,7 +111,7 @@ return (
                         </Link>
                     </li>
                     <li>
-                        <Link href="https://x.com/amz_publishing" target="_blank" rel="noopener noreferrer">
+                        <Link href="#!" target="_blank" rel="noopener noreferrer">
                         <Image 
                         src="/x-icon.png" 
                         fill 

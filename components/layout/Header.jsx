@@ -16,7 +16,6 @@ export default function Header() {
     { name: "Author Website Creation", link: "/services/author-website-creation-services" },
     { name: "Book Proofreading", link: "/services/book-proofreading-services" },
     { name: "Book Editing", link: "/services/book-editing-services" },
-    { name: "Book Publishing", link: "/" },
     { name: "Book Cover Design", link: "/services/book-cover-design-services" },
     { name: "Book Trailer", link: "/services/book-trailer-services" },
     { name: "Book Audio", link: "/services/book-audio-services" },
