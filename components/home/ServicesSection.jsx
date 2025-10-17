@@ -39,7 +39,7 @@ export default function ServicesSection() {
         { value: "340+", label: "Trailers Delivered" },
         { value: "95%", label: "Client Satisfaction" },
       ],
-      bg: "/ebook-writing-bg.png",
+      bg: "/book-trailer-bg.png",
     },
     {
       title: "Book Audio",
@@ -48,7 +48,7 @@ export default function ServicesSection() {
         { value: "120", label: "Audiobooks Produced" },
         { value: "15+", label: "Languages Covered" },
       ],
-      bg: "/ebook-writing-bg.png",
+      bg: "/book-audio-bg.png",
     },
     {
       title: "Book Cover Design",
@@ -57,7 +57,7 @@ export default function ServicesSection() {
         { value: "500+", label: "Covers Designed" },
         { value: "Top 10", label: "Design Awards Won" },
       ],
-      bg: "/ebook-writing-bg.png",
+      bg: "/book-cover-design-bg.png",
     },
     {
       title: "Book Marketing",
@@ -66,7 +66,7 @@ export default function ServicesSection() {
         { value: "10k+", label: "Campaigns Run" },
         { value: "85%", label: "Sales Growth" },
       ],
-      bg: "/ebook-writing-bg.png",
+      bg: "/book-marketing-bg.png",
     },
     {
       title: "Book Publishing",
@@ -75,7 +75,7 @@ export default function ServicesSection() {
         { value: "1,000+", label: "Titles Published" },
         { value: "50+", label: "Publishing Platforms" },
       ],
-      bg: "/ebook-writing-bg.png",
+      bg: "/book-publishing-bg.png",
     },
   ];
   const ServiceBox = ({ service }) => (
