@@ -14,11 +14,14 @@ const lexend = Lexend({
 export const metadata = {
   title: "Top Book Publishing Company in USA | Affordable Services",
   description: "A leading book publishing company in USA offering affordable solutions for authors. From editing to distribution, we make publishing simple and professional.",
+  verification: {
+    google: "-QvnVvYBh42PmrmnGYheAFUmFQCE8G1i4LzwioSX6GY",
+  },
   openGraph: {
     title: "Top Book Publishing Company in USA | Affordable Services",
     description: "A leading book publishing company in USA offering affordable solutions for authors. From editing to distribution, we make publishing simple and professional.",
-    url: "https://yourdomain.com",
-    siteName: "Ask Local Real Estate",
+    url: "https://bookpublishingservices.io",
+    siteName: "Book Publishing Services",
     type: "website",
     images: [
       {
