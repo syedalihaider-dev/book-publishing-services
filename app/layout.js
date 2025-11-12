@@ -53,6 +53,124 @@ export default function RootLayout({ children }) {
           })(window,document,'script','dataLayer','GTM-5WPMZ7WC');`}
         </Script>
         {/* ✅ End Google Tag Manager */}
+
+        {/* ✅ Organization Schema */}
+        <Script
+          id="org-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Book Publishing Services",
+              "alternateName": "Book Publishing Services in USA",
+              "url": "https://bookpublishingservices.io/",
+              "logo": "https://bookpublishingservices.io/_next/image?url=%2Flogo.png&w=1920&q=75",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-214-910-6917",
+                "contactType": "customer service",
+                "areaServed": ["US", "GB"],
+                "availableLanguage": "en",
+              },
+            }),
+          }}
+        />
+
+        {/* ✅ Local Business Schema */}
+        <Script
+          id="local-business-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              "name": "Book Publishing Services",
+              "image": "https://bookpublishingservices.io/_next/image?url=%2Flogo.png&w=1920&q=75",
+              "@id": "https://bookpublishingservices.io",
+              "url": "https://bookpublishingservices.io/",
+              "telephone": "+1-214-910-6917",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "5301 Alpha Rd Ste 80-21",
+                "addressLocality": "Dallas",
+                "addressRegion": "TX",
+                "postalCode": "75240",
+                "addressCountry": "US",
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 32.933842,
+                "longitude": -96.81675,
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                "opens": "00:00",
+                "closes": "23:59",
+              },
+            }),
+          }}
+        />
+
+        {/* ✅ Website Schema */}
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "WebSite",
+              "name": "Book Publishing Services",
+              "url": "https://bookpublishingservices.io/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://bookpublishingservices.io/{search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+
+        {/* ✅ Breadcrumb Schema */}
+        <Script
+          id="breadcrumb-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Book Marketing Services",
+                  "item": "https://bookpublishingservices.io/services/book-marketing-services",
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "eBook Writing Services",
+                  "item": "https://bookpublishingservices.io/services/ebook-writing-services",
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Contact Us",
+                  "item": "https://bookpublishingservices.io/contact",
+                },
+              ],
+            }),
+          }}
+        />
       </head>
 
       <body className={lexend.className}>
