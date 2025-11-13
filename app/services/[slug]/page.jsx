@@ -47,7 +47,7 @@ export default function ServicePage({ params }) {
 
   if (params.slug === "book-marketing-services") {
     schema = {
-      "@context": "https://schema.org/",
+      "@context": "https://schema.org",
       "@type": "Product",
       name: "Book Marketing Services",
       image:
@@ -143,7 +143,7 @@ export default function ServicePage({ params }) {
     };
   } else if (params.slug === "ebook-writing-services") {
     schema = {
-      "@context": "https://schema.org/",
+      "@context": "https://schema.org",
       "@type": "Product",
       name: "eBook Writing Services",
       image:
@@ -236,7 +236,7 @@ export default function ServicePage({ params }) {
     };
   } else if (params.slug === "book-editing-services") {
     schema = {
-      "@context": "https://schema.org/",
+      "@context": "https://schema.org",
       "@type": "Product",
       name: "Book Editing Services",
       image:
