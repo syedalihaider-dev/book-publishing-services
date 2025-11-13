@@ -1,3 +1,6 @@
+Next Config
+
+
 // /** @type {import('next').NextConfig} */ 
 // const nextConfig = {
 
@@ -10,7 +13,7 @@ const nextConfig = {
     return [
       {
         source: '/blog/:path*',
-        destination: 'https://bookpublishingservices.io.cdn.hstgr.net/blog/:path*',
+        destination: 'https://darkviolet-jellyfish-929687.hostingersite.com/blog/:path*',
       },
     ];
   },
