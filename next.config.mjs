@@ -1,6 +1,3 @@
-Next Config
-
-
 // /** @type {import('next').NextConfig} */ 
 // const nextConfig = {
 
