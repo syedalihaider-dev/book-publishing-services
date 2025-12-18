@@ -39,6 +39,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default function ServicePage({ params }) {
+  
   const service = servicesData[params.slug];
   if (!service) return <h1>Service Not Found</h1>;
 
