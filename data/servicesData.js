@@ -164,7 +164,7 @@ export const servicesData = {
       highlight: "Create a Home for Your ",
       description: "Your website is your digital storefront. We design custom author websites that make it easy for readers to discover, connect with, and buy from you.",
       rightImage: "/services/author-website-creation-services/right-img.png",
-      imageAlign: "end",
+      imageAlign: "end", 
     },
 
     process: {
