@@ -17,35 +17,34 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const service = servicesData[params.slug];
+  const { slug } = await params;
+  const service = servicesData[slug];
 
   if (!service) {
-    return {
-      title: "Service Not Found | Book Publishing Services io",
-      description: "The requested service could not be found.",
-      alternates: {
-        canonical: "https://bookpublishingservices.io/services",
-      },
-    };
+    return { title: "Service Not Found | Book Publishing Services io" };
   }
 
   return {
     title: service.seoTitle || `${service.banner.title}`,
     description: service.seoDescription || service.banner.description,
     alternates: {
-      canonical: `https://bookpublishingservices.io/services/${params.slug}`,
+      canonical: `https://bookpublishingservices.io/services/${slug}`,
+    },
+    other: {
+      "ld+json": JSON.stringify(schemaObjectHere),
     },
   };
 }
 
-export default function ServicePage({ params }) {
-  const service = servicesData[params.slug];
+export default async function ServicePage({ params }) {
+  const { slug } = await params;
+  const service = servicesData[slug];
   if (!service) return <h1>Service Not Found</h1>;
 
   // Single schema variable for both services
   let schema = null;
 
-  if (params.slug === "book-marketing-services") {
+  if (slug === "book-marketing-services") {
     schema = {
       "@context": "https://schema.org",
       "@type": "Product",
@@ -141,7 +140,7 @@ export default function ServicePage({ params }) {
         },
       ],
     };
-  } else if (params.slug === "ebook-writing-services") {
+  } else if (slug === "ebook-writing-services") {
     schema = {
       "@context": "https://schema.org",
       "@type": "Product",
@@ -234,7 +233,7 @@ export default function ServicePage({ params }) {
         },
       ],
     };
-  } else if (params.slug === "book-editing-services") {
+  } else if (slug === "book-editing-services") {
     schema = {
       "@context": "https://schema.org",
       "@type": "Product",
@@ -294,7 +293,7 @@ export default function ServicePage({ params }) {
   }
 
   return (
-    <div className={`${styles.services_page} ${params.slug}`}>
+    <div className={`${styles.services_page} ${slug}`}>
       <Head>
         {schema && (
           <script
