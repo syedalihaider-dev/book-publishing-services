@@ -9,8 +9,9 @@ import {
   ActionPlanSection,
   ServicesSection,
   CTASection,
-} from "@/components/services/";
-import Head from "next/head";
+} from "@/components/services";
+import Script from "next/script";
+
 
 export async function generateStaticParams() {
   return Object.keys(servicesData).map((slug) => ({ slug }));
@@ -18,30 +19,27 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const service = servicesData[slug];
 
+  const service = servicesData[slug];
   if (!service) {
     return { title: "Service Not Found | Book Publishing Services io" };
   }
 
   return {
-    title: service.seoTitle || `${service.banner.title}`,
+    title: service.seoTitle || service.banner.title,
     description: service.seoDescription || service.banner.description,
     alternates: {
       canonical: `https://bookpublishingservices.io/services/${slug}`,
-    },
-    other: {
-      "ld+json": JSON.stringify(schemaObjectHere),
     },
   };
 }
 
 export default async function ServicePage({ params }) {
   const { slug } = await params;
+
   const service = servicesData[slug];
   if (!service) return <h1>Service Not Found</h1>;
 
-  // Single schema variable for both services
   let schema = null;
 
   if (slug === "book-marketing-services") {
@@ -50,9 +48,9 @@ export default async function ServicePage({ params }) {
       "@type": "Product",
       name: "Book Marketing Services",
       image:
-        "https://bookpublishingservices.io/_next/image?url=%2Fservices%2Fbook-marketing-services%2Fright-img.png&w=1920&q=75",
+        "https://bookpublishingservices.io/services/book-marketing-services/right-img.png",
       description:
-        "Our Book Marketing Services are designed to help authors build visibility, attract readers, and boost book sales through strategic and creative promotion. We combine digital marketing, social media campaigns, press releases, and author branding to create customized plans that fit each book’s goals. From getting featured in online publications to running targeted ads and engaging readers through organic content, our team ensures your book reaches the right audience. With a focus on authentic storytelling and measurable results, we turn your book into a recognized brand and your readers into loyal fans.",
+        "Our Book Marketing Services are designed to help authors build visibility, attract readers, and boost book sales...",
       brand: {
         "@type": "Brand",
         name: "Book Publishing Services",
@@ -146,13 +144,10 @@ export default async function ServicePage({ params }) {
       "@type": "Product",
       name: "eBook Writing Services",
       image:
-        "https://bookpublishingservices.io/_next/image?url=%2Fservices%2Febook-writing-services%2Fright-img.png&w=1920&q=75",
+        "https://bookpublishingservices.io/services/ebook-writing-services/right-img.png",
       description:
         "Our Book Marketing Services are designed to help authors build visibility, attract readers, and boost book sales through strategic and creative promotion. We combine digital marketing, social media campaigns, press releases, and author branding to create customized plans that fit each book’s goals. From getting featured in online publications to running targeted ads and engaging readers through organic content, our team ensures your book reaches the right audience. With a focus on authentic storytelling and measurable results, we turn your book into a recognized brand and your readers into loyal fans.",
-      brand: {
-        "@type": "Brand",
-        name: "Book Publishing Services",
-      },
+      brand: { "@type": "Brand", name: "Book Publishing Services" },
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.07",
@@ -167,18 +162,10 @@ export default async function ServicePage({ params }) {
           name: "Rohit Malhotra",
           reviewBody:
             "This was my first time getting an eBook written, and I had no idea where to start. Their team turned my rough notes into a complete, polished manuscript. Amazing experience!",
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: "4",
-            bestRating: "4.6",
-            worstRating: "3.7",
-          },
+          reviewRating: { "@type": "Rating", ratingValue: "4", bestRating: "4.6", worstRating: "3.7" },
           datePublished: "2025-07-15",
           author: { "@type": "Person", name: "Rohit Malhotra" },
-          publisher: {
-            "@type": "Organization",
-            name: "Book Publishing Services",
-          },
+          publisher: { "@type": "Organization", name: "Book Publishing Services" },
         },
         {
           "@type": "Review",
@@ -239,7 +226,7 @@ export default async function ServicePage({ params }) {
       "@type": "Product",
       name: "Book Editing Services",
       image:
-        "https://bookpublishingservices.io/_next/image?url=%2Fservices%2Fbook-editing-services%2Fright-img.png&w=1920&q=75",
+        "https://bookpublishingservices.io/services/book-editing-services/right-img.png",
       description:
         "Our Book Editing Service transforms your written manuscript into a refined, professional-quality book. We provide grammar correction, structural editing, tone adjustment, readability improvement, and consistency checks to make sure your work is publication-ready. Our editors are experienced across genres fiction, non-fiction, academic, and biographies ensuring your voice stays intact while the quality is elevated.",
       brand: { "@type": "Brand", name: "Book Publishing Services" },
@@ -253,15 +240,16 @@ export default async function ServicePage({ params }) {
       },
       review: [
         {
-      "@type": "Review",
-      name: "Neha Bansal",
-      reviewBody: "My novel’s flow and readability improved drastically. The editor explained every suggestion clearly — truly professional work!",
-      reviewRating: { "@type": "Rating", ratingValue: "4.2", bestRating: "4.8", worstRating: "3.4" },
-      datePublished: "2025-07-15",
-      author: { "@type": "Person", name: "Neha Bansal" },
-      publisher: { "@type": "Organization", name: "Book Publishing Services" }
-      },
-      {
+          "@type": "Review",
+          name: "Neha Bansal",
+          reviewBody:
+            "My novel’s flow and readability improved drastically. The editor explained every suggestion clearly — truly professional work!",
+          reviewRating: { "@type": "Rating", ratingValue: "4.2", bestRating: "4.8", worstRating: "3.4" },
+          datePublished: "2025-07-15",
+          author: { "@type": "Person", name: "Neha Bansal" },
+          publisher: { "@type": "Organization", name: "Book Publishing Services" },
+        },
+        {
         "@type": "Review",
         name: "Rahul Verma",
         reviewBody: "The editors restructured the content and made the story more impactful. Fast communication and great attention to detail. Worth it!",
@@ -294,24 +282,40 @@ export default async function ServicePage({ params }) {
 
   return (
     <div className={`${styles.services_page} ${slug}`}>
-      <Head>
-        {schema && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        )}
-      </Head>
+      {schema && (
+        <Script
+          id="service-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      )}
 
+
+      {/* Banner */}
       <BannerSection data={service.banner} />
+
+      {/* Process */}
       <ProcessSection data={service.process} />
+
+      {/* Features */}
       <FeaturesSection data={service.features} />
+
+      {/* Action Plan */}
       <ActionPlanSection data={service.actionPlan} />
+
+      {/* Services */}
       <ServicesSection data={service.services} />
+
+      {/* FAQs */}
+      <FAQSection data={service.faqs} />
+
+      {/* Testimonials & Contact */}
       <Testimonials />
-      <CTASection />
-      <FAQSection faqs={service.faqs} />
       <ContactSection />
+
+      {/* CTA */}
+      <CTASection />
     </div>
   );
 }
