@@ -47,20 +47,20 @@ export async function POST(req) {
     }
 
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT),
-      secure: false,
+      host: "smtp.zoho.com",
+      port: 587,
+      secure: false, // true for 465, false for other ports
       auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
+        user: "info@bookpublishingservices.io",
+        pass: "pux@a8Fx786",
       },
     });
 
     await transporter.verify();
 
     await transporter.sendMail({
-      from: `"Website Contact" <${process.env.SMTP_USER}>`,
-      to: process.env.SMTP_TO,
+      from: `"Website Contact" <info@bookpublishingservices.io>`,
+      to: "info@bookpublishingservices.io",
       subject: "New Form Submission | Book Publishing Website",
       html: `
         <h2>New Form Submission Received</h2>
