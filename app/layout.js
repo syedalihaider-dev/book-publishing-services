@@ -8,11 +8,11 @@ import ChatWidget from "@/components/ChatWidget";
 
 const lexend = Lexend({
   subsets: ["latin"],
-  weight: ["100","200","300","400","500","600","700","800","900"], 
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata = {
-  title: "Top Book Publishing Company in USA | Affordable Services",
+  title: "TTop Book Publishing Company in USA | Affordable Services",
   description: "A leading book publishing company in USA offering affordable solutions for authors. From editing to distribution, we make publishing simple and professional.",
   verification: {
     google: "-QvnVvYBh42PmrmnGYheAFUmFQCE8G1i4LzwioSX6GY",
