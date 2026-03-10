@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export const metadata = {
-  title: "Thank You | Book Publishing Services",
+  title: "Thank You || Book Publishing Services",
   description:
     "Thank you for contacting Book Publishing Services. Our team will reach out shortly to discuss your publishing goals and guide you through the next steps.",
   openGraph: {
