@@ -12,7 +12,7 @@ const lexend = Lexend({
 });
 
 export const metadata = {
-  title: "TTop Book Publishing Company in USA | Affordable Services",
+  title: "Top Book Publishing Company in USA | Affordable Services",
   description: "A leading book publishing company in USA offering affordable solutions for authors. From editing to distribution, we make publishing simple and professional.",
   verification: {
     google: "-QvnVvYBh42PmrmnGYheAFUmFQCE8G1i4LzwioSX6GY",
