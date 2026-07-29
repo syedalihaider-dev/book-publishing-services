@@ -60,7 +60,7 @@ export async function POST(req) {
 
     await transporter.sendMail({
       from: `"Website Contact" <info@bookpublishingservices.io>`,
-      to: "info@bookpublishingservices.io",
+      to: "info@bookpublishingservices.io, noman@canvasdigital.net, hassan.ak@canvasdigital.org, moiz.ali@canvasdigital.net",
       subject: "New Form Submission | Book Publishing Website",
       html: `
         <h2>New Form Submission Received</h2>

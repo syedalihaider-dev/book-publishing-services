@@ -157,6 +157,7 @@ export default function Popup() {
                         value={formData.message}
                         onChange={handleChange}
                         placeholder="Leave us a message..."
+                        required
                       />
                     </div>
                   </div>
