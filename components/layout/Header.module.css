@@ -112,9 +112,21 @@
     list-style: none;
 }
 
-.desktop_menu ul li .dropdown.dropdownOpen {
+.desktop_menu ul li .dropdown::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+}
+
+.desktop_menu ul li .dropdown.dropdownOpen,
+.desktop_menu ul li:hover .dropdown {
     opacity: 1;
     pointer-events: auto;
+    transform: translateY(0);
 }
 
 .desktop_menu ul li .dropdown li a {
@@ -217,7 +229,8 @@
     transition: transform 0.3s ease;
 }
 
-.rotate {
+.rotate,
+.desktop_menu ul li:hover .chevron {
     transform: rotate(180deg);
 }
 
