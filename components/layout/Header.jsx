@@ -39,26 +39,26 @@ export default function Header() {
                 <ul>
                   <li>
                     <a href={`tel:${PHONE_NUMBER}`}>
-                      <Image 
-                      src="/top-head-phone-icon.png" 
-                      width={24} 
-                      height={24} 
-                      alt="Phone Icon" 
-                      priority 
-                      fetchPriority="high" 
+                      <Image
+                        src="/top-head-phone-icon.png"
+                        width={24}
+                        height={24}
+                        alt="Phone Icon"
+                        priority
+                        fetchPriority="high"
                       />
                       {PHONE_NUMBER}
                     </a>
                   </li>
                   <li>
                     <a href={`mailto:${EMAIL_ADDRESS}`}>
-                      <Image 
-                      src="/top-head-envelope-icon.png" 
-                      width={24} 
-                      height={24} 
-                      alt="Email Icon" 
-                      priority 
-                      fetchPriority="high" 
+                      <Image
+                        src="/top-head-envelope-icon.png"
+                        width={24}
+                        height={24}
+                        alt="Email Icon"
+                        priority
+                        fetchPriority="high"
                       />
                       {EMAIL_ADDRESS}
                     </a>
@@ -74,13 +74,13 @@ export default function Header() {
           <div className={styles.inner_wrapper}>
             <div className={styles.logo}>
               <Link href="/">
-                <Image 
-                src="/logo.png" 
-                alt="Logo Image" 
-                fill 
-                priority 
-                fetchPriority="high" 
-                className={styles.img} 
+                <Image
+                  src="/logo.png"
+                  alt="Logo Image"
+                  fill
+                  priority
+                  fetchPriority="high"
+                  className={styles.img}
                 />
               </Link>
             </div>
@@ -109,7 +109,7 @@ export default function Header() {
                     ))}
                   </ul>
                 </li>
-                <li><Link href="/">Blog</Link></li>
+                <li><Link href="/blog">Blog</Link></li>
                 <li><Link href="/contact">Contact Us</Link></li>
               </ul>
             </nav>
@@ -151,7 +151,7 @@ export default function Header() {
               ))}
             </ul>
           </li>
-          <li><Link href="/" onClick={() => setMenuOpen(false)}>Blog</Link></li>
+          <li><Link href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link></li>
           <li><Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
         </ul>
       </div>

@@ -2,8 +2,7 @@ import { Lexend } from "next/font/google";
 import Script from "next/script";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
-import { Header, Footer, MarqueeSlider, Popup } from "@/components/layout";
-import ChatWidget from "@/components/ChatWidget";
+import LayoutWrapper from "./LayoutWrapper";
 // import AOSInitializer from "@/components/AOS/AOSInitializer";
 
 const lexend = Lexend({
@@ -185,12 +184,9 @@ export default function RootLayout({ children }) {
         </noscript>
         {/* ✅ End Google Tag Manager (noscript) */}
 
-        <Header />
-        {children}
-        <Footer />
-        <MarqueeSlider />
-        <Popup />
-        <ChatWidget />
+        <LayoutWrapper>
+          {children}
+        </LayoutWrapper>
         {/* <AOSInitializer /> */}
       </body>
     </html>
