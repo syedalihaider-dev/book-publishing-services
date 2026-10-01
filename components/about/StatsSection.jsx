@@ -39,7 +39,7 @@ function Counter({ target, duration = 2000 }) {
 export default function StatsSection() {
   return (
     <section className={`${styles.counter_section} sec_padding`}>
-      <div className="container">
+      <div className="container ">
         <div className="row">
           {stats.map((stat, i) => (
             <div key={i} className="col-sm-12 col-md-3">
