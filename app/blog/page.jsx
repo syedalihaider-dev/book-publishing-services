@@ -23,6 +23,7 @@ export default function BlogPage() {
     <main className="app-full">
       <BlogPlatform
         mode="user"
+        basePath="/blog" 
         domain={domain}
         email={adminEmail}
         apiKey={adminApiKey}
