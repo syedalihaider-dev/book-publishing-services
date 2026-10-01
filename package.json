@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@canvas-digital/blog-sdk": "^2.1.5",
+    "@canvas-digital/blog-sdk": "^2.1.6",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
     "lucide-react": "^0.544.0",

@@ -1,42 +1,53 @@
-"use client"
+"use client";
 
 import "@canvas-digital/blog-sdk/style.css";
 import { BlogPlatform } from "@canvas-digital/blog-sdk";
 
+const apiUrl =
+  process.env.NEXT_PUBLIC_BLOG_API_URL || process.env.BLOG_API_URL;
+const domain = process.env.NEXT_PUBLIC_CLIENT_DOMAIN;
+const initialEmail = process.env.NEXT_PUBLIC_ADMIN_EMAIL ?? "";
 
-const adminEmail = "admin@example.com";
-const adminApiKey = "bp_sdk_wRrzldqLg";
-const domain = "demo.example.com";
+function onLoginSuccess({ email, apiKey }) {
+  try {
+    sessionStorage.setItem("blog_admin_email", email);
+    sessionStorage.setItem("blog_admin_apiKey", apiKey);
+  } catch {
+    // storage unavailable
+  }
+}
 
-
-export default function App() {
-    if (!adminApiKey) {
-        return (
-            <main className="page">
-                <h1>Customer Admin</h1>
-                <p>
-                    Set <code>VITE_BLOG_API_URL</code> (platform API) and{" "}
-                    <code>VITE_ADMIN_API_KEY</code> in <code>.env</code>. Optionally set{" "}
-                    <code>VITE_ADMIN_EMAIL</code> and <code>VITE_CLIENT_DOMAIN</code>.
-                </p>
-            </main>
-        );
-    }
-
-
+export default function AdminBlogPage() {
+  if (!apiUrl) {
     return (
-        <main className="app-full">
-            <BlogPlatform
-                mode="admin"
-                domain={domain}
-                email={adminEmail}
-                apiKey={adminApiKey}
-                branding={{
-                    name: "Book Publishing Services Blog",
-                    primaryColor: "#0b65db",
-                    secondaryColor: "#000000",
-                  }}
-            />
-        </main>
+      <main className="page">
+        <h1>Customer Admin</h1>
+        <p>
+          Set <code>BLOG_API_URL</code> or <code>NEXT_PUBLIC_BLOG_API_URL</code>{" "}
+          in <code>.env.local</code> (platform API base, e.g.{" "}
+          <code>https://…/api/v1</code>). Optionally set{" "}
+          <code>NEXT_PUBLIC_CLIENT_DOMAIN</code> and{" "}
+          <code>NEXT_PUBLIC_ADMIN_EMAIL</code> to prefill login.
+        </p>
+      </main>
     );
+  }
+
+  return (
+    <main className="app-full">
+      <BlogPlatform
+        mode="admin"
+        apiUrl={apiUrl}
+        domain={domain}
+        {...(initialEmail ? { email: initialEmail } : {})}
+        isAuthenticated={false}
+        onLoginSuccess={onLoginSuccess}
+        branding={{
+          name: "Book Publishing Services Blog",
+          primaryColor: "#0b65db",
+          secondaryColor: "#000000",
+        }}
+      />
+    </main>
+  );
 }
