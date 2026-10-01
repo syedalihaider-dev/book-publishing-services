@@ -32,10 +32,10 @@ export default function App() {
                 email={adminEmail}
                 apiKey={adminApiKey}
                 branding={{
-                    name: "Customer Articles",
-                    primaryColor: "#0f766e",
-                    secondaryColor: "#134e4a",
-                }}
+                    name: "Book Publishing Services Blog",
+                    primaryColor: "#0b65db",
+                    secondaryColor: "#000000",
+                  }}
             />
         </main>
     );
