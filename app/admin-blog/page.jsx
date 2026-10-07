@@ -1,54 +1,94 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import "@canvas-digital/blog-sdk/style.css";
 import { BlogPlatform } from "@canvas-digital/blog-sdk";
 import styles from "./page.module.css";
+
+/** Same key the SDK writes on login — shared across tabs via localStorage */
+const SDK_SESSION_KEY = "bp_admin_session_v1";
 
 const apiUrl = "https://blog-platform-backend-omega.vercel.app/api/v1";
 const domain = "demo.example.com";
 const initialEmail = "admin@example.com";
 
-export default function AdminBlogPage() {
-  const [email, setEmail] = useState(initialEmail);
-  const [apiKey, setApiKey] = useState("");
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-
-  useEffect(() => {
-    try {
-      const storedEmail = sessionStorage.getItem("blog_admin_email");
-      const storedKey = sessionStorage.getItem("blog_admin_apiKey");
-      if (storedEmail && storedKey) {
-        setEmail(storedEmail);
-        setApiKey(storedKey);
-        setIsAuthenticated(true);
+function readStoredCreds() {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = localStorage.getItem(SDK_SESSION_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (parsed?.email?.trim() && parsed?.apiKey?.trim()) {
+        return { email: parsed.email.trim(), apiKey: parsed.apiKey.trim() };
       }
-    } catch {
-      // storage unavailable
     }
-  }, []);
-
-  function onLoginSuccess({ email: nextEmail, apiKey: nextApiKey }) {
-    setEmail(nextEmail);
-    setApiKey(nextApiKey);
-    setIsAuthenticated(true);
-    try {
-      sessionStorage.setItem("blog_admin_email", nextEmail);
-      sessionStorage.setItem("blog_admin_apiKey", nextApiKey);
-    } catch {
-      // storage unavailable
+    // Legacy sessionStorage keys from older builds
+    const email = sessionStorage.getItem("blog_admin_email")?.trim();
+    const apiKey = sessionStorage.getItem("blog_admin_apiKey")?.trim();
+    if (email && apiKey) {
+      const creds = { email, apiKey };
+      localStorage.setItem(SDK_SESSION_KEY, JSON.stringify(creds));
+      return creds;
     }
+  } catch {
+    /* ignore */
   }
+  return null;
+}
 
-  function onLogout() {
-    setApiKey("");
-    setIsAuthenticated(false);
-    try {
+function writeStoredCreds(creds) {
+  try {
+    if (!creds) {
+      localStorage.removeItem(SDK_SESSION_KEY);
       sessionStorage.removeItem("blog_admin_email");
       sessionStorage.removeItem("blog_admin_apiKey");
-    } catch {
-      // storage unavailable
+      return;
     }
+    localStorage.setItem(SDK_SESSION_KEY, JSON.stringify(creds));
+    sessionStorage.setItem("blog_admin_email", creds.email);
+    sessionStorage.setItem("blog_admin_apiKey", creds.apiKey);
+  } catch {
+    /* storage unavailable */
+  }
+}
+
+export default function AdminBlogPage() {
+  // Do not read localStorage in useState — Next SSR hydrates with null and
+  // never re-runs the initializer, which stuck Preview tabs on the login form.
+  const [creds, setCreds] = useState(null);
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    setCreds(readStoredCreds());
+    setReady(true);
+  }, []);
+
+  const onLoginSuccess = useCallback((next) => {
+    const cleaned = {
+      email: next.email.trim(),
+      apiKey: next.apiKey.trim(),
+    };
+    writeStoredCreds(cleaned);
+    setCreds(cleaned);
+  }, []);
+
+  const onLogout = useCallback(() => {
+    writeStoredCreds(null);
+    setCreds(null);
+  }, []);
+
+  const platformProps = useMemo(() => {
+    const email = creds?.email || initialEmail || undefined;
+    const apiKey = creds?.apiKey || undefined;
+    return { email, apiKey };
+  }, [creds]);
+
+  if (!ready) {
+    return (
+      <main className={styles.app_full} style={{ display: "grid", placeItems: "center" }}>
+        <p style={{ color: "#64748b", fontSize: 14 }}>Restoring session…</p>
+      </main>
+    );
   }
 
   return (
@@ -57,9 +97,9 @@ export default function AdminBlogPage() {
         mode="admin"
         apiUrl={apiUrl}
         domain={domain}
-        email={email}
-        apiKey={apiKey}
-        isAuthenticated={isAuthenticated}
+        email={platformProps.email}
+        apiKey={platformProps.apiKey}
+        isAuthenticated={false}
         onLoginSuccess={onLoginSuccess}
         onLogout={onLogout}
         branding={{

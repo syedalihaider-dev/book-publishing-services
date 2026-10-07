@@ -7,12 +7,9 @@ const nextConfig = {
       process.env.BLOG_API_URL || process.env.NEXT_PUBLIC_BLOG_API_URL || "",
   },
   webpack(config) {
-    // ignore specific warnings
-    config.ignoreWarnings = [
-      { message: /Failed to parse source map/ },
-    ]
-    return config
+    config.ignoreWarnings = [{ message: /Failed to parse source map/ }];
+    return config;
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
