@@ -102,6 +102,9 @@ export default function AdminBlogPage() {
         isAuthenticated={false}
         onLoginSuccess={onLoginSuccess}
         onLogout={onLogout}
+        /* View / Preview → public user BlogDetail at /blog/{slug} (no admin UI) */
+        basePath="/blog"
+        publicOrigin={typeof window !== "undefined" ? window.location.origin : undefined}
         branding={{
           name: "Book Publishing Services Blog",
           primaryColor: "#0b65db",

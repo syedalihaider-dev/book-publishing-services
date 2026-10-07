@@ -7,7 +7,14 @@ const adminEmail = "admin@example.com";
 const adminApiKey = "bp_sdk_wRrzldqLg";
 const domain = "demo.example.com";
 
-export default function BlogPage() {
+/**
+ * Catch-all so the SDK can own list + detail URLs:
+ *   /blog
+ *   /blog/{slug}
+ *   /blog/{slug}/{section}
+ *   /blog/category/{categorySlug}
+ */
+export default function BlogCatchAllPage() {
   if (!adminApiKey) {
     return (
       <main className="page">
@@ -23,7 +30,7 @@ export default function BlogPage() {
     <main className="app-full">
       <BlogPlatform
         mode="user"
-        basePath="/blog" 
+        basePath="/blog"
         domain={domain}
         email={adminEmail}
         apiKey={adminApiKey}
