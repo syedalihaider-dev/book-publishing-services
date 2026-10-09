@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Local Blog SDK (dev)
+
+Do **not** install the package folder directly (`npm install F:\Python\blog-platform\blog-platform-packages`) — that creates a junction and Turbopack fails with `Module not found`. Use a packed `.tgz` instead:
+
+```bash
+cd F:\Python\blog-platform\blog-platform-packages
+npm run build
+npm pack
+cd F:\NextJs\book-publishing-services
+npm install F:\Python\blog-platform\blog-platform-packages\canvas-digital-blog-sdk-2.3.2.tgz
+```
+
+Update the `.tgz` filename if the SDK version changes (e.g. `canvas-digital-blog-sdk-2.3.3.tgz`).
