@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import ChatButton from "@/components/ui/ChatButton";
+import SiteNavLink from "./SiteNavLink";
 import styles from "./Header.module.css";
 import { PHONE_NUMBER, EMAIL_ADDRESS } from "@/config/config";
 import { Menu, X, ChevronDown } from "lucide-react";
@@ -73,7 +73,7 @@ export default function Header() {
         <div className="container">
           <div className={styles.inner_wrapper}>
             <div className={styles.logo}>
-              <Link href="/">
+              <SiteNavLink href="/">
                 <Image
                   src="/logo.png"
                   alt="Logo Image"
@@ -82,12 +82,12 @@ export default function Header() {
                   fetchPriority="high"
                   className={styles.img}
                 />
-              </Link>
+              </SiteNavLink>
             </div>
             <nav className={`${styles.navbar} ${styles.desktop_menu}`}>
               <ul>
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/about">About Us</Link></li>
+                <li><SiteNavLink href="/">Home</SiteNavLink></li>
+                <li><SiteNavLink href="/about">About Us</SiteNavLink></li>
                 <li>
                   <button
                     className={styles.dropdown_toggle}
@@ -104,13 +104,13 @@ export default function Header() {
                   >
                     {services.map((service, index) => (
                       <li key={index}>
-                        <Link href={service.link}>{service.name}</Link>
+                        <SiteNavLink href={service.link}>{service.name}</SiteNavLink>
                       </li>
                     ))}
                   </ul>
                 </li>
-                <li><Link href="/blog">Blog</Link></li>
-                <li><Link href="/contact">Contact Us</Link></li>
+                <li><SiteNavLink href="/blog">Blog</SiteNavLink></li>
+                <li><SiteNavLink href="/contact">Contact Us</SiteNavLink></li>
               </ul>
             </nav>
             <div className="combo_btn desktop_menu">
@@ -128,8 +128,8 @@ export default function Header() {
       </div>
       <div className={`${styles.mobile_menu} ${menuOpen ? styles.open : ""}`}>
         <ul>
-          <li><Link href="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-          <li><Link href="/about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
+          <li><SiteNavLink href="/" onClick={() => setMenuOpen(false)}>Home</SiteNavLink></li>
+          <li><SiteNavLink href="/about" onClick={() => setMenuOpen(false)}>About Us</SiteNavLink></li>
           <li>
             <button
               className={styles.dropdown_toggle}
@@ -144,15 +144,15 @@ export default function Header() {
             <ul className={`${styles.dropdown} ${servicesOpen ? styles.dropdownOpen : ""}`}>
               {services.map((service, index) => (
                 <li key={index}>
-                  <Link href={service.link} onClick={() => setMenuOpen(false)}>
+                  <SiteNavLink href={service.link} onClick={() => setMenuOpen(false)}>
                     {service.name}
-                  </Link>
+                  </SiteNavLink>
                 </li>
               ))}
             </ul>
           </li>
-          <li><Link href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link></li>
-          <li><Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
+          <li><SiteNavLink href="/blog" onClick={() => setMenuOpen(false)}>Blog</SiteNavLink></li>
+          <li><SiteNavLink href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</SiteNavLink></li>
         </ul>
       </div>
     </header>

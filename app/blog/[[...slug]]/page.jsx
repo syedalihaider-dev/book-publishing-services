@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import "@canvas-digital/blog-sdk/style.css";
 import { BlogPlatform } from "@canvas-digital/blog-sdk";
 
@@ -15,6 +16,8 @@ const domain = "demo.example.com";
  *   /blog/category/{categorySlug}
  */
 export default function BlogCatchAllPage() {
+  const pathname = usePathname() || "/blog";
+
   if (!adminApiKey) {
     return (
       <main className="page">
@@ -29,6 +32,7 @@ export default function BlogCatchAllPage() {
   return (
     <main className="app-full">
       <BlogPlatform
+        key={pathname}
         mode="user"
         basePath="/blog"
         domain={domain}

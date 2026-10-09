@@ -7,6 +7,7 @@ import ChatWidget from "@/components/ChatWidget";
 export default function LayoutWrapper({ children }) {
   const pathname = usePathname();
   const isAdminBlog = pathname?.startsWith("/admin-blog");
+  const isUserBlog = pathname?.startsWith("/blog");
 
   if (isAdminBlog) {
     return <>{children}</>;
@@ -18,7 +19,8 @@ export default function LayoutWrapper({ children }) {
       {children}
       <Footer />
       <MarqueeSlider />
-      <Popup />
+      {/* Timed popup overlays the full viewport and blocks blog chrome links */}
+      {!isUserBlog ? <Popup /> : null}
       <ChatWidget />
     </>
   );
