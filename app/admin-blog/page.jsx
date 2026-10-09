@@ -8,7 +8,7 @@ import styles from "./page.module.css";
 /** Same key the SDK writes on login — shared across tabs via localStorage */
 const SDK_SESSION_KEY = "bp_admin_session_v1";
 
-const apiUrl = "http://app.yourwebsitemockup.net:8000/api/v1";
+const apiUrl = "https://app.yourwebsitemockup.net:8000/api/v1";
 const domain = "demo.example.com";
 const initialEmail = "admin@example.com";
 
