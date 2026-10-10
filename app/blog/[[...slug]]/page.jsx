@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import "@canvas-digital/blog-sdk/style.css";
 import { BlogPlatform } from "@canvas-digital/blog-sdk";
 
+const apiUrl = "https://app.yourwebsitemockup.net:8000/api/v1";
 const adminEmail = "admin@example.com";
 const adminApiKey = "bp_sdk_wRrzldqLg";
 const domain = "demo.example.com";
@@ -34,6 +35,7 @@ export default function BlogCatchAllPage() {
       <BlogPlatform
         key={pathname}
         mode="user"
+        apiUrl={apiUrl}
         basePath="/blog"
         domain={domain}
         email={adminEmail}
